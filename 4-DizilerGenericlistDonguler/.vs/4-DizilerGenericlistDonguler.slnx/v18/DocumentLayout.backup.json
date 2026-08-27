@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\4-DizilerGenericlistDonguler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9974CE46-19AC-40AA-A4D5-7EC81F5AF428}|4-DizilerGenericlistDonguler\\4-DizilerGenericlistDonguler.csproj|c:\\users\\veysel\\desktop\\csharp\\4-dizilergenericlistdonguler\\4-dizilergenericlistdonguler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9974CE46-19AC-40AA-A4D5-7EC81F5AF428}|4-DizilerGenericlistDonguler\\4-DizilerGenericlistDonguler.csproj|solutionrelative:4-dizilergenericlistdonguler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\4-DizilerGenericlistDonguler\\4-DizilerGenericlistDonguler\\Program.cs",
+              "RelativeDocumentMoniker": "4-DizilerGenericlistDonguler\\Program.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\4-DizilerGenericlistDonguler\\4-DizilerGenericlistDonguler\\Program.cs",
+              "RelativeToolTip": "4-DizilerGenericlistDonguler\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T21:14:10.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

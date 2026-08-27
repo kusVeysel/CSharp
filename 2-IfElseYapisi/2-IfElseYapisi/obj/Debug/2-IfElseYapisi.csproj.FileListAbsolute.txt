@@ -1,0 +1,7 @@
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\bin\Debug\2-IfElseYapisi.exe.config
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\bin\Debug\2-IfElseYapisi.exe
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\bin\Debug\2-IfElseYapisi.pdb
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\obj\Debug\2-IfElseYapisi.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\obj\Debug\2-IfElseYapisi.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\obj\Debug\2-IfElseYapisi.exe
+C:\Users\veysel\Desktop\2-IfElseYapisi\2-IfElseYapisi\obj\Debug\2-IfElseYapisi.pdb

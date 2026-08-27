@@ -1,0 +1,7 @@
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\bin\Debug\7-OOP.exe.config
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\bin\Debug\7-OOP.exe
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\bin\Debug\7-OOP.pdb
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\obj\Debug\7-OOP.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\obj\Debug\7-OOP.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\obj\Debug\7-OOP.exe
+C:\Users\veysel\Desktop\CSharp\7-OOP\7-OOP\obj\Debug\7-OOP.pdb

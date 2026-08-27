@@ -1,0 +1,22 @@
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\bin\Debug\Pizza.exe.config
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\bin\Debug\Pizza.exe
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\bin\Debug\Pizza.pdb
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.Form1.resources
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.Properties.Resources.resources
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.csproj.GenerateResource.cache
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.exe
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.pdb
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI\Pizza\Pizza\obj\Debug\Pizza.SipMenü.resources
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\bin\Debug\Pizza.exe.config
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\bin\Debug\Pizza.exe
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\bin\Debug\Pizza.pdb
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.Form1.resources
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.Properties.Resources.resources
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.SipMenü.resources
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.csproj.GenerateResource.cache
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.exe
+C:\Users\veysel\Desktop\YAZILIM UZMANLIĞI - Kopya\C#\Pizza\Pizza\obj\Debug\Pizza.pdb
