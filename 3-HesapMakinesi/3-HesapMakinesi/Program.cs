@@ -63,8 +63,7 @@ namespace _3_HesapMakinesi
                 #endregion
 
                 #region
-                if (Sayi1 > 0 && Sayi2 > 0)
-                {
+
                     if (islem == 1)
                     {
                         sonuc = Sayi1 + Sayi2;
@@ -82,18 +81,24 @@ namespace _3_HesapMakinesi
                     }
                     else if (islem == 4)
                     {
+                        if (Sayi2 == 0)
+                        {
+                            Console.WriteLine("Tanımsız Bölme İşlemi");
+                            Sayi1 = 0;
+                            Sayi2 = 0;
+                            islem = 0;
+                            sonuc = 0;
+                            goto yeniden;
+                        }
                         sonucbolme = Math.Round((double)Sayi1 / Sayi2, 2);
                         Console.WriteLine("İşlem sonucunuz:" + sonucbolme);
                     }
                     else
                     {
-                        Console.WriteLine("sayı1 veya sayi2 0'dan küçük eşit olarak tanımlanmış");
+                        Console.WriteLine("Geçersiz İşlem Türü");
+                        goto yeniden;
                     }
-                }
-                else
-                {
-                    Console.WriteLine("sayi1 veya sayi2 0'dan küçük eşit olarak tanımlanmış");
-                }
+                
                 #endregion
 
                 #region SWITCH CASE
@@ -135,10 +140,9 @@ namespace _3_HesapMakinesi
                     sonuc = 0;
                     goto basadon; // döngüye benzer , değişkeni belirlenen yere döner
                 }
-                else if (tekrarislem.ToUpper() == "H")
+                else if (tekrarislem == "H")
                 {
                     Console.WriteLine("program kapatılacaktır");
-
                 }
                 else
                 {
@@ -150,12 +154,12 @@ namespace _3_HesapMakinesi
             {
                 Console.WriteLine("Giriş yaptığınız veri hatalıdır");
                 Console.WriteLine(ex.Message); // ex.Message hatanın ne olduğunu gösterir
-
             }
             finally
             {
                 Console.WriteLine("finally bloğu çalıştırıldı");
-            } // finally bloğu try catch blokları ile birlikte kullanılır.finally bloğu içinde hata oluşsa da oluşmasa da çalışır. finally bloğu içinde genellikle kaynakları serbest bırakmak için kullanılır. Örneğin dosya açma işlemi yapıldıysa dosya kapatma işlemi finally bloğu içinde yapılır. finally bloğu içinde hata oluşursa program sonlanır ve hata mesajı gösterilir.
+            } 
+            // finally bloğu try catch blokları ile birlikte kullanılır.finally bloğu içinde hata oluşsa da oluşmasa da çalışır. finally bloğu içinde genellikle kaynakları serbest bırakmak için kullanılır. Örneğin dosya açma işlemi yapıldıysa dosya kapatma işlemi finally bloğu içinde yapılır. finally bloğu içinde hata oluşursa program sonlanır ve hata mesajı gösterilir.
 
             // try catch bloğu hataları yakalamak için kullanılır. try bloğu içinde hata oluşursa catch'e düşer ve hata mesajını gösterir. Hata verebilecek kodlar try bloğu içine yazılır. Hata oluşmazsa catch bloğu çalışmaz. Hata oluşursa catch bloğu çalışır ve hata mesajını gösterir.
         }

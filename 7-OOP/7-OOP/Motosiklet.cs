@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7_OOP
 {
-    public class Motosiklet : Tasit
+    public class Motosiklet : Tasit // Tasit sınıfını kalıtım aldı
     {
         public string KasaTipi { get; set; }
         public string VitesTipi { get; set; }

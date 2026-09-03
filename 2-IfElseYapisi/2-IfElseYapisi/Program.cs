@@ -13,7 +13,6 @@ namespace _2_IfElseYapisi
             // Operatorler: <, >, <=, >=, ==, !=, &&, ||, !, ++, --, +, -, *, /, %, =
             // < : küçüktür, > : büyüktür, <= : küçük eşittir, >= : büyük eşittir, == : eşittir, != : eşit değildir, && : ve, || : veya, ! : değil, ++ : bir artırır, -- : bir azaltır, + : toplama, - : çıkarma, * : çarpma, / : bölme, % : mod alma, = : atama
 
-
             int sayi1;
 
             Console.Write("Bir sayı girin: ");
@@ -27,7 +26,6 @@ namespace _2_IfElseYapisi
             {
                 Console.WriteLine("Sayı 0'dır.");
             }
-
 
 
             string userName, password;

@@ -5,3 +5,10 @@ C:\Users\veysel\Desktop\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetot
 C:\Users\veysel\Desktop\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.csproj.CoreCompileInputs.cache
 C:\Users\veysel\Desktop\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.exe
 C:\Users\veysel\Desktop\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.pdb
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\bin\Debug\ConsoleMetotlari.exe.config
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\bin\Debug\ConsoleMetotlari.exe
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\bin\Debug\ConsoleMetotlari.pdb
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.exe
+C:\Users\veysel\Desktop\CSharp\ConsoleMetotlari\ConsoleMetotlari\obj\Debug\ConsoleMetotlari.pdb

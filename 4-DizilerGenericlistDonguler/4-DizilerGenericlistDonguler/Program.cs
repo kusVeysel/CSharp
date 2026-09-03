@@ -36,8 +36,10 @@ namespace _4_DizilerGenericlistDonguler
                 Console.WriteLine(item);
             }
 
-            // Generic List Yapısı
+            // Generic List Yapısı:
+
             // List<değişentipi> listeadı = new List<değişkentipi>
+
             // Generic List yapısı, dizilerden farklı olarak boyutları dinamik olarak değiştirilebilir. Yani, bir Generic List oluşturulduğunda, başlangıçta belirli bir boyuta sahip olabilir, ancak daha sonra eleman eklenerek boyutu artırılabilir.
             // Ekleme işlemi için Add() metodu kullanılır. Ayrıca, Generic List içerisindeki elemanlara indeksleme ile erişilebilir ve foreach döngüsü ile de elemanlar üzerinde işlem yapılabilir.
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\6-ClassYapisi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\6-ClassYapisi\\6-classyapisi\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|solutionrelative:6-classyapisi\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\6-ClassYapisi\\6-classyapisi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|solutionrelative:6-classyapisi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|c:\\users\\veysel\\desktop\\csharp\\6-classyapisi\\6-classyapisi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|solutionrelative:6-classyapisi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|c:\\users\\veysel\\desktop\\csharp\\6-classyapisi\\6-classyapisi\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE289B0A-04AD-4151-9FD2-1B8F3938F268}|6-ClassYapisi\\6-ClassYapisi.csproj|solutionrelative:6-classyapisi\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Methodlar.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\6-ClassYapisi\\6-ClassYapisi\\Methodlar.cs",
               "RelativeDocumentMoniker": "6-ClassYapisi\\Methodlar.cs",
@@ -35,7 +35,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\6-ClassYapisi\\6-ClassYapisi\\Program.cs",
               "RelativeDocumentMoniker": "6-ClassYapisi\\Program.cs",

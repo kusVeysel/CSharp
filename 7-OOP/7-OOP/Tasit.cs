@@ -19,7 +19,7 @@ namespace _7_OOP
         public string YakitTuru { get; set; }
 
         // prop yazıp tab'a basarak propertyler oluşturulur
-        // OOP'de  get veriyi çekmek okumak için kullanılır ,set ise veriyi güncellemek için kullanılır. get olmak zorundadır ama set olmasa da olur
-        public string Tasitt { get; } = "Taşıt"; // default olarak Taşıt atanır ve bu değer değiştirilemez
+        // OOP'de get veriyi çekmek okumak için kullanılır ,set ise veriyi güncellemek için kullanılır. get olmak zorundadır ama set olmasa da olur
+        //public string A { get; } = "Taşıt"; // default olarak Taşıt atanır ve bu değer değiştirilemez
     }
 }
