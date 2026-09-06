@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _7_OOP
 {
@@ -32,7 +29,7 @@ namespace _7_OOP
                 ModelYili = Convert.ToDateTime("26-02-2013"),
                 Renk = "Lacivert"
             }; // Nesne oluşturmanın 2.yöntemi
-           
+
 
             Otomobil oto1 = new Otomobil();
             oto1.Marka = "Skoda";
@@ -43,7 +40,7 @@ namespace _7_OOP
             oto1.KasaTipi = "HatchBack";
 
 
-            List<Motosiklet> mList = new List<Motosiklet> { moto1, moto2};
+            List<Motosiklet> mList = new List<Motosiklet> { moto1, moto2 };
 
             foreach (Motosiklet m in mList)
             {
