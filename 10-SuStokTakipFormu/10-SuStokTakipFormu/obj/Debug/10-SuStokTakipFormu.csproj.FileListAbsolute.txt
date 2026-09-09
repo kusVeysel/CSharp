@@ -1,0 +1,10 @@
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\bin\Debug\10-SuStokTakipFormu.exe.config
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\bin\Debug\10-SuStokTakipFormu.exe
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\bin\Debug\10-SuStokTakipFormu.pdb
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\10-SuStokTakipFormu.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\_10_SuStokTakipFormu.Form1.resources
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\_10_SuStokTakipFormu.Properties.Resources.resources
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\10-SuStokTakipFormu.csproj.GenerateResource.cache
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\10-SuStokTakipFormu.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\10-SuStokTakipFormu.exe
+C:\Users\veysel\Desktop\CSharp\10-SuStokTakipFormu\10-SuStokTakipFormu\obj\Debug\10-SuStokTakipFormu.pdb

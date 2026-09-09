@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\09-pizzasiparisformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|solutionrelative:09-pizzasiparisformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\09-pizzasiparisformu\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|solutionrelative:09-pizzasiparisformu\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\09-pizzasiparisformu\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-pizzasiparisformu\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|solutionrelative:09-pizzasiparisformu\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\09-pizzasiparisformu\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-pizzasiparisformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|solutionrelative:09-pizzasiparisformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-pizzasiparisformu\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|solutionrelative:09-pizzasiparisformu\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\09-pizzasiparisformu\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-pizzasiparisformu\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A6CE2AA8-1D44-4025-AFB9-28F14D4CEE78}|09-PizzaSiparisFormu\\09-PizzaSiparisFormu.csproj|solutionrelative:09-pizzasiparisformu\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,30 +30,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Methodlar.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\Methodlar.cs",
               "RelativeDocumentMoniker": "09-PizzaSiparisFormu\\Methodlar.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\Methodlar.cs",
               "RelativeToolTip": "09-PizzaSiparisFormu\\Methodlar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T11:56:41.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T11:56:41.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SipMenu.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\SipMenu.cs",
               "RelativeDocumentMoniker": "09-PizzaSiparisFormu\\SipMenu.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\SipMenu.cs",
               "RelativeToolTip": "09-PizzaSiparisFormu\\SipMenu.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAowJEAAADXAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAowEIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T12:00:17.834Z",
               "EditorCaption": ""
@@ -68,20 +67,18 @@
               "RelativeToolTip": "09-PizzaSiparisFormu\\Giris.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T11:55:50.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T11:55:50.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SipMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\SipMenu.cs",
               "RelativeDocumentMoniker": "09-PizzaSiparisFormu\\SipMenu.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\SipMenu.cs [Design]",
               "RelativeToolTip": "09-PizzaSiparisFormu\\SipMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T11:54:21.091Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-09T11:54:21.091Z"
             },
             {
               "$type": "Document",
@@ -92,8 +89,7 @@
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\09-PizzaSiparisFormu\\Giris.cs [Design]",
               "RelativeToolTip": "09-PizzaSiparisFormu\\Giris.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T11:53:39.718Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-09T11:53:39.718Z"
             }
           ]
         }
