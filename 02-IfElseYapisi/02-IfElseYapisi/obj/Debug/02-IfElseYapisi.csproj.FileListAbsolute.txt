@@ -1,0 +1,7 @@
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\bin\Debug\02-IfElseYapisi.exe.config
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\bin\Debug\02-IfElseYapisi.exe
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\bin\Debug\02-IfElseYapisi.pdb
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\obj\Debug\02-IfElseYapisi.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\obj\Debug\02-IfElseYapisi.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\obj\Debug\02-IfElseYapisi.exe
+C:\Users\veysel\Desktop\CSharp\02-IfElseYapisi\02-IfElseYapisi\obj\Debug\02-IfElseYapisi.pdb

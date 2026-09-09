@@ -1,0 +1,7 @@
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\bin\Debug\03-HesapMakinesi.exe.config
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\bin\Debug\03-HesapMakinesi.exe
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\bin\Debug\03-HesapMakinesi.pdb
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\obj\Debug\03-HesapMakinesi.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\obj\Debug\03-HesapMakinesi.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\obj\Debug\03-HesapMakinesi.exe
+C:\Users\veysel\Desktop\CSharp\03-HesapMakinesi\03-HesapMakinesi\obj\Debug\03-HesapMakinesi.pdb

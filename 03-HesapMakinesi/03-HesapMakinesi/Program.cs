@@ -23,15 +23,17 @@ namespace _3_HesapMakinesi
 
             try
             {
-                islem = Convert.ToInt32(Console.ReadLine()); // Convert.ToInt32 gelen inputu int tipine dönüştürür
+                islem = Convert.ToInt32(Console.ReadLine()); // Convert.ToInt32() içindeki string değeri("1","43",...) int tipine dönüştürür
 
-                Console.WriteLine("İşlem için 1.sayiyi giriniz");
+                Console.Write("İşlem için 1.sayiyi giriniz: ");
                 Sayi1 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("İşlem için 2.sayiyi giriniz");
+                Console.Write("İşlem için 2.sayiyi giriniz: ");
                 Sayi2 = Convert.ToInt32(Console.ReadLine());
 
-                #region IF ELSE
+
+                #region IF-ELSE
+
                 //if (islem == 1)
                 //{
                 //    sonuc = Sayi1 + Sayi2;
@@ -49,77 +51,53 @@ namespace _3_HesapMakinesi
                 //}
                 //else if (islem == 4)
                 //{
-                //    sonucbolme =Math.Round((double)Sayi1 / Sayi2,2);
-                //    Console.WriteLine("İşlem sonucunuz:" +sonucbolme);
+                //    if (Sayi2 == 0)
+                //    {
+                //        Console.WriteLine("Tanımsız Bölme İşlemi");
+                //        Sayi1 = Sayi2 = islem = sonuc = 0;
+                //        goto yeniden; // Değişkeni belirlenen yere gider
+                //    }
+                //    sonucbolme = Math.Round((double)Sayi1 / Sayi2, 2);
+                //    Console.WriteLine("İşlem sonucunuz:" + sonucbolme);
                 //}
                 //else
                 //{
-                //    Console.WriteLine("Seçtiğiniz İşlem Menüde Bulunmuyor");
+                //    Console.WriteLine("Geçersiz İşlem Türü");
+                //    goto yeniden;
                 //}
-                #endregion
-
-                #region
-
-                if (islem == 1)
-                {
-                    sonuc = Sayi1 + Sayi2;
-                    Console.WriteLine("İşlem sonucunuz:" + sonuc);
-                }
-                else if (islem == 2)
-                {
-                    sonuc = Sayi1 - Sayi2;
-                    Console.WriteLine("İşlem sonucunuz:" + sonuc);
-                }
-                else if (islem == 3)
-                {
-                    sonuc = Sayi1 * Sayi2;
-                    Console.WriteLine("İşlem sonucunuz:" + sonuc);
-                }
-                else if (islem == 4)
-                {
-                    if (Sayi2 == 0)
-                    {
-                        Console.WriteLine("Tanımsız Bölme İşlemi");
-                        Sayi1 = 0;
-                        Sayi2 = 0;
-                        islem = 0;
-                        sonuc = 0;
-                        goto yeniden;
-                    }
-                    sonucbolme = Math.Round((double)Sayi1 / Sayi2, 2);
-                    Console.WriteLine("İşlem sonucunuz:" + sonucbolme);
-                }
-                else
-                {
-                    Console.WriteLine("Geçersiz İşlem Türü");
-                    goto yeniden;
-                }
 
                 #endregion
 
                 #region SWITCH CASE
-                //switch (islem)
-                //{
-                //    case 1:
-                //        sonuc = Sayi1 + Sayi2;
-                //        Console.WriteLine("İşlem sonucunuz:" + sonuc);
-                //        break;
-                //    case 2:
-                //        sonuc = Sayi1 - Sayi2;
-                //        Console.WriteLine("İşlem sonucunuz:" + sonuc);
-                //        break;
-                //    case 3:
-                //        sonuc = Sayi1 * Sayi2;
-                //        Console.WriteLine("İşlem sonucunuz:" + sonuc);
-                //        break;
-                //    case 4:
-                //        sonucbolme = Math.Round((double)Sayi1 / Sayi2, 2);
-                //        Console.WriteLine("İşlem sonucunuz:" + sonucbolme);
-                //        break;
-                //    default:
-                //        Console.WriteLine("Seçtiğiniz İşlem Menüde Bulunmuyor");
-                //        break;
-                //}
+                switch (islem)
+                {
+                    case 1:
+                        sonuc = Sayi1 + Sayi2;
+                        Console.WriteLine("İşlem sonucunuz:" + sonuc);
+                        break;
+                    case 2:
+                        sonuc = Sayi1 - Sayi2;
+                        Console.WriteLine("İşlem sonucunuz:" + sonuc);
+                        break;
+                    case 3:
+                        sonuc = Sayi1 * Sayi2;
+                        Console.WriteLine("İşlem sonucunuz:" + sonuc);
+                        break;
+                    case 4:
+                        switch (Sayi2)
+                        {
+                            case 0:
+                                Console.WriteLine("Tanımsız Bölme İşlemi");
+                                Sayi1 = Sayi2 = islem = sonuc = 0;
+                                goto yeniden;
+                        }
+                        sonucbolme = Math.Round((double)Sayi1 / Sayi2, 2);
+                        Console.WriteLine("İşlem sonucunuz:" + sonucbolme);
+                        break;
+                    default:
+                        Console.WriteLine("Seçtiğiniz İşlem Menüde Bulunmuyor");
+                        break;
+                }
                 #endregion
 
             yeniden:
@@ -129,12 +107,9 @@ namespace _3_HesapMakinesi
 
                 if (tekrarislem == "E")
                 {
-                    Console.Clear();  // ekranı temizler
-                    Sayi1 = 0;
-                    Sayi2 = 0;
-                    islem = 0;
-                    sonuc = 0;
-                    goto basadon; // döngüye benzer , değişkeni belirlenen yere döner
+                    Console.Clear();  // Ekranı temizler
+                    Sayi1 = Sayi2 = islem = sonuc = 0;
+                    goto basadon;
                 }
                 else if (tekrarislem == "H")
                 {

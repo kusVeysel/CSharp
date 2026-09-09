@@ -48,6 +48,11 @@ namespace _2_IfElseYapisi
                 Console.WriteLine("Kullanıcı adı veya şifre boş bırakılamaz.");
             }
 
+            Console.Write("Ternary operatör için bir sayı giriniz: ");
+            int deger = Convert.ToInt32(Console.ReadLine());
+
+            string mesaj = deger > 0 ? "Sayı 0'dan büyük" : "Sayı 0'dan büyük değil";
+            Console.WriteLine(mesaj);
         }
     }
 }

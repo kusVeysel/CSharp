@@ -1,0 +1,11 @@
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\09-PizzaSiparisFormu.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\_09_PizzaSiparisFormu.Giris.resources
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\_09_PizzaSiparisFormu.Properties.Resources.resources
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\_09_PizzaSiparisFormu.SipMenu.resources
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\09-PizzaSiparisFormu.csproj.GenerateResource.cache
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\09-PizzaSiparisFormu.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\bin\Debug\09-PizzaSiparisFormu.exe.config
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\bin\Debug\09-PizzaSiparisFormu.exe
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\bin\Debug\09-PizzaSiparisFormu.pdb
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\09-PizzaSiparisFormu.exe
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\09-PizzaSiparisFormu\obj\Debug\09-PizzaSiparisFormu.pdb
