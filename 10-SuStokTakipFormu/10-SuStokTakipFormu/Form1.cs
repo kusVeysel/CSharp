@@ -10,6 +10,7 @@ namespace _10_SuStokTakipFormu
             InitializeComponent();
         }
         List<Materyal> materyals = Methodlar.MateryalDb();
+        bool eskiUrun = true;
 
         private void Form1_Load(object sender, System.EventArgs e)
         {
@@ -19,16 +20,24 @@ namespace _10_SuStokTakipFormu
 
         private void btnGeleniEkle_Click(object sender, System.EventArgs e)
         {
-            int[] eskiGelen = { 13, 12, 27 };
-
-            for (int i = 0; i < materyals.Count; i++)
+            if (eskiUrun)
             {
-                materyals[i].Stok += eskiGelen[i];
-                MessageBox.Show($"{materyals[i].UrunAdi} {eskiGelen[i]} Adet Yeni Ürün Geldi!");
-            }
+                int[] eskiGelen = { 13, 12, 27 };
 
-            Methodlar.UrunBilgiGetir(lstUrunBilgiler, materyals, true);
-            Methodlar.UrunBilgiGetir(lstDetayliBilgi, materyals, false);
+                for (int i = 0; i < materyals.Count; i++)
+                {
+                    materyals[i].Stok += eskiGelen[i];
+                    MessageBox.Show($"{materyals[i].UrunAdi} {eskiGelen[i]} Adet Yeni Ürün Geldi!");
+                }
+
+                Methodlar.UrunBilgiGetir(lstUrunBilgiler, materyals, true);
+                Methodlar.UrunBilgiGetir(lstDetayliBilgi, materyals, false);
+                eskiUrun = false;
+            }
+            else
+            {
+                MessageBox.Show("Eski Gelen Ürünler Eklendi Artık Mevcut Değil!");
+            }
         }
 
         private void btnYeniGeleniEkle_Click(object sender, System.EventArgs e)

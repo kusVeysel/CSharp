@@ -8,19 +8,19 @@ namespace _10_SuStokTakipFormu
         public static List<Materyal> MateryalDb()
         {
             Materyal LT3 = new Materyal();
-            LT3.UrunAdi = $"3LT Bidon";
+            LT3.UrunAdi = "3LT Bidon";
             LT3.Litre = 3;
             LT3.Fiyat = 5;
             LT3.Stok = 20;
 
             Materyal LT5 = new Materyal();
-            LT5.UrunAdi = $"5LT Bidon";
+            LT5.UrunAdi = "5LT Bidon";
             LT5.Litre = 5;
             LT5.Fiyat = 7;
             LT5.Stok = 13;
 
             Materyal LT10 = new Materyal();
-            LT10.UrunAdi = $"10LT Bidon";
+            LT10.UrunAdi = "10LT Bidon";
             LT10.Litre = 10;
             LT10.Fiyat = 10;
             LT10.Stok = 17;
@@ -33,10 +33,12 @@ namespace _10_SuStokTakipFormu
         public static void UrunBilgiGetir(ListBox lstUrunBilgiler, List<Materyal> materyals, bool guncelle)
         {
             double toplam = 0;
+
             if (guncelle)
             {
                 lstUrunBilgiler.Items.Clear();
             }
+
             foreach (Materyal materyal in materyals)
             {
                 lstUrunBilgiler.Items.Add($"Ürün Adı → {materyal.UrunAdi}");
@@ -47,6 +49,7 @@ namespace _10_SuStokTakipFormu
                 lstUrunBilgiler.Items.Add("");
                 toplam += materyal.Stok * materyal.Fiyat;
             }
+
             if (guncelle)
             {
                 lstUrunBilgiler.Items.Add($"Tüm Ürünler Toplam Fiyat → {toplam}₺");
