@@ -20,7 +20,7 @@ join Products pro on emp.EmployeeID = pro.CategoryID
 join Products pro2 on emp.EmployeeID = pro2.SupplierID
 -- join: 2 ya da daha fazla tabloyu birleştirip tek tablo yapmak için kullanılır
 
-select * from Products where SupplierID in(1,2,3) order by SupplierID asc -- in: in = or ,and ile aynı görevi görür ama çok fazla veri olması durumunda in kullanılır
+select * from Products where SupplierID in(1,2,3) order by SupplierID asc -- in: and ile aynı görevi görür ama çok fazla veri olması durumunda in kullanılır
 
 select * from Shippers
 insert Shippers (CompanyName,Phone) values ('Selamünaleyküm','000000') -- insert: tabloya ekleme işlemi yapar
@@ -52,7 +52,7 @@ D nvarchar(15)
 )
 -- Tablo oluşturur
 
-drop table TABLO2 -- Şebnem FERAH-HOŞÇAKAL
+drop table TABLO2 -- Şebnem FERAH - HOŞÇAKAL
 
 select * from TABLO
 insert TABLO (A,B,C,D) Values('vaz','geçtim','dün','yadan')
