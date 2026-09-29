@@ -1,6 +1,6 @@
 ﻿namespace _7_OOP
 {
-    public class Otomobil : Tasit // Tasit sınıfını kalıtım aldı
+    public class Otomobil : Tasit // Tasit sınıfını kalıtım aldı.
     {
         public int KoltukSayisi { get; set; }
         public bool KullanimTipi { get; set; }

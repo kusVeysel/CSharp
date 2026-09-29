@@ -44,7 +44,7 @@ namespace _7_OOP
 
             foreach (Motosiklet m in mList)
             {
-                Console.WriteLine($"Marka: {m.Marka}"); // $ işareti string ile beraber değişken kuallanabilmemizi sağlar
+                Console.WriteLine($"Marka: {m.Marka}"); // $ işareti string ile değişkeni beraber kuallanabilmemizi sağlar.
                 Console.WriteLine($"Model: {m.Model}");
                 Console.WriteLine($"Model Yılı: {m.ModelYili}");
             }
