@@ -1,0 +1,44 @@
+﻿using _12_AdoNet;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace AdoNet
+{
+    public static class Methods
+    {
+        public static void DgvRefreshData(Form3 frm3)
+        {
+            string command = "select * from Products";
+
+            SqlCommand cmd = new SqlCommand(command, ConnectService.ConnectSql());
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+
+            foreach (Control c in frm3.Controls)
+            {
+                if (c is DataGridView dgv)
+                {
+                    dgv.DataSource = null;
+                    dgv.DataSource = dt;
+                }
+            }
+
+            ConnectService.ConnectSql().Close();
+        }
+        public static void ClearControls(Form4 form4)
+        {
+            var cont = form4.Controls;
+            foreach (Control item in cont)
+            {
+                if (item is TextBox txt)
+                {
+                    txt.Text = "";
+                }
+            }
+        }
+    }
+}
