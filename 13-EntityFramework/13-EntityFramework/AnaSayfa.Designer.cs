@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.label3 = new System.Windows.Forms.Label();
-            this.btnKisiBilgiEkleme = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnSetupFrom = new System.Windows.Forms.Button();
             this.btnStokForm = new System.Windows.Forms.Button();
+            this.btnKisiBilgiEkleme = new System.Windows.Forms.Button();
+            this.btnSetupFrom = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -45,16 +45,6 @@
             this.label3.Size = new System.Drawing.Size(106, 17);
             this.label3.TabIndex = 11;
             this.label3.Text = "Kişi Bilgi Ekle";
-            // 
-            // btnKisiBilgiEkleme
-            // 
-            this.btnKisiBilgiEkleme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnKisiBilgiEkleme.Location = new System.Drawing.Point(502, 17);
-            this.btnKisiBilgiEkleme.Name = "btnKisiBilgiEkleme";
-            this.btnKisiBilgiEkleme.Size = new System.Drawing.Size(200, 200);
-            this.btnKisiBilgiEkleme.TabIndex = 10;
-            this.btnKisiBilgiEkleme.UseVisualStyleBackColor = true;
-            this.btnKisiBilgiEkleme.Click += new System.EventHandler(this.btnKisiBilgiEkleme_Click_1);
             // 
             // label2
             // 
@@ -76,8 +66,30 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Stok Ekranı";
             // 
+            // btnStokForm
+            // 
+            this.btnStokForm.BackgroundImage = global::_13_EntityFramework.Properties.Resources._2795451;
+            this.btnStokForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnStokForm.Location = new System.Drawing.Point(27, 17);
+            this.btnStokForm.Name = "btnStokForm";
+            this.btnStokForm.Size = new System.Drawing.Size(200, 200);
+            this.btnStokForm.TabIndex = 6;
+            this.btnStokForm.UseVisualStyleBackColor = true;
+            // 
+            // btnKisiBilgiEkleme
+            // 
+            this.btnKisiBilgiEkleme.BackgroundImage = global::_13_EntityFramework.Properties.Resources.profile_11121549;
+            this.btnKisiBilgiEkleme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnKisiBilgiEkleme.Location = new System.Drawing.Point(502, 17);
+            this.btnKisiBilgiEkleme.Name = "btnKisiBilgiEkleme";
+            this.btnKisiBilgiEkleme.Size = new System.Drawing.Size(200, 200);
+            this.btnKisiBilgiEkleme.TabIndex = 10;
+            this.btnKisiBilgiEkleme.UseVisualStyleBackColor = true;
+            this.btnKisiBilgiEkleme.Click += new System.EventHandler(this.btnKisiBilgiEkleme_Click_1);
+            // 
             // btnSetupFrom
             // 
+            this.btnSetupFrom.BackgroundImage = global::_13_EntityFramework.Properties.Resources.cogs_8429974;
             this.btnSetupFrom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSetupFrom.Location = new System.Drawing.Point(262, 17);
             this.btnSetupFrom.Name = "btnSetupFrom";
@@ -85,15 +97,6 @@
             this.btnSetupFrom.TabIndex = 7;
             this.btnSetupFrom.UseVisualStyleBackColor = true;
             this.btnSetupFrom.Click += new System.EventHandler(this.btnSetupFrom_Click_1);
-            // 
-            // btnStokForm
-            // 
-            this.btnStokForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnStokForm.Location = new System.Drawing.Point(27, 17);
-            this.btnStokForm.Name = "btnStokForm";
-            this.btnStokForm.Size = new System.Drawing.Size(200, 200);
-            this.btnStokForm.TabIndex = 6;
-            this.btnStokForm.UseVisualStyleBackColor = true;
             // 
             // AnaSayfa
             // 
