@@ -1,0 +1,14 @@
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\13-EntityFramework.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\_13_EntityFramework.Properties.Resources.resources
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\13-EntityFramework.csproj.GenerateResource.cache
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\13-EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\13-EntityFramework.exe.config
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\13-EntityFramework.exe
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\13-EntityFramework.pdb
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\13-Entit.9931D693.Up2Date
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\13-EntityFramework.exe
+C:\Users\veysel\Desktop\CSharp\13-EntityFramework\13-EntityFramework\obj\Debug\13-EntityFramework.pdb
