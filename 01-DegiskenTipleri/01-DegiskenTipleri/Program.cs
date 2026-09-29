@@ -15,6 +15,7 @@ namespace _1_Giris
 
             Console.WriteLine("isim => " + ad + "| yas => " + yas + "| evli mi => " + evliMi + "| boy => " + boy + "| cinsiyet => " + cinsiyet); // Console.WriteLine() metodu ile değişkenlerin değerlerini ekrana yazdırdık.
 
+            Console.Write("Bir şeyler giriniz: ");
             string input = Console.ReadLine(); // Console.ReadLine() metodu ile kullanıcıdan veri girişi aldık ve bu veriyi "input" değişkenine atadık.
 
             Console.WriteLine("Girdiğiniz değer: " + input); // Kullanıcının girdiği değeri ekrana yazdırdık.

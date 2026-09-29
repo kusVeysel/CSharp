@@ -7,8 +7,8 @@ namespace _4_DizilerGenericlistDonguler
     {
         static void Main(string[] args)
         {
-            // değişkentipi[] değişkenadı = {"değişken1","değişken2","değişken3"...};
-            // değişkentipi[] değişkenadı = new değişkentipi[değişkensayısı];
+            // değişkentipi[] değişken_adı = {"değişken1","değişken2","değişken3"...};
+            // değişkentipi[] değişken_adı = new değişkentipi[değişkensayısı];
 
             int[] sayilar = { 1, 2, 3 };
 
@@ -32,10 +32,12 @@ namespace _4_DizilerGenericlistDonguler
             {
                 Console.WriteLine(item);
             }
+            // foreach: Koleksiyonun(collection) içindeki elemanları tek tek dolaşmak için kullanılan döngü yapısıdır.
+
 
             // Generic List Yapısı:
 
-            // List<değişentipi> listeadı = new List<değişkentipi>
+            // List<değişen_tipi> listeadı = new List<değişken_tipi>();
 
             // Generic List yapısı, dizilerden farklı olarak boyutları dinamik olarak değiştirilebilir. Yani, bir Generic List oluşturulduğunda, başlangıçta belirli bir boyuta sahip olabilir, ancak daha sonra eleman eklenerek boyutu artırılabilir.
             // Ekleme işlemi için Add() metodu kullanılır. Ayrıca, Generic List içerisindeki elemanlara indeksleme ile erişilebilir ve foreach döngüsü ile de elemanlar üzerinde işlem yapılabilir.
