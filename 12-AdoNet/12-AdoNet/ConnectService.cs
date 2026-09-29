@@ -12,9 +12,7 @@ namespace AdoNet
 
             conn.Open();
             return conn;
-
         }
-
-
     }
 }
+// Server = myServerAddress; Database=myDataBase; Trusted_Connection=True;

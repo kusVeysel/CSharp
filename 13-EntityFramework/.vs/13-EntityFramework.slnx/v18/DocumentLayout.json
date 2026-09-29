@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\13-entityframework\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-entityframework\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\13-entityframework\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-entityframework\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\13-entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-entityframework\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-entityframework\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|solutionrelative:13-entityframework\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{639E0397-9221-4CD6-A0F9-9EB49AB7B758}|13-EntityFramework\\13-EntityFramework.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-entityframework\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Program.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\Program.cs",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "13-EntityFramework\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T16:19:33.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T16:19:33.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Stock.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\Stock.cs",
@@ -79,24 +78,22 @@
               "RelativeToolTip": "13-EntityFramework\\Stock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:26:24.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T10:26:24.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Stock.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Stock.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\Stock.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Stock.cs [Design]",
               "RelativeToolTip": "13-EntityFramework\\Stock.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:26:13.284Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-29T10:26:13.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "KisiBilgiEkleme.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\KisiBilgiEkleme.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\KisiBilgiEkleme.cs",
@@ -104,70 +101,65 @@
               "RelativeToolTip": "13-EntityFramework\\KisiBilgiEkleme.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:22:28.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T10:22:28.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "KisiBilgiEkleme.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\KisiBilgiEkleme.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\KisiBilgiEkleme.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\KisiBilgiEkleme.cs [Design]",
               "RelativeToolTip": "13-EntityFramework\\KisiBilgiEkleme.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:22:03.785Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-29T10:22:03.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Setup.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Setup.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\Setup.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Setup.cs",
               "RelativeToolTip": "13-EntityFramework\\Setup.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAD4v5AAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwCkAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T10:18:52.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Setup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Setup.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\Setup.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Setup.cs [Design]",
               "RelativeToolTip": "13-EntityFramework\\Setup.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:18:20.511Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-29T10:18:20.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AnaSayfa.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\AnaSayfa.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\AnaSayfa.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\AnaSayfa.cs [Design]",
               "RelativeToolTip": "13-EntityFramework\\AnaSayfa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:14:44.054Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-29T10:14:44.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AnaSayfa.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\AnaSayfa.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\AnaSayfa.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\AnaSayfa.cs",
               "RelativeToolTip": "13-EntityFramework\\AnaSayfa.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAArwB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:11:55.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T10:11:55.309Z"
             },
             {
               "$type": "Document",
@@ -179,20 +171,18 @@
               "RelativeToolTip": "13-EntityFramework\\Login.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:04:51.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T10:04:51.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Login.cs",
               "RelativeDocumentMoniker": "13-EntityFramework\\Login.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\13-EntityFramework\\Login.cs [Design]",
               "RelativeToolTip": "13-EntityFramework\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:59:22.237Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-29T09:59:22.237Z"
             }
           ]
         }

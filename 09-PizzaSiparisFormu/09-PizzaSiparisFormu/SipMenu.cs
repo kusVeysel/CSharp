@@ -61,7 +61,6 @@ namespace _09_PizzaSiparisFormu
                     break;
             }
         }
-
         private void btnSiparisVer_Click(object sender, EventArgs e)
         {
             List<Urun> urunListesi = new List<Urun>();

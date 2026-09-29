@@ -21,7 +21,7 @@ namespace _13_EntityFramework
         {
             List<Admin> dbAdminListesi = db.Admin.ToList();
 
-            DataTable dt = new DataTable(); //Ram üzerinde hayali bir tablo oluşturulur
+            DataTable dt = new DataTable(); // Ram üzerinde hayali bir tablo oluşturulur.
             dt.Columns.Add("ID");
             dt.Columns.Add("Kullanıcı Adı");
             dt.Columns.Add("Email");
@@ -30,16 +30,16 @@ namespace _13_EntityFramework
 
             foreach (Admin adm in dbAdminListesi)
             {
-                DataRow row = dt.NewRow(); // Hayali tabloya eklenecek boş bir satır oluşturur
+                DataRow row = dt.NewRow(); // Hayali tabloya eklenecek boş bir satır oluşturur.
                 row["ID"] = adm.ID;
                 row["Kullanıcı Adı"] = adm.UserName;
                 row["Email"] = adm.Email;
                 row["Telefon"] = adm.Telefon;
                 row["Aktif Mi"] = adm.AktifMi == true ? "Aktif" : "False";
 
-                dt.Rows.Add(row); // Hayali tablonun oluşturulan boş satırına bilgileri ekle
+                dt.Rows.Add(row); // Hayali tablonun oluşturulan boş satırına bilgileri ekle.
             }
-            dgvListele.DataSource = dt; // Hayali tablo içindeki bilgilerle beraber DataGridView içine aktarılır ,böylece veriler görünür hale gelir
+            dgvListele.DataSource = dt; // Hayali tablo içindeki bilgilerle beraber DataGridView içine aktarılır ,böylece veriler görünür hale gelir.
         }
 
         private void btnUrunListele_Click_1(object sender, EventArgs e)

@@ -14,15 +14,14 @@ namespace _12_AdoNet
 
         private void btnGirisYap_Click_1(object sender, EventArgs e)
         {
-
             string kadi = txtKadi.Text;
             string sifre = txtSifre.Text;
 
             string sorgu = $"SELECT * FROM TestTable WHERE UserName = '{kadi}' AND Password = '{sifre}'";
 
-            SqlCommand cmd = new SqlCommand(sorgu, ConnectService.ConnectSql()); //SqlCommand VeriTabanı ile .NET kodu arasındaki bağlantıdır , parametresi=> hangi sorgu sorulacak , hangi kapıdan geçecek 
+            SqlCommand cmd = new SqlCommand(sorgu, ConnectService.ConnectSql()); // SqlCommand VeriTabanı ile .NET kodu arasındaki bağlantıdır , parametresi → (hangi sorgu sorulacak , hangi kapıdan geçecek)
 
-            SqlDataReader rdr = cmd.ExecuteReader(); //VeriTabanından gelen sonuçlar bir okuyucu içine doldurulur , ExecuteReader = Geriye birden fazla satır/sütun dönecekse kullanılır , SqlDataReader = Veriyi okuyup geçsin
+            SqlDataReader rdr = cmd.ExecuteReader(); // VeriTabanından gelen sonuçlar bir okuyucu içine doldurulur, ExecuteReader: Geriye birden fazla satır/sütun dönecekse kullanılır , SqlDataReader = Veriyi okuyup geçsin.
 
             if (rdr.HasRows) // Okuyucuda en az 1 satır var mı
             {
@@ -38,7 +37,7 @@ namespace _12_AdoNet
 
             rdr.Close();
             ConnectService.ConnectSql().Close();
+            // Bağlantılar kapatılır.
         }
     }
 }
-// Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;

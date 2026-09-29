@@ -13,7 +13,7 @@ namespace _08_StringMetotlar
         private void BtnContains_Click(object sender, EventArgs e)
         {
             string gelenVeri = txtData.Text;
-            if (!gelenVeri.ToLower().Contains("veysel")) // Contains(): İçindeki veriyi içeriyor mu diye kontrol eder
+            if (!gelenVeri.ToLower().Contains("veysel")) // Contains(): Belirtilen veriyi içeriyor mu diye kontrol eder.
             {
                 MessageBox.Show("Girilen değer veysel bilgisini içermiyor");
             }
@@ -26,38 +26,38 @@ namespace _08_StringMetotlar
         private void BtnToUpper_Click(object sender, EventArgs e)
         {
             string gelenVeri = txtData.Text;
-            MessageBox.Show(gelenVeri.ToUpper()); // Tüm harfleri büyük yapar
+            MessageBox.Show(gelenVeri.ToUpper()); // Tüm harfleri büyük yapar.
         }
 
         private void BtnToLower_Click(object sender, EventArgs e)
         {
             string gelenVeri = txtData.Text;
-            MessageBox.Show(gelenVeri.ToLower()); // Tüm harfleri küçük yapar
+            MessageBox.Show(gelenVeri.ToLower()); // Tüm harfleri küçük yapar.
         }
 
         private void BtnLenght_Click(object sender, EventArgs e)
         {
-            int karakterSayisi = txtData.Text.Length; // Karakter uzunluğunu döner
+            int karakterSayisi = txtData.Text.Length; // Karakter uzunluğunu döner.
             MessageBox.Show("Gelen Veri Karakter Sayısı: " + karakterSayisi);
         }
 
         private void BtnTrim_Click(object sender, EventArgs e)
         {
-            string gelenVeri = txtData.Text.Trim(); // Sağdan ve soldan boşlukları kaldırır
+            string gelenVeri = txtData.Text.Trim(); // Sağdan ve soldan boşlukları kaldırır.
             MessageBox.Show("Boşlukları kaldırılmış karakter sayısı: " + gelenVeri.Length);
         }
 
         private void btnReplace_Click(object sender, EventArgs e)
         {
             string gelenVeri = txtData.Text;
-            gelenVeri = gelenVeri.Replace(gelenVeri, "ilayda"); // Yer değiştirir, 1.parametre değişecek veri, 2.parametre değişilen veri
+            gelenVeri = gelenVeri.Replace(gelenVeri, "ilayda"); // Yer değiştirir, 1.parametre değişecek veri, 2.parametre değişilen veri.
             txtData.Text = gelenVeri;
         }
 
         private void BtnSplit_Click(object sender, EventArgs e)
         {
             string mailto = "veysel@gmail.com;ilayda@gmail.com;milay@gmail.com";
-            string[] mailList = mailto.Split(';'); // Belirtilen karakterden(separator'den) böler ve bir dizi döner
+            string[] mailList = mailto.Split(';'); // Belirtilen karakterden(separator'den) böler ve string bir dizi döner.
             /* foreach (var item in mailList) 
              {
                  MessageBox.Show(item);
@@ -71,7 +71,7 @@ namespace _08_StringMetotlar
         private void BtnSubstring_Click(object sender, EventArgs e)
         {
             string gelenVeri = txtData.Text;
-            gelenVeri = gelenVeri.Substring(2, 2); // substring(x,y): x → kaçıncı indeksten bölünecek , y → x'ten itibaren(x dahil) kaç tane alınacak ,y yazılmaya bilir , yazılmazsa x'ten sonraki hepsini alır
+            gelenVeri = gelenVeri.Substring(2, 2); // substring(x,y): x → kaçıncı indeksten bölünecek , y → x'ten itibaren(x dahil) kaç tane alınacak ,y yazılmaya bilir , yazılmazsa x'ten sonraki hepsini alır.
             MessageBox.Show(gelenVeri);
             /* örnek
             v → 0

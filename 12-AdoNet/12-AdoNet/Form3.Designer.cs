@@ -34,6 +34,7 @@
             this.dgvUrunListe = new System.Windows.Forms.DataGridView();
             this.txtKarakter = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnform4ac = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUrunListe)).BeginInit();
             this.SuspendLayout();
@@ -41,7 +42,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(298, 38);
+            this.label2.Location = new System.Drawing.Point(273, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 11;
@@ -49,14 +50,14 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(298, 54);
+            this.numericUpDown1.Location = new System.Drawing.Point(273, 55);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 10;
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.Location = new System.Drawing.Point(474, 33);
+            this.btnGuncelle.Location = new System.Drawing.Point(424, 34);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(173, 58);
             this.btnGuncelle.TabIndex = 9;
@@ -84,15 +85,26 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(25, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Karakter";
+            this.label1.Text = "Aranan";
+            // 
+            // btnform4ac
+            // 
+            this.btnform4ac.Location = new System.Drawing.Point(609, 12);
+            this.btnform4ac.Name = "btnform4ac";
+            this.btnform4ac.Size = new System.Drawing.Size(75, 23);
+            this.btnform4ac.TabIndex = 12;
+            this.btnform4ac.Text = "Form4 Aç";
+            this.btnform4ac.UseVisualStyleBackColor = true;
+            this.btnform4ac.Click += new System.EventHandler(this.btnform4ac_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 475);
+            this.Controls.Add(this.btnform4ac);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.btnGuncelle);
@@ -118,5 +130,6 @@
         public System.Windows.Forms.DataGridView dgvUrunListe;
         private System.Windows.Forms.TextBox txtKarakter;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnform4ac;
     }
 }

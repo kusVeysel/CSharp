@@ -13,7 +13,7 @@ namespace _12_AdoNet
         }
         private void Form3_Load_1(object sender, EventArgs e)
         {
-            AdoNet.Methods.DgvRefreshData(this);
+            Methods.DgvRefreshData(this);
         }
         private void btnGuncelle_Click_1(object sender, EventArgs e)
         {
@@ -27,7 +27,7 @@ namespace _12_AdoNet
             }
             else
             {
-                if (karakter != "")
+                if (karakter.Trim() != "")
                 {
                     query = $" update Products set UnitsInStock +={eklenecekStok} where ProductName like '{karakter}%'";
                 }
@@ -37,9 +37,16 @@ namespace _12_AdoNet
                 }
 
                 SqlCommand cmd = new SqlCommand(query, ConnectService.ConnectSql());
-                cmd.ExecuteNonQuery();  //ExecuteNonQuery = Veri getirmeyecek sadece işlem yapacak           
+                cmd.ExecuteNonQuery();  // ExecuteNonQuery: Veri getirmeyecek sadece işlem yapacak.          
                 Methods.DgvRefreshData(this);
             }
+        }
+
+        private void btnform4ac_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 frm4 = new Form4();
+            frm4.Show();
         }
     }
 }

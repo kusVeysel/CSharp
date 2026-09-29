@@ -18,9 +18,9 @@ namespace AdoNet
             DataTable dt = new DataTable();
             adapter.Fill(dt);
 
-            foreach (Control c in frm3.Controls)
+            foreach (Control c in frm3.Controls) // Form3'ün kontrolleri(ComboBox,TextBox,Label...) üzerinde dönülür.
             {
-                if (c is DataGridView dgv)
+                if (c is DataGridView dgv) // Form3'ün kontrollerinde dönerken o anki kontrol DataGridView ise
                 {
                     dgv.DataSource = null;
                     dgv.DataSource = dt;
@@ -32,6 +32,7 @@ namespace AdoNet
         public static void ClearControls(Form4 form4)
         {
             var cont = form4.Controls;
+
             foreach (Control item in cont)
             {
                 if (item is TextBox txt)

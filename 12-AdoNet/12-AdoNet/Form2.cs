@@ -18,16 +18,15 @@ namespace _12_AdoNet
 
             SqlCommand cmd = new SqlCommand(command, ConnectService.ConnectSql());
 
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd); // Verileri VeriTabanından çeker ve değişkene atar ,SqlDataAdapter: Veri bir tabloya aktarılacaksa kullanılır
-            DataTable dt = new DataTable();
-            adapter.Fill(dt); //Veriler değişkenden alınır ve Ram üzerinde oluşturulan DataTable'ye(Hayali Tablo) eklenir
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd); // Verileri VeriTabanından çeker ve değişkene atar, SqlDataAdapter: Veri bir tabloya aktarılacaksa kullanılır.
 
-            dgvData.DataSource = dt; //Veriler DataTable'den(Hayali Tablo) DataGridView'e(Bilgisayara) aktarılır
+            DataTable dt = new DataTable(); // Ram üzerinde hayali bir tablo oluşturulur.
+            adapter.Fill(dt); // Veriler değişkenden alınır ve Ram üzerinde oluşturulan DataTable'ye(Hayali Tablo) eklenir.
+
+            dgvData.DataSource = dt; // Veriler DataTable'den(Hayali Tablo) DataGridView'e(Bilgisayara) aktarılır.
 
             ConnectService.ConnectSql().Close();
-
         }
-
         private void btnUrunDataGetir_Click_1(object sender, EventArgs e)
         {
             string command = "select * from Products";
@@ -41,15 +40,12 @@ namespace _12_AdoNet
             dgvData.DataSource = dt;
 
             ConnectService.ConnectSql().Close();
-
         }
-
         private void Form3Ac_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Form3 frm3 = new Form3();
             frm3.Show();
-
         }
     }
 }
