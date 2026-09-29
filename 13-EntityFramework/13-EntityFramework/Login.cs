@@ -1,6 +1,5 @@
 ﻿using _13_EntityFramework.DB;
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
@@ -19,35 +18,28 @@ namespace _13_EntityFramework
         {
             string email = txtUserName.Text;
             string sifre = txtPassword.Text;
-            if (email != "" && sifre != "")
+
+            if (email != "")
             {
                 if (sifre != "")
                 {
-                    List<Admin> dbResult = db.Admin.Where(x => x.Email == email && x.Password == sifre).ToList();
-                    if (dbResult.Count > 0)
+                    Admin dbResult = db.Admin.Where(x => x.Email == email && x.Password == sifre).FirstOrDefault();
+                    if (dbResult != null)
                     {
-                        Admin oneResult = dbResult.FirstOrDefault(x => x.Password == sifre);
-                        if (oneResult != null)
+                        if (dbResult.AktifMi == true)
                         {
-                            if (oneResult.AktifMi == true)
-                            {
-                                this.Hide();
-                                AnaSayfa ana = new AnaSayfa();
-                                ana.Show();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Kullanıcınız Aktif Değil Yönetici İle iletişime Geçiniz!");
-                            }
+                            this.Hide();
+                            AnaSayfa ana = new AnaSayfa();
+                            ana.Show();
                         }
                         else
                         {
-                            MessageBox.Show("Şifre hatalı.");
+                            MessageBox.Show("Kullanıcınız Aktif Değil Yönetici İle iletişime Geçiniz!");
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Email hatalı.");
+                        MessageBox.Show("Şifre veya email hatalı.");
                     }
                 }
                 else

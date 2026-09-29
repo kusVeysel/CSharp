@@ -75,6 +75,7 @@
             this.btnStokForm.Size = new System.Drawing.Size(200, 200);
             this.btnStokForm.TabIndex = 6;
             this.btnStokForm.UseVisualStyleBackColor = true;
+            this.btnStokForm.Click += new System.EventHandler(this.btnStokForm_Click);
             // 
             // btnKisiBilgiEkleme
             // 
@@ -110,6 +111,7 @@
             this.Controls.Add(this.btnSetupFrom);
             this.Controls.Add(this.btnStokForm);
             this.Name = "AnaSayfa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AnaSayfa";
             this.ResumeLayout(false);
             this.PerformLayout();

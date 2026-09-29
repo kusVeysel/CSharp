@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.grpAdminEkle = new System.Windows.Forms.GroupBox();
+            this.grpAdmin = new System.Windows.Forms.GroupBox();
             this.cmbAdminAktifMi = new System.Windows.Forms.ComboBox();
             this.btnAdminEkle = new System.Windows.Forms.Button();
             this.txtAdminTelefon = new System.Windows.Forms.TextBox();
@@ -64,44 +64,44 @@
             this.txtMusteriYetkili = new System.Windows.Forms.Label();
             this.nudiskonto = new System.Windows.Forms.NumericUpDown();
             this.btnMusteriEkle = new System.Windows.Forms.Button();
-            this.txtMusteriAdSoyad = new System.Windows.Forms.TextBox();
-            this.txtTelefon = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMusteriYetkiliAdSoyad = new System.Windows.Forms.TextBox();
+            this.txtMusteriTel = new System.Windows.Forms.TextBox();
+            this.txtMusteriAdress = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.txtMusteriFirma = new System.Windows.Forms.TextBox();
             this.txtMusteri = new System.Windows.Forms.Label();
             this.rdAdminEkle = new System.Windows.Forms.RadioButton();
             this.rdTedarikciEkle = new System.Windows.Forms.RadioButton();
-            this.rdMusteri = new System.Windows.Forms.RadioButton();
-            this.grpAdminEkle.SuspendLayout();
+            this.rdMusteriEkle = new System.Windows.Forms.RadioButton();
+            this.txtMusteriEmaill = new System.Windows.Forms.TextBox();
+            this.grpAdmin.SuspendLayout();
             this.grpTedarikci.SuspendLayout();
             this.grpMusteri.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudiskonto)).BeginInit();
             this.SuspendLayout();
             // 
-            // grpAdminEkle
+            // grpAdmin
             // 
-            this.grpAdminEkle.BackColor = System.Drawing.SystemColors.Control;
-            this.grpAdminEkle.Controls.Add(this.cmbAdminAktifMi);
-            this.grpAdminEkle.Controls.Add(this.btnAdminEkle);
-            this.grpAdminEkle.Controls.Add(this.txtAdminTelefon);
-            this.grpAdminEkle.Controls.Add(this.label13);
-            this.grpAdminEkle.Controls.Add(this.txtAdminEmail);
-            this.grpAdminEkle.Controls.Add(this.label12);
-            this.grpAdminEkle.Controls.Add(this.txtAdminSifre);
-            this.grpAdminEkle.Controls.Add(this.label11);
-            this.grpAdminEkle.Controls.Add(this.label10);
-            this.grpAdminEkle.Controls.Add(this.txtAdminKullaniciAdi);
-            this.grpAdminEkle.Controls.Add(this.label9);
-            this.grpAdminEkle.Location = new System.Drawing.Point(24, 46);
-            this.grpAdminEkle.Name = "grpAdminEkle";
-            this.grpAdminEkle.Size = new System.Drawing.Size(841, 490);
-            this.grpAdminEkle.TabIndex = 23;
-            this.grpAdminEkle.TabStop = false;
-            this.grpAdminEkle.Text = "Admin Ekleme";
-            this.grpAdminEkle.Visible = false;
+            this.grpAdmin.BackColor = System.Drawing.SystemColors.Control;
+            this.grpAdmin.Controls.Add(this.cmbAdminAktifMi);
+            this.grpAdmin.Controls.Add(this.btnAdminEkle);
+            this.grpAdmin.Controls.Add(this.txtAdminTelefon);
+            this.grpAdmin.Controls.Add(this.label13);
+            this.grpAdmin.Controls.Add(this.txtAdminEmail);
+            this.grpAdmin.Controls.Add(this.label12);
+            this.grpAdmin.Controls.Add(this.txtAdminSifre);
+            this.grpAdmin.Controls.Add(this.label11);
+            this.grpAdmin.Controls.Add(this.label10);
+            this.grpAdmin.Controls.Add(this.txtAdminKullaniciAdi);
+            this.grpAdmin.Controls.Add(this.label9);
+            this.grpAdmin.Location = new System.Drawing.Point(49, 24);
+            this.grpAdmin.Name = "grpAdmin";
+            this.grpAdmin.Size = new System.Drawing.Size(750, 450);
+            this.grpAdmin.TabIndex = 0;
+            this.grpAdmin.TabStop = false;
+            this.grpAdmin.Text = "Admin Ekleme";
+            this.grpAdmin.Visible = false;
             // 
             // cmbAdminAktifMi
             // 
@@ -122,6 +122,7 @@
             this.btnAdminEkle.TabIndex = 10;
             this.btnAdminEkle.Text = "Admin Ekle";
             this.btnAdminEkle.UseVisualStyleBackColor = true;
+            this.btnAdminEkle.Click += new System.EventHandler(this.btnAdminEkle_Click);
             // 
             // txtAdminTelefon
             // 
@@ -213,12 +214,13 @@
             this.grpTedarikci.Controls.Add(this.txtTedarikciAdi);
             this.grpTedarikci.Controls.Add(this.label1);
             this.grpTedarikci.Controls.Add(this.cmbTedarikciAktifMi);
-            this.grpTedarikci.Location = new System.Drawing.Point(30, 40);
+            this.grpTedarikci.Location = new System.Drawing.Point(49, 30);
             this.grpTedarikci.Name = "grpTedarikci";
-            this.grpTedarikci.Size = new System.Drawing.Size(841, 490);
+            this.grpTedarikci.Size = new System.Drawing.Size(750, 450);
             this.grpTedarikci.TabIndex = 22;
             this.grpTedarikci.TabStop = false;
             this.grpTedarikci.Text = "Tedarikçi Ekleme";
+            this.grpTedarikci.Visible = false;
             // 
             // btnTedarikciEkle
             // 
@@ -228,6 +230,7 @@
             this.btnTedarikciEkle.TabIndex = 16;
             this.btnTedarikciEkle.Text = "Tedarikçi Ekle";
             this.btnTedarikciEkle.UseVisualStyleBackColor = true;
+            this.btnTedarikciEkle.Click += new System.EventHandler(this.btnTedarikciEkle_Click);
             // 
             // txtTedarikciAdres
             // 
@@ -348,6 +351,7 @@
             // 
             // grpMusteri
             // 
+            this.grpMusteri.Controls.Add(this.txtMusteriEmaill);
             this.grpMusteri.Controls.Add(this.label6);
             this.grpMusteri.Controls.Add(this.txtMusteriAdres);
             this.grpMusteri.Controls.Add(this.txtMusteriEmail);
@@ -355,17 +359,16 @@
             this.grpMusteri.Controls.Add(this.txtMusteriYetkili);
             this.grpMusteri.Controls.Add(this.nudiskonto);
             this.grpMusteri.Controls.Add(this.btnMusteriEkle);
-            this.grpMusteri.Controls.Add(this.txtMusteriAdSoyad);
-            this.grpMusteri.Controls.Add(this.txtTelefon);
-            this.grpMusteri.Controls.Add(this.txtEmail);
-            this.grpMusteri.Controls.Add(this.textBox2);
+            this.grpMusteri.Controls.Add(this.txtMusteriYetkiliAdSoyad);
+            this.grpMusteri.Controls.Add(this.txtMusteriTel);
+            this.grpMusteri.Controls.Add(this.txtMusteriAdress);
             this.grpMusteri.Controls.Add(this.checkBox2);
             this.grpMusteri.Controls.Add(this.checkBox1);
             this.grpMusteri.Controls.Add(this.txtMusteriFirma);
             this.grpMusteri.Controls.Add(this.txtMusteri);
-            this.grpMusteri.Location = new System.Drawing.Point(30, 31);
+            this.grpMusteri.Location = new System.Drawing.Point(49, 30);
             this.grpMusteri.Name = "grpMusteri";
-            this.grpMusteri.Size = new System.Drawing.Size(841, 490);
+            this.grpMusteri.Size = new System.Drawing.Size(750, 450);
             this.grpMusteri.TabIndex = 21;
             this.grpMusteri.TabStop = false;
             this.grpMusteri.Text = "Müşteri Ekleme";
@@ -436,35 +439,29 @@
             this.btnMusteriEkle.TabIndex = 9;
             this.btnMusteriEkle.Text = "Müşteri Ekle";
             this.btnMusteriEkle.UseVisualStyleBackColor = true;
+            this.btnMusteriEkle.Click += new System.EventHandler(this.btnMusteriEkle_Click);
             // 
-            // txtMusteriAdSoyad
+            // txtMusteriYetkiliAdSoyad
             // 
-            this.txtMusteriAdSoyad.Location = new System.Drawing.Point(405, 56);
-            this.txtMusteriAdSoyad.Name = "txtMusteriAdSoyad";
-            this.txtMusteriAdSoyad.Size = new System.Drawing.Size(295, 20);
-            this.txtMusteriAdSoyad.TabIndex = 8;
+            this.txtMusteriYetkiliAdSoyad.Location = new System.Drawing.Point(405, 56);
+            this.txtMusteriYetkiliAdSoyad.Name = "txtMusteriYetkiliAdSoyad";
+            this.txtMusteriYetkiliAdSoyad.Size = new System.Drawing.Size(295, 20);
+            this.txtMusteriYetkiliAdSoyad.TabIndex = 8;
             // 
-            // txtTelefon
+            // txtMusteriTel
             // 
-            this.txtTelefon.Location = new System.Drawing.Point(20, 146);
-            this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(295, 20);
-            this.txtTelefon.TabIndex = 7;
+            this.txtMusteriTel.Location = new System.Drawing.Point(20, 146);
+            this.txtMusteriTel.Name = "txtMusteriTel";
+            this.txtMusteriTel.Size = new System.Drawing.Size(295, 20);
+            this.txtMusteriTel.TabIndex = 7;
             // 
-            // txtEmail
+            // txtMusteriAdress
             // 
-            this.txtEmail.Location = new System.Drawing.Point(405, 146);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(295, 20);
-            this.txtEmail.TabIndex = 6;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(30, 211);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(658, 111);
-            this.textBox2.TabIndex = 4;
+            this.txtMusteriAdress.Location = new System.Drawing.Point(30, 211);
+            this.txtMusteriAdress.Multiline = true;
+            this.txtMusteriAdress.Name = "txtMusteriAdress";
+            this.txtMusteriAdress.Size = new System.Drawing.Size(658, 111);
+            this.txtMusteriAdress.TabIndex = 4;
             // 
             // checkBox2
             // 
@@ -526,34 +523,42 @@
             this.rdTedarikciEkle.UseVisualStyleBackColor = true;
             this.rdTedarikciEkle.CheckedChanged += new System.EventHandler(this.rdTedarikciEkle_CheckedChanged_1);
             // 
-            // rdMusteri
+            // rdMusteriEkle
             // 
-            this.rdMusteri.AutoSize = true;
-            this.rdMusteri.Location = new System.Drawing.Point(284, 563);
-            this.rdMusteri.Name = "rdMusteri";
-            this.rdMusteri.Size = new System.Drawing.Size(83, 17);
-            this.rdMusteri.TabIndex = 18;
-            this.rdMusteri.TabStop = true;
-            this.rdMusteri.Text = "Müşteri Ekle";
-            this.rdMusteri.UseVisualStyleBackColor = true;
-            this.rdMusteri.CheckedChanged += new System.EventHandler(this.rdMusteri_CheckedChanged_1);
+            this.rdMusteriEkle.AutoSize = true;
+            this.rdMusteriEkle.Location = new System.Drawing.Point(284, 563);
+            this.rdMusteriEkle.Name = "rdMusteriEkle";
+            this.rdMusteriEkle.Size = new System.Drawing.Size(83, 17);
+            this.rdMusteriEkle.TabIndex = 18;
+            this.rdMusteriEkle.TabStop = true;
+            this.rdMusteriEkle.Text = "Müşteri Ekle";
+            this.rdMusteriEkle.UseVisualStyleBackColor = true;
+            this.rdMusteriEkle.CheckedChanged += new System.EventHandler(this.rdMusteri_CheckedChanged_1);
+            // 
+            // txtMusteriEmaill
+            // 
+            this.txtMusteriEmaill.Location = new System.Drawing.Point(405, 146);
+            this.txtMusteriEmaill.Name = "txtMusteriEmaill";
+            this.txtMusteriEmaill.Size = new System.Drawing.Size(295, 20);
+            this.txtMusteriEmaill.TabIndex = 23;
             // 
             // KisiBilgiEkleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(895, 611);
-            this.Controls.Add(this.grpAdminEkle);
+            this.Controls.Add(this.grpAdmin);
             this.Controls.Add(this.grpTedarikci);
             this.Controls.Add(this.grpMusteri);
             this.Controls.Add(this.rdAdminEkle);
             this.Controls.Add(this.rdTedarikciEkle);
-            this.Controls.Add(this.rdMusteri);
+            this.Controls.Add(this.rdMusteriEkle);
             this.Name = "KisiBilgiEkleme";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KisiBilgiEkleme";
             this.Load += new System.EventHandler(this.KisiBilgiEkleme_Load);
-            this.grpAdminEkle.ResumeLayout(false);
-            this.grpAdminEkle.PerformLayout();
+            this.grpAdmin.ResumeLayout(false);
+            this.grpAdmin.PerformLayout();
             this.grpTedarikci.ResumeLayout(false);
             this.grpTedarikci.PerformLayout();
             this.grpMusteri.ResumeLayout(false);
@@ -566,7 +571,7 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox grpAdminEkle;
+        private System.Windows.Forms.GroupBox grpAdmin;
         private System.Windows.Forms.ComboBox cmbAdminAktifMi;
         private System.Windows.Forms.Button btnAdminEkle;
         private System.Windows.Forms.TextBox txtAdminTelefon;
@@ -602,16 +607,16 @@
         private System.Windows.Forms.Label txtMusteriYetkili;
         private System.Windows.Forms.NumericUpDown nudiskonto;
         private System.Windows.Forms.Button btnMusteriEkle;
-        private System.Windows.Forms.TextBox txtMusteriAdSoyad;
-        private System.Windows.Forms.TextBox txtTelefon;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMusteriYetkiliAdSoyad;
+        private System.Windows.Forms.TextBox txtMusteriTel;
+        private System.Windows.Forms.TextBox txtMusteriAdress;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox txtMusteriFirma;
         private System.Windows.Forms.Label txtMusteri;
         private System.Windows.Forms.RadioButton rdAdminEkle;
         private System.Windows.Forms.RadioButton rdTedarikciEkle;
-        private System.Windows.Forms.RadioButton rdMusteri;
+        private System.Windows.Forms.RadioButton rdMusteriEkle;
+        private System.Windows.Forms.TextBox txtMusteriEmaill;
     }
 }

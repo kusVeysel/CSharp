@@ -119,7 +119,7 @@
             this.cmbUrunAktifMi.Items.AddRange(new object[] {
             "Aktif",
             "Pasif"});
-            this.cmbUrunAktifMi.Location = new System.Drawing.Point(295, 207);
+            this.cmbUrunAktifMi.Location = new System.Drawing.Point(295, 206);
             this.cmbUrunAktifMi.Name = "cmbUrunAktifMi";
             this.cmbUrunAktifMi.Size = new System.Drawing.Size(201, 21);
             this.cmbUrunAktifMi.TabIndex = 19;
@@ -153,7 +153,7 @@
             // 
             // btnUrunGuncelle
             // 
-            this.btnUrunGuncelle.Location = new System.Drawing.Point(552, 193);
+            this.btnUrunGuncelle.Location = new System.Drawing.Point(552, 190);
             this.btnUrunGuncelle.Name = "btnUrunGuncelle";
             this.btnUrunGuncelle.Size = new System.Drawing.Size(150, 37);
             this.btnUrunGuncelle.TabIndex = 13;
@@ -172,7 +172,7 @@
             // 
             // btnTedarikciGuncelle
             // 
-            this.btnTedarikciGuncelle.Location = new System.Drawing.Point(552, 123);
+            this.btnTedarikciGuncelle.Location = new System.Drawing.Point(552, 115);
             this.btnTedarikciGuncelle.Name = "btnTedarikciGuncelle";
             this.btnTedarikciGuncelle.Size = new System.Drawing.Size(150, 37);
             this.btnTedarikciGuncelle.TabIndex = 18;
@@ -183,7 +183,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(292, 190);
+            this.label3.Location = new System.Drawing.Point(292, 189);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 13);
             this.label3.TabIndex = 11;
@@ -191,7 +191,7 @@
             // 
             // btnAdminGuncelle
             // 
-            this.btnAdminGuncelle.Location = new System.Drawing.Point(552, 49);
+            this.btnAdminGuncelle.Location = new System.Drawing.Point(552, 42);
             this.btnAdminGuncelle.Name = "btnAdminGuncelle";
             this.btnAdminGuncelle.Size = new System.Drawing.Size(150, 37);
             this.btnAdminGuncelle.TabIndex = 8;
@@ -225,7 +225,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(292, 50);
+            this.label2.Location = new System.Drawing.Point(292, 42);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 6;
@@ -242,7 +242,7 @@
             // 
             // txtAdminTelefon
             // 
-            this.txtAdminTelefon.Location = new System.Drawing.Point(295, 66);
+            this.txtAdminTelefon.Location = new System.Drawing.Point(295, 58);
             this.txtAdminTelefon.Name = "txtAdminTelefon";
             this.txtAdminTelefon.Size = new System.Drawing.Size(201, 20);
             this.txtAdminTelefon.TabIndex = 7;
@@ -280,6 +280,7 @@
             this.ClientSize = new System.Drawing.Size(814, 595);
             this.Controls.Add(this.tabControl1);
             this.Name = "Setup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setup";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

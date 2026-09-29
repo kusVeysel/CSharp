@@ -20,6 +20,7 @@ namespace _13_EntityFramework
         private void btnAdminListele_Click_1(object sender, EventArgs e)
         {
             List<Admin> dbAdminListesi = db.Admin.ToList();
+
             DataTable dt = new DataTable(); //Ram üzerinde hayali bir tablo oluşturulur
             dt.Columns.Add("ID");
             dt.Columns.Add("Kullanıcı Adı");
@@ -35,6 +36,7 @@ namespace _13_EntityFramework
                 row["Email"] = adm.Email;
                 row["Telefon"] = adm.Telefon;
                 row["Aktif Mi"] = adm.AktifMi == true ? "Aktif" : "False";
+
                 dt.Rows.Add(row); // Hayali tablonun oluşturulan boş satırına bilgileri ekle
             }
             dgvListele.DataSource = dt; // Hayali tablo içindeki bilgilerle beraber DataGridView içine aktarılır ,böylece veriler görünür hale gelir
@@ -43,9 +45,8 @@ namespace _13_EntityFramework
         private void btnUrunListele_Click_1(object sender, EventArgs e)
         {
 
-            List<Urun> urunListesi = db.Urun.ToList();
+            List<Urun> dbUrunListesi = db.Urun.ToList();
 
-            var dbUrunListesi = db.Urun.ToList();
             DataTable dt = new DataTable();
             dt.Columns.Add("ID");
             dt.Columns.Add("Ürün Adı");
@@ -61,6 +62,7 @@ namespace _13_EntityFramework
                 row["Boyut"] = urn.Boyut.BoyutAdi;
                 row["Materyal"] = urn.Materyal.MateryalAdi;
                 row["Aktif Mi"] = urn.AktifMi == true ? "Aktif" : "Pasif";
+
                 dt.Rows.Add(row);
             }
             dgvListele.DataSource = dt;
@@ -69,7 +71,6 @@ namespace _13_EntityFramework
         private void btnTedarikciListele_Click_1(object sender, EventArgs e)
         {
             List<Tedarikci> dbTedarikciListesi = db.Tedarikci.ToList();
-
 
             DataTable dt = new DataTable();
             dt.Columns.Add("ID");
@@ -88,24 +89,26 @@ namespace _13_EntityFramework
                 row["Vergi Dairesi"] = teda.VergiDairesi;
                 row["Vergi Numarası"] = teda.VergiNo;
                 row["Aktif Mi"] = teda.AktifMi == true ? "Aktif" : "Pasif";
+
                 dt.Rows.Add(row);
             }
             dgvListele.DataSource = dt;
-
         }
 
         private void btnAdminGuncelle_Click_1(object sender, EventArgs e)
         {
             Admin dbAdmin = db.Admin.Where(x => x.ID == IdInfo).FirstOrDefault();
+
             dbAdmin.UserName = txtAdminUserName.Text;
             dbAdmin.Telefon = txtAdminTelefon.Text;
             db.SaveChanges();
-            btnAdminListele.PerformClick(); //Veriler kayıt edildikten sonra tekrardan admin listele butonuna basmadan listenin otomatik güncellenmesini sağlar (butona otomatik basılır)
+            btnAdminListele.PerformClick(); //Veriler kayıt edildikten sonra tekrardan admin listele butonuna basmadan listenin otomatik güncellenmesini sağlar.
         }
 
         private void btnTedarikciGuncelle_Click_1(object sender, EventArgs e)
         {
             Tedarikci dbTedarikci = db.Tedarikci.Where(x => x.ID == IdInfo).FirstOrDefault();
+
             dbTedarikci.TedarikciAdi = txtTedarikciAdi.Text;
             dbTedarikci.Email = txtTedarikciEmail.Text;
             db.SaveChanges();
@@ -115,6 +118,7 @@ namespace _13_EntityFramework
         private void btnUrunGuncelle_Click_1(object sender, EventArgs e)
         {
             Urun dbUrun = db.Urun.FirstOrDefault(x => x.ID == IdInfo);
+
             dbUrun.UrunAdi = txtUrunAdi.Text;
             if (cmbUrunAktifMi.SelectedIndex == 0)
             {
@@ -135,10 +139,10 @@ namespace _13_EntityFramework
         private void dgvListele_MouseDoubleClick_1(object sender, MouseEventArgs e)
         {
 
-            DataGridViewRow selectedRow = dgvListele.SelectedRows[0]; //Seçilen satırı değişkene atar
-            IdInfo = Convert.ToInt16(selectedRow.Cells[0].Value);
+            DataGridViewRow selectedRow = dgvListele.SelectedRows[0]; // Seçilen ilk satırı alır.
+            IdInfo = Convert.ToInt16(selectedRow.Cells[0].Value);      // Seçilen satırın ilk hücredeki(ID) değerini değişkene atar.
 
-            string sutunAdi = selectedRow.DataGridView.Columns[1].Name;
+            string sutunAdi = selectedRow.DataGridView.Columns[1].Name; // 2. sütunun adını değişkene atar
 
             if (sutunAdi == "Kullanıcı Adı")
             {

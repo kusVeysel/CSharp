@@ -205,6 +205,7 @@
             this.Controls.Add(this.cmbMateryal);
             this.Controls.Add(this.dgwUrunListesi);
             this.Name = "Stock";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock";
             ((System.ComponentModel.ISupportInitialize)(this.nUDStokAdet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgwUrunListesi)).EndInit();
