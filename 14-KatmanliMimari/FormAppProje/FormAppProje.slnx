@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FormAppProje.BLL/FormAppProje.BLL.csproj" />
+  <Project Path="FormAppProje.DAL/FormAppProje.DAL.csproj" />
+  <Project Path="FormAppProje.UI/FormAppProje.UI.csproj" />
+</Solution>
