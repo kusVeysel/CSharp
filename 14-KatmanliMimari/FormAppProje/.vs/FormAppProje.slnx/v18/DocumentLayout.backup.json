@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E4B3B5D-994D-4118-9FDF-12BF11049569}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E4B3B5D-994D-4118-9FDF-12BF11049569}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{11E9D9A2-D5C3-49FA-8EBB-9CC4D4F8A379}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11E9D9A2-D5C3-49FA-8EBB-9CC4D4F8A379}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +25,7 @@
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form1.cs [Design]",
               "RelativeToolTip": "FormAppProje.UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T16:29:51.446Z",
+              "WhenOpened": "2026-09-30T17:02:53.559Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11E9D9A2-D5C3-49FA-8EBB-9CC4D4F8A379}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11E9D9A2-D5C3-49FA-8EBB-9CC4D4F8A379}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form1.cs",
+              "RelativeDocumentMoniker": "FormAppProje.UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form1.cs [Design]",
+              "RelativeToolTip": "FormAppProje.UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T17:02:53.559Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
