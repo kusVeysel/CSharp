@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormAppProje.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b442f55a6c52b34e91924662a90de40bd1487a51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c3e965ce6dbfaf27b4881ea641976c9cb4165a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormAppProje.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormAppProje.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

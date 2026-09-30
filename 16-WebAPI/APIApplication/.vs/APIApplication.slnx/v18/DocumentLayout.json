@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\16-webapi\\apiapplication\\apiapplication\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|solutionrelative:apiapplication\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\16-webapi\\apiapplication\\apiapplication\\models\\empapivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|solutionrelative:apiapplication\\models\\empapivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\16-webapi\\apiapplication\\apiapplication\\models\\siparisapivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|solutionrelative:apiapplication\\models\\siparisapivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\16-webapi\\apiapplication\\apiapplication\\models\\urunapivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|solutionrelative:apiapplication\\models\\urunapivm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\16-webapi\\apiapplication\\apiapplication\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|solutionrelative:apiapplication\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\16-webapi\\apiapplication\\apiapplication\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FF7D34-DAC9-473C-B49B-C587E9DEDFDE}|APIApplication\\APIApplication.csproj|solutionrelative:apiapplication\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SiparisApiVM.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Models\\SiparisApiVM.cs",
+              "RelativeDocumentMoniker": "APIApplication\\Models\\SiparisApiVM.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Models\\SiparisApiVM.cs",
+              "RelativeToolTip": "APIApplication\\Models\\SiparisApiVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:52:39.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpApiVM.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Models\\EmpApiVM.cs",
+              "RelativeDocumentMoniker": "APIApplication\\Models\\EmpApiVM.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Models\\EmpApiVM.cs",
+              "RelativeToolTip": "APIApplication\\Models\\EmpApiVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:50:35.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "APIApplication\\Controllers\\EmpController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "APIApplication\\Controllers\\EmpController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwDEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:48:23.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UrunApiVM.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Models\\UrunApiVM.cs",
+              "RelativeDocumentMoniker": "APIApplication\\Models\\UrunApiVM.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Models\\UrunApiVM.cs",
+              "RelativeToolTip": "APIApplication\\Models\\UrunApiVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:19:59.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "APIApplication\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "APIApplication\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:53:10.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "APIApplication\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\16-WebAPI\\APIApplication\\APIApplication\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "APIApplication\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:50:42.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
