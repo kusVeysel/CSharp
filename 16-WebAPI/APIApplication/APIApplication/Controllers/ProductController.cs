@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace APIApplication.Controllers
 {
+
     [RoutePrefix("api/Product")] // Action'ların kök adresi
     public class ProductController : BaseController
     {
@@ -34,6 +35,12 @@ namespace APIApplication.Controllers
             return resultList;
         }
 
+        /// <summary>
+        /// Ürün ID Bilgisine göre ürün detaylarını getirir.
+        /// </summary>
+        /// <param name = "ID">Ürün ID Bilgisi</param>
+        /// <returns></returns>
+
         [HttpGet] // Action'ın tipi
         [Route("UrunGetir/{id}")] // Action'ın adresi
         [SwaggerOperation(Tags = new[] { "Ürün İşlemleri" })] // Swagger'da hangi tag altında görüneceği
@@ -50,5 +57,7 @@ namespace APIApplication.Controllers
 
             return result;
         }
+
+        // ProductController, ürünlerle ilgili işlemleri gerçekleştiren bir API denetleyicisidir. Bu denetleyici, ürünlerin listesini almak ve belirli bir ürünün detaylarını getirmek için HTTP GET isteklerini işler. Swagger ile entegrasyon sayesinde, API dokümantasyonu ve testleri kolayca yapılabilir.
     }
 }

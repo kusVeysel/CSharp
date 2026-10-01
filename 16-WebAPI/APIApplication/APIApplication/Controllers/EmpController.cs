@@ -1,8 +1,11 @@
 ﻿using APIApplication.DB;
 using APIApplication.Models;
+using Newtonsoft.Json;
 using Swashbuckle.Swagger.Annotations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web.Http;
 
 namespace APIApplication.Controllers
@@ -13,7 +16,6 @@ namespace APIApplication.Controllers
         [HttpGet]
         [Route("CalisanListe")]
         [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
-
         public List<EmpApiVM> CalisanListe()
         {
             List<EmpApiVM> resultList = new List<EmpApiVM>();
@@ -53,7 +55,6 @@ namespace APIApplication.Controllers
         [HttpGet]
         [Route("CalisanDetay/{id}")]
         [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
-
         public EmpApiVM CalisanDetay(int ID)
         {
             EmpApiVM result = new EmpApiVM();
@@ -86,7 +87,60 @@ namespace APIApplication.Controllers
             return result;
         }
 
+        [HttpPost] // Action'ın tipi]
+        [Route("AdminEkle")] // Action'ın adresi
+        [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
+        public IHttpActionResult InsertAdmin(Admin data)
+        {
+            if (data == null)
+            {
+                return Content(HttpStatusCode.BadRequest, "Admin verisi boş olamaz.");
+            }
 
+            db.Admin.Add(data);
+            db.SaveChanges();
+
+            return Content(HttpStatusCode.OK, "Admin başarıyla eklendi.");
+        }
+
+        [HttpPost] // Action'ın tipi]
+        [Route("AdminEkleStr")] // Action'ın adresi
+        [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
+        public IHttpActionResult InsertAdminStr(string data)
+        {
+            try
+            {
+                Admin adminData = JsonConvert.DeserializeObject<Admin>(data);
+
+                db.Admin.Add(adminData);
+                db.SaveChanges();
+
+                return Content(HttpStatusCode.OK, "Admin başarıyla eklendi.");
+
+            }
+            catch (Exception)
+            {
+                return Content(HttpStatusCode.BadRequest, "Geçersiz JSON formatı!");
+            }
+
+        }
+
+        [HttpPost] // Action'ın tipi]
+        [Route("AdminBul")] // Action'ın adresi
+        [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
+        public IHttpActionResult FindAdminWithName(string username, string phone)
+        {
+            Admin dbResult = db.Admin.Where(x => x.UserName == username && x.Telefon == phone).FirstOrDefault();
+
+            if (dbResult == null)
+            {
+                return Content(HttpStatusCode.NotFound, "Admin bulunamadı.");
+            }
+            else
+            {
+                return Content(HttpStatusCode.OK, dbResult);
+            }
+        }
 
     }
 }

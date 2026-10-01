@@ -89,3 +89,4 @@ C:\Users\veysel\Desktop\CSharp\16-WebAPI\APIApplication\APIApplication\bin\Entit
 C:\Users\veysel\Desktop\CSharp\16-WebAPI\APIApplication\APIApplication\bin\EntityFramework.SqlServer.xml
 C:\Users\veysel\Desktop\CSharp\16-WebAPI\APIApplication\APIApplication\bin\Swashbuckle.Core.dll
 C:\Users\veysel\Desktop\CSharp\16-WebAPI\APIApplication\APIApplication\bin\WebActivatorEx.dll
+C:\Users\veysel\Desktop\CSharp\16-WebAPI\APIApplication\APIApplication\bin\APIApplication.xml

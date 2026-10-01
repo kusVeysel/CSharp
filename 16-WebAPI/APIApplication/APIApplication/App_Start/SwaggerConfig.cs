@@ -1,5 +1,6 @@
 using APIApplication;
 using Swashbuckle.Application;
+using System;
 using System.Web.Http;
 using WebActivatorEx;
 
@@ -101,7 +102,7 @@ namespace APIApplication
                         // those comments into the generated docs and UI. You can enable this by providing the path to one or
                         // more Xml comment files.
                         //
-                        //c.IncludeXmlComments(GetXmlCommentsPath());
+                        c.IncludeXmlComments(GetXmlCommentsPath());
 
                         // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                         // exposed in your API. However, there may be occasions when more control of the output is needed.
@@ -250,6 +251,11 @@ namespace APIApplication
                         //
                         //c.EnableApiKeySupport("apiKey", "header");
                     });
+        }
+
+        private static string GetXmlCommentsPath()
+        {
+            return string.Format(@"{0}\bin\APIApplication.XML", AppDomain.CurrentDomain.BaseDirectory);
         }
     }
 }
