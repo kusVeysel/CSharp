@@ -1,5 +1,6 @@
 ﻿using APIApplication.DB;
 using APIApplication.Models;
+using Swashbuckle.Swagger.Annotations;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -11,6 +12,8 @@ namespace APIApplication.Controllers
     {
         [HttpGet]
         [Route("CalisanListe")]
+        [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
+
         public List<EmpApiVM> CalisanListe()
         {
             List<EmpApiVM> resultList = new List<EmpApiVM>();
@@ -49,6 +52,8 @@ namespace APIApplication.Controllers
 
         [HttpGet]
         [Route("CalisanDetay/{id}")]
+        [SwaggerOperation(Tags = new[] { "Çalışan İşlemleri" })] // Swagger'da hangi tag altında görüneceği
+
         public EmpApiVM CalisanDetay(int ID)
         {
             EmpApiVM result = new EmpApiVM();
@@ -80,5 +85,8 @@ namespace APIApplication.Controllers
 
             return result;
         }
+
+
+
     }
 }

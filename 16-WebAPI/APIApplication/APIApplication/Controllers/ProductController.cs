@@ -1,5 +1,6 @@
 ﻿using APIApplication.DB;
 using APIApplication.Models;
+using Swashbuckle.Swagger.Annotations;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -10,7 +11,8 @@ namespace APIApplication.Controllers
     public class ProductController : BaseController
     {
         [HttpGet] // Action'ın tipi
-        [Route("UrunGetir")] // Action'ın adresi
+        [Route("UrunListe")] // Action'ın adresi
+        [SwaggerOperation(Tags = new[] { "Ürün İşlemleri" })] // Swagger'da hangi tag altında görüneceği
         public List<UrunApiVM> UrunListesi() // Burdaki UrunListesi ile api çekilmez bu ezilir(Route'den dolayı), bu method açıklama gibi uzun uzadıya yazılabilir.
         {
             List<Urun> dbResult = db.Urun.ToList();
@@ -30,6 +32,23 @@ namespace APIApplication.Controllers
             } // DynamicProxies engellemek için kullanılır.
 
             return resultList;
+        }
+
+        [HttpGet] // Action'ın tipi
+        [Route("UrunGetir/{id}")] // Action'ın adresi
+        [SwaggerOperation(Tags = new[] { "Ürün İşlemleri" })] // Swagger'da hangi tag altında görüneceği
+        public UrunApiVM UrunDetay(int ID) // Burdaki UrunListesi ile api çekilmez bu ezilir(Route'den dolayı), bu method açıklama gibi uzun uzadıya yazılabilir.
+        {
+            Urun dbResult = db.Urun.Find(ID);
+            UrunApiVM result = new UrunApiVM();
+
+            result.ID = dbResult.ID;
+            result.UrunAdi = dbResult.UrunAdi;
+            result.ListeFiyat = dbResult.ListeFiyat.FirstOrDefault(x => x.UrunID == dbResult.ID) == null ? 0 : (double)dbResult.ListeFiyat.FirstOrDefault(x => x.UrunID == dbResult.ID).BirimFiyat;
+            result.Stok = dbResult.StokTablo.FirstOrDefault(x => x.UrunID == dbResult.ID) == null ? 0 : (int)dbResult.StokTablo.FirstOrDefault(x => x.UrunID == dbResult.ID).Stok;
+            // DynamicProxies engellemek için kullanılır.
+
+            return result;
         }
     }
 }
