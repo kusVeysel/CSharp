@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\veysel\\Desktop\\CSharp\\17-CoreAPI\\CoreAPI\\CoreAPI.csproj",
+      "projectUniqueName": "C:\\Users\\veysel\\Desktop\\CSharp\\17-CoreAPI(Temel)\\CoreAPI\\CoreAPI.csproj",
       "projectName": "CoreAPI",
-      "projectPath": "C:\\Users\\veysel\\Desktop\\CSharp\\17-CoreAPI\\CoreAPI\\CoreAPI.csproj",
+      "projectPath": "C:\\Users\\veysel\\Desktop\\CSharp\\17-CoreAPI(Temel)\\CoreAPI\\CoreAPI.csproj",
       "packagesPath": "C:\\Users\\veysel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\veysel\\Desktop\\CSharp\\17-CoreAPI\\CoreAPI\\obj\\",
+      "outputPath": "C:\\Users\\veysel\\Desktop\\CSharp\\17-CoreAPI(Temel)\\CoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
