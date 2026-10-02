@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|c:\\users\\veysel\\desktop\\csharp\\08-stringmetotlar\\08-stringmetotlar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|solutionrelative:08-stringmetotlar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-stringmetotlar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|solutionrelative:08-stringmetotlar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-stringmetotlar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|solutionrelative:08-stringmetotlar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|c:\\users\\veysel\\desktop\\csharp\\08-stringmetotlar\\08-stringmetotlar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52185845-6502-4851-B052-DB2453DF7246}|08-StringMetotlar\\08-StringMetotlar.csproj|solutionrelative:08-stringmetotlar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-StringMetotlar\\Form1.cs",
               "RelativeDocumentMoniker": "08-StringMetotlar\\Form1.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-StringMetotlar\\Form1.cs",
               "RelativeToolTip": "08-StringMetotlar\\Form1.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAwFIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T11:17:05.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-StringMetotlar\\Program.cs",
-              "RelativeDocumentMoniker": "08-StringMetotlar\\Program.cs",
-              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-StringMetotlar\\Program.cs",
-              "RelativeToolTip": "08-StringMetotlar\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T11:16:58.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-StringMetotlar\\Form1.cs",
               "RelativeDocumentMoniker": "08-StringMetotlar\\Form1.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\08-StringMetotlar\\08-StringMetotlar\\Form1.cs [Design]",
               "RelativeToolTip": "08-StringMetotlar\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T11:16:04.339Z"
+              "WhenOpened": "2026-09-09T11:16:04.339Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
