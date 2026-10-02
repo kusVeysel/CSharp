@@ -1,7 +1,0 @@
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\bin\Debug\01-DegiskenTipleri.exe.config
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\bin\Debug\01-DegiskenTipleri.exe
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\bin\Debug\01-DegiskenTipleri.pdb
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\obj\Debug\01-DegiskenTipleri.csproj.AssemblyReference.cache
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\obj\Debug\01-DegiskenTipleri.csproj.CoreCompileInputs.cache
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\obj\Debug\01-DegiskenTipleri.exe
-C:\Users\veysel\Desktop\CSharp\01-DegiskenTipleri\01-DegiskenTipleri\obj\Debug\01-DegiskenTipleri.pdb

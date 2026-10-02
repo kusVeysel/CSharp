@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _1_Giris
+namespace ConsoleApp
 {
     internal class Program
     {
