@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3E3D925-627D-E32C-3003-B64D8D173B7E}|WebApplicationAPI\\WebApplicationAPI.csproj|c:\\users\\veysel\\desktop\\csharp\\18-webcoreapi\\webapplicationapi\\webapplicationapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -42,8 +42,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:28:27.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T10:28:27.73Z"
             },
             {
               "$type": "Document",
@@ -53,46 +52,46 @@
               "RelativeDocumentMoniker": "WebApplicationAPI\\Program.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\Program.cs",
               "RelativeToolTip": "WebApplicationAPI\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:27:14.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplicationAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\appsettings.json",
               "RelativeToolTip": "WebApplicationAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-02T10:22:45.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "JWTService.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\Services\\JWTService.cs",
               "RelativeDocumentMoniker": "WebApplicationAPI\\Services\\JWTService.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\Services\\JWTService.cs",
               "RelativeToolTip": "WebApplicationAPI\\Services\\JWTService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:22:05.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:11:39.443Z",
               "EditorCaption": ""
