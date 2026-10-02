@@ -19,7 +19,7 @@ namespace WebApplicationAPI.Services
             var key = System.Text.Encoding.UTF8.GetBytes(_config["Jwt:Key"]);
             var issuer = _config["Jwt:Issuer"];
             var audience = _config["Jwt:Audience"];
-            var expires = DateTime.UtcNow.AddHours(int.Parse(_config["Jwt:Expires"]));
+            var expires = DateTime.UtcNow.AddMinutes(int.Parse(_config["Jwt:Expires"]));
 
             var claims = new List<Claim>
             {

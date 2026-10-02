@@ -33,7 +33,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
             // Token doğrulama parametrelerini ayarlar. Bu, JWT'nin geçerliliğini kontrol etmek için kullanılır.
-
+            ClockSkew = TimeSpan.Zero,
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(key)
