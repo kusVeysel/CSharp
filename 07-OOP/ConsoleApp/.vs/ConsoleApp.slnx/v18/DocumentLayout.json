@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\veysel\\desktop\\csharp\\07-oop\\consoleapp\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\veysel\\desktop\\csharp\\07-oop\\consoleapp\\consoleapp\\motosiklet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\motosiklet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\veysel\\desktop\\csharp\\07-oop\\consoleapp\\consoleapp\\tasit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\tasit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\veysel\\desktop\\csharp\\07-oop\\consoleapp\\consoleapp\\otomobil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB0DA16-F084-453E-9FB5-C7D0AECABB6E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\otomobil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Otomobil.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Otomobil.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Otomobil.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Otomobil.cs",
+              "RelativeToolTip": "ConsoleApp\\Otomobil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:22:13.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tasit.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Tasit.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Tasit.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Tasit.cs",
+              "RelativeToolTip": "ConsoleApp\\Tasit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:21:54.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Motosiklet.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Motosiklet.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Motosiklet.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Motosiklet.cs",
+              "RelativeToolTip": "ConsoleApp\\Motosiklet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:21:39.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\07-OOP\\ConsoleApp\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "ConsoleApp\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:21:28.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
