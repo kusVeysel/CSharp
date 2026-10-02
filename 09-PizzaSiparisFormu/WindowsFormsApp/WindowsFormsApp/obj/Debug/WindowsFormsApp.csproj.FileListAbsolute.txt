@@ -1,0 +1,11 @@
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Giris.resources
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.SipMenu.resources
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\veysel\Desktop\CSharp\09-PizzaSiparisFormu\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb

@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\siparismod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\siparismod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Urun.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Urun.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Urun.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Urun.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Urun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:38:15.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SiparisMod.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SiparisMod.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\SiparisMod.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SiparisMod.cs",
+              "RelativeToolTip": "WindowsFormsApp\\SiparisMod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:38:28.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Musteri.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Musteri.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Musteri.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Musteri.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Musteri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:38:41.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SipMenu.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SipMenu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\SipMenu.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SipMenu.cs*",
+              "RelativeToolTip": "WindowsFormsApp\\SipMenu.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:39:44.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SipMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SipMenu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\SipMenu.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SipMenu.cs [Design]*",
+              "RelativeToolTip": "WindowsFormsApp\\SipMenu.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:39:02.27Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Methodlar.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Methodlar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Methodlar.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Methodlar.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Methodlar.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:37:56.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Giris.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Giris.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Giris.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Giris.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Giris.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:36:28.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Giris.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Giris.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Giris.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Giris.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Giris.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:35:29.994Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
