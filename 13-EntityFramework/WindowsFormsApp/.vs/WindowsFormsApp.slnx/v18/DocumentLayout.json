@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Program.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:52:40.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Stock.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:50:22.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Stock.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Stock.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Stock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:50:06.128Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Setup.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Setup.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Setup.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:48:37.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Setup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Setup.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Setup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:48:23Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KisiBilgiEkleme.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\KisiBilgiEkleme.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\KisiBilgiEkleme.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\KisiBilgiEkleme.cs",
+              "RelativeToolTip": "WindowsFormsApp\\KisiBilgiEkleme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:45:38.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KisiBilgiEkleme.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\KisiBilgiEkleme.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\KisiBilgiEkleme.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\KisiBilgiEkleme.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\KisiBilgiEkleme.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:44:49.211Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnaSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\AnaSayfa.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\AnaSayfa.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\AnaSayfa.cs",
+              "RelativeToolTip": "WindowsFormsApp\\AnaSayfa.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:44:03.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnaSayfa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\AnaSayfa.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\AnaSayfa.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\AnaSayfa.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\AnaSayfa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:43:05.197Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Login.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Login.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Login.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:39:03.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Login.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Login.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Login.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T19:37:38.379Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
