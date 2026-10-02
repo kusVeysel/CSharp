@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15CA4D96-C1B5-4234-9301-667B67563C0D}</ProjectGuid>
+    <ProjectGuid>{B8C7AC04-1801-4E2C-9B98-27BBA1F1FB03}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04_DizilerGenericlistDonguler</RootNamespace>
-    <AssemblyName>04-DizilerGenericlistDonguler</AssemblyName>
+    <RootNamespace>ConsoleApp</RootNamespace>
+    <AssemblyName>ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

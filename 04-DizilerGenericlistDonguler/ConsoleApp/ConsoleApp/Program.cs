@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _4_DizilerGenericlistDonguler
+namespace ConsoleApp
 {
     internal class Program
     {
