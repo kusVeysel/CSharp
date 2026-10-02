@@ -1,4 +1,4 @@
-﻿namespace _6_ClassYapisi
+﻿namespace ConsoleApp
 {
     public class Methodlar
     {
