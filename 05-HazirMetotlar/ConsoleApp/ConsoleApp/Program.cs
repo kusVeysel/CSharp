@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _5_HazirMetotlar
+namespace ConsoleApp
 {
     internal class Program
     {

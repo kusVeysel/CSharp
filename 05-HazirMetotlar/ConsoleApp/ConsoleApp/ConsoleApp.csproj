@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37D96070-C225-4458-9F20-D58E36E88F50}</ProjectGuid>
+    <ProjectGuid>{786520ED-18EF-4020-A75E-88ED4FC048D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05_HazirMetotlar</RootNamespace>
-    <AssemblyName>05-HazirMetotlar</AssemblyName>
+    <RootNamespace>ConsoleApp</RootNamespace>
+    <AssemblyName>ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
