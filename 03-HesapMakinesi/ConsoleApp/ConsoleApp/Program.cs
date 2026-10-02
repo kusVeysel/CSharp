@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _3_HesapMakinesi
+namespace ConsoleApp
 {
     internal class Program
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82B339EE-73FD-4FE0-B7D5-7C6E03F7928A}</ProjectGuid>
+    <ProjectGuid>{B3D2098A-FF58-4975-B3DB-5210B4C6652A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03_HesapMakinesi</RootNamespace>
-    <AssemblyName>03-HesapMakinesi</AssemblyName>
+    <RootNamespace>ConsoleApp</RootNamespace>
+    <AssemblyName>ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
