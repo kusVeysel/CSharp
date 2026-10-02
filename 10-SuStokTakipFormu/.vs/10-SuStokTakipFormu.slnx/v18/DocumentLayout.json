@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-sustoktakipformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|solutionrelative:10-sustoktakipformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\10-sustoktakipformu\\10-sustoktakipformu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-sustoktakipformu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|solutionrelative:10-sustoktakipformu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-sustoktakipformu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|solutionrelative:10-sustoktakipformu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|c:\\users\\veysel\\desktop\\csharp\\10-sustoktakipformu\\10-sustoktakipformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|solutionrelative:10-sustoktakipformu\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1689B84B-3ACB-4088-A566-B1986D8EE4E1}|10-SuStokTakipFormu\\10-SuStokTakipFormu.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-sustoktakipformu\\materyal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,44 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Methodlar.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-SuStokTakipFormu\\Methodlar.cs",
               "RelativeDocumentMoniker": "10-SuStokTakipFormu\\Methodlar.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-SuStokTakipFormu\\Methodlar.cs",
               "RelativeToolTip": "10-SuStokTakipFormu\\Methodlar.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T15:26:48.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-SuStokTakipFormu\\Form1.cs",
               "RelativeDocumentMoniker": "10-SuStokTakipFormu\\Form1.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-SuStokTakipFormu\\Form1.cs",
               "RelativeToolTip": "10-SuStokTakipFormu\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T19:39:07.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-SuStokTakipFormu\\Form1.cs",
               "RelativeDocumentMoniker": "10-SuStokTakipFormu\\Form1.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\10-SuStokTakipFormu\\10-SuStokTakipFormu\\Form1.cs [Design]",
               "RelativeToolTip": "10-SuStokTakipFormu\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T16:52:45.231Z"
+              "WhenOpened": "2026-09-09T16:52:45.231Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -75,7 +76,8 @@
               "RelativeToolTip": "10-SuStokTakipFormu\\Materyal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T15:24:54Z"
+              "WhenOpened": "2026-09-09T15:24:54Z",
+              "EditorCaption": ""
             }
           ]
         }
