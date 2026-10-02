@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _2_IfElseYapisi
+namespace ConsoleApp
 {
     internal class Program
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8D8531F-0565-4131-89C1-27267F687426}</ProjectGuid>
+    <ProjectGuid>{E22BC960-E67D-4258-B7F5-A5B5907BF5BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02_IfElseYapisi</RootNamespace>
-    <AssemblyName>02-IfElseYapisi</AssemblyName>
+    <RootNamespace>ConsoleApp</RootNamespace>
+    <AssemblyName>ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
