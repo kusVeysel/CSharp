@@ -42,8 +42,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:27:14.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T10:27:14.806Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\18-WebCoreAPI\\WebApplicationAPI\\WebApplicationAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:28:27.73Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Services\\JWTService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:22:05.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T10:22:05.915Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:11:39.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T10:11:39.443Z"
             }
           ]
         }
