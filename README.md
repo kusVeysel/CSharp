@@ -2,239 +2,214 @@
 
 Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğrenmek** için hazırlanmış örnekler, alıştırmalar ve uygulama projeleri içerir. İçerik; temel dil özelliklerinden nesne yönelimli programlamaya, veritabanı işlemlerinden ASP.NET Web API geliştirmeye kadar ilerleyen bir öğrenme sırasına göre düzenlenmiştir.
 
-> [!NOTE]
+> \[!NOTE\]
 > Açıklamalar mevcut klasör yapısı ve proje adları temel alınarak hazırlanmıştır. Klasörlerdeki örnekler geliştikçe bu doküman da güncellenebilir.
 
----
+## 📑 İçindekiler
 
-## İçindekiler
+* [📂 Depo Yapısı](#-depo-yapısı)
 
-- [Depo Yapısı](#depo-yapısı)
-- [Önerilen Öğrenme Sırası](#önerilen-öğrenme-sırası)
-- [Katmanlı Mimari](#katmanlı-mimari)
-- [Web API ve Swagger](#web-api-ve-swagger)
-- [.NET CLI Komutları](#net-cli-komutları)
-- [Entity Framework Core ve Migration](#entity-framework-core-ve-migration)
-- [Geliştirme Notları](#geliştirme-notları)
-- [Amaç](#amaç)
+* [🎯 Önerilen Öğrenme Sırası](#-önerilen-öğrenme-sırası)
 
----
+* [🛠️ Teknik Bilgiler](#️-teknik-bilgiler)
 
-## Depo Yapısı
+  * [14 - Katmanlı Mimari](#14---katmanlı-mimari)
 
-| Klasör | İçerik |
-|---|---|
-| `01-DegiskenTipleri` | Değişkenler, temel veri tipleri ve değer atama |
-| `02-IfElseYapisi` | `if`, `else if`, `else` ve koşullu işlem akışı |
-| `03-HesapMakinesi` | Temel matematiksel işlemleri uygulayan örnek |
-| `04-DizilerGenericListDonguler` | Diziler, `List<T>` ve döngüler |
-| `05-HazirMetotlar` | .NET'in hazır metotları ve sık kullanılan işlemler |
-| `06-ClassYapisi` | Sınıflar, nesneler, alanlar, özellikler ve metotlar |
-| `07-OOP` | Nesne yönelimli programlama yaklaşımı |
-| `08-StringMetotlar` | Metin işlemleri ve `string` metotları |
-| `09-PizzaSiparisFormu` | Sipariş formu üzerinden uygulama geliştirme |
-| `10-SuStokTakipFormu` | Stok takibi odaklı uygulama örneği |
-| `11-MSSQL` | Microsoft SQL Server ve veritabanı temelleri |
-| `12-AdoNet` | ADO.NET ile veritabanı bağlantısı ve veri işlemleri |
-| `13-EntityFramework` | Entity Framework ile nesne tabanlı veritabanı işlemleri |
-| `14-KatmanliMimari` | Katmanlı mimari ve projelerin sorumluluklara ayrılması |
-| `15-MVC` | MVC mimarisiyle web uygulaması geliştirme |
-| `16-WebAPI` | ASP.NET Web API — .NET Framework tabanlı çalışma |
-| `17-CoreAPI(Temel)` | VS Code ve .NET CLI ile temel ASP.NET Core Web API |
-| `18-WebCoreAPI` | ASP.NET Core Web API ve Entity Framework Core çalışmaları |
-| `ConsoleMetotlari` | Konsol uygulamalarında kullanılan metot ve örnekler |
+  * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16---aspnet-web-api-net-framework--swagger)
 
-> Klasör açıklamaları isimlerine göre özetlenmiştir; her klasördeki gerçek içerik zamanla farklılaşabilir.
+  * [17 - ASP.NET Core Web API (Temel) & .NET CLI](#17---aspnet-core-web-api-temel--net-cli)
 
----
+  * [18 - ASP.NET Core Web API + JWT & EF Core](#18---aspnet-core-web-api--jwt--ef-core)
 
-## Önerilen Öğrenme Sırası
+* [💡 HTTP Metotları](#-http-metotları)
+
+* [📝 Geliştirme Notları](#-geliştirme-notları)
+
+* [📌 Amaç](#-amaç)
+
+## 📂 Depo Yapısı
+
+| Klasör | İçerik | 
+| ----- | ----- | 
+| `01-DegiskenTipleri` | Değişkenler, temel veri tipleri ve değer atama | 
+| `02-IfElseYapisi` | `if`, `else if`, `else` ve koşullu işlem akışı | 
+| `03-HesapMakinesi` | Temel matematiksel işlemleri uygulayan örnek | 
+| `04-DizilerGenericListDonguler` | Diziler, `List<T>` ve döngüler | 
+| `05-HazirMetotlar` | .NET'in hazır metotları ve sık kullanılan işlemler | 
+| `06-ClassYapisi` | Sınıflar, nesneler, alanlar, özellikler ve metotlar | 
+| `07-OOP` | Nesne yönelimli programlama yaklaşımı | 
+| `08-StringMetotlar` | Metin işlemleri ve `string` metotları | 
+| `09-PizzaSiparisFormu` | Sipariş formu üzerinden uygulama geliştirme | 
+| `10-SuStokTakipFormu` | Stok takibi odaklı uygulama örneği | 
+| `11-MSSQL` | Microsoft SQL Server ve veritabanı temelleri | 
+| `12-AdoNet` | ADO.NET ile veritabanı bağlantısı ve veri işlemleri | 
+| `13-EntityFramework` | Entity Framework ile nesne tabanlı veritabanı işlemleri | 
+| `14-KatmanliMimari` | Katmanlı mimari ve projelerin sorumluluklara ayrılması | 
+| `15-MVC` | MVC mimarisiyle web uygulaması geliştirme | 
+| `16-WebAPI` | ASP.NET Web API — .NET Framework tabanlı çalışma | 
+| `17-CoreAPI(Temel)` | VS Code ve .NET CLI ile temel ASP.NET Core Web API | 
+| `18-WebCoreAPI` | ASP.NET Core Web API ve Entity Framework Core çalışmaları | 
+| `ConsoleMetotlari` | Konsol uygulamalarında kullanılan metot ve örnekler | 
+
+## 🎯 Önerilen Öğrenme Sırası
 
 Klasörler numaralandırılarak temel konulardan daha kapsamlı uygulamalara doğru ilerleyecek şekilde düzenlenmiştir.
 
-1. **C# temelleri:** Değişkenler, veri tipleri ve koşul yapıları.
-2. **Kontrol ve koleksiyon yapıları:** Döngüler, diziler ve List<T>.
-3. **Metotlar ve nesne yönelimli programlama:** Hazır metotlar, sınıflar, nesneler ve OOP.
-4. **Küçük uygulamalar:** Hesap makinesi, pizza sipariş formu ve su stok takip formu.
-5. **Veritabanı erişimi:** MSSQL, ADO.NET ve Entity Framework.
-6. **Uygulama mimarileri:** Katmanlı mimari ve MVC.
-7. **Web servisleri:** .NET Framework Web API ve ASP.NET Core Web API.
+1. **C# Temelleri:** Değişkenler, veri tipleri ve koşul yapıları (`01` - `03`).
 
-Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yalnızca kodu okumaya kıyasla konuları daha iyi pekiştirir.
+2. **Kontrol ve Koleksiyon Yapıları:** Döngüler, diziler ve `List<T>` (`04`).
 
----
+3. **Metotlar ve OOP:** Hazır metotlar, sınıflar, nesneler ve OOP prensipleri (`05` - `08`).
 
-## Teknik Bilgiler
+4. **Masaüstü / Form Uygulamaları:** Pizza sipariş formu ve su stok takip formu (`09` - `10`).
 
-### Katmanlı Mimari
+5. **Veritabanı Erişim Yöntemleri:** MSSQL, ADO.NET ve Entity Framework (`11` - `13`).
+
+6. **Uygulama Mimarileri:** Katmanlı mimari ve MVC (`14` - `15`).
+
+7. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `18`).
+
+## 🛠️ Teknik Bilgiler
+
+### 14 - Katmanlı Mimari
 
 `14-KatmanliMimari` klasörü, uygulama sorumluluklarını ayrı katmanlara ayırma yaklaşımını ele alır. Böylece iş kuralları, veri erişimi ve kullanıcı arayüzü birbirinden ayrılır; kodun bakımı ve test edilmesi kolaylaşır.
 
->[!IMPORTANT]
-> "." Alt klasör mantığına gider, bu yüzden isimlendirme sonuna "/" değil "." kullanılır.
+> \[!IMPORTANT\]
+> Proje veya namespace isimlendirmesinde `.` alt klasör/katman mantığına karşılık gelir. Bu yüzden katman isimlendirmelerinde sonuna `/` değil `.` tercih edilir (Örn: `Uygulama.BLL`).
 
-Yaygın bir katman düzeni şöyledir:
+Yaygın katman düzeni:
 
-| Katman | Sorumluluk |
-|---|---|
-| **UI / Presentation** | Kullanıcı arayüzü ve kullanıcı etkileşimleri |
-| **BLL / Business Logic** | İş kuralları, doğrulamalar ve uygulama akışı |
-| **DAL / Data Access** | Veritabanına erişim ve veri okuma/yazma işlemleri |
-| **Entities / Models** | Uygulamada kullanılan veri modelleri |
+| Katman | Sorumluluk | 
+| ----- | ----- | 
+| **UI / Presentation** | Kullanıcı arayüzü ve kullanıcı etkileşimleri | 
+| **BLL / Business Logic** | İş kuralları, doğrulamalar ve uygulama akışı | 
+| **DAL / Data Access** | Veritabanına erişim ve veri okuma/yazma işlemleri | 
+| **Entities / Models** | Uygulamada kullanılan veri modelleri | 
 
-#### Visual Studio'da örnek kurulum
+#### Visual Studio'da Örnek Kurulum
 
-1. Önce bir **Solution** oluşturun. Solution adı, uygulamanın genel adını temsil eder.
-2. Kullanıcı arayüzü için uygun bir proje ekleyin. Proje adını örneğin `Uygulama.UI` biçiminde belirleyebilirsiniz.
-3. Solution'a sağ tıklayıp **Add → New Project** yoluyla `Class Library` türünde projeler ekleyin: `Uygulama.BLL`, `Uygulama.DAL` ve gerekiyorsa `Uygulama.Entities`.
-4. Projelerin hedef framework sürümlerinin birbiriyle uyumlu olduğundan emin olun.Projeniz **Core** ise Class Library **Core** formatında açın
-5. Gerekli bağımlılıkları **Add → Project Reference** üzerinden tanımlayın.
+1. Önce boş bir **Solution** oluşturun.
 
-Bağımlılıkları mümkün olduğunca tek yönlü tutun. Örneğin UI katmanı BLL katmanını, BLL ise ihtiyaç duyduğu veri erişimi veya model katmanlarını kullanabilir. Katmanların birbirini karşılıklı referans etmesi, zamanla bakım ve test süreçlerini zorlaştırabilir.
+2. Kullanıcı arayüzü projesini ekleyin (Örn: `Uygulama.UI`).
 
-> [!IMPORTANT]
-> Proje türünü seçerken hedef platformu kontrol edin. Modern .NET projeleri için genellikle uygun sürümde **Class Library** kullanılır. Eski **.NET Framework** projelerinde ise hedef framework ile uyumlu proje şablonu seçilmelidir. Proje adlarındaki `.UI`, `.BLL` ve `.DAL` gibi uzantılar bir zorunluluk değil, yaygın bir isimlendirme tercihidir.
+3. Solution'a sağ tıklayıp **Add → New Project** diyerek `Class Library` türünde katman projelerini ekleyin: `Uygulama.BLL`, `Uygulama.DAL` ve `Uygulama.Entities`.
 
-Varsayılan sınıf dosyalarını, projede kullanılmayacaklarsa silebilirsiniz.
+4. Projeniz **Core** ise Class Library'leri de **Core** formatında oluşturduğunuzdan emin olun.
 
----
+5. Katman bağımlılıklarını **Add → Project Reference** üzerinden tanımlayın (UI → BLL → DAL/Entities).
 
-### `16-WebAPI` — ASP.NET Web API (.NET Framework) + Swagger
-Bu klasör, ASP.NET Web Application (.NET Framework) tabanlı Web API çalışmalarını içerir. Proje oluştururken uygun Web API şablonu seçilir. Bu yapı, klasik .NET Framework tabanlı web servisleri geliştirmek için kullanılır.
+### 16 - ASP.NET Web API (.NET Framework) + Swagger
 
+Bu klasör, klasik .NET Framework tabanlı Web Application şablonu kullanılarak geliştirilen Web API çalışmalarını içerir.
 
-#### Swagger / OpenAPI
+#### Swagger / OpenAPI Entegrasyonu
 
-Swagger arayüzü, API uç noktalarını görüntülemek ve istekleri tarayıcı üzerinden denemek için kullanılabilir.Projeyi çalıştırdıktan sonra yapılandırılmış Swagger adresini açın; çoğu geliştirme şablonunda bu adres `/swagger` yoludur.
+API uç noktalarını tarayıcı üzerinden test etmek için Swagger kullanılır.
 
-**Swagger Ekleme**
-- **ASP.NET Core:** Referanslara sağ tık → Manage NuGet Packages → swagger yaz → indir
-- **ASP.NET Web API (.NET Framework):** Referanslara sağ tık → Manage NuGet Packages → Swashbuckle yaz → indir
+* **ASP.NET Core:** Referanslara sağ tık → *Manage NuGet Packages* → `Swashbuckle.AspNetCore` paketini yükleyin.
 
-> [!TIP]
-> Swagger sayfası açılmıyorsa önce projenin başarıyla çalıştığını, doğru adres ve portu kullandığınızı, ardından Swagger servislerinin ve middleware yapılandırmasının projede bulunduğunu kontrol edin.
+* **.NET Framework:** Referanslara sağ tık → *Manage NuGet Packages* → `Swashbuckle` paketini yükleyin.
 
----
+> \[!TIP\]
+> Projeyi çalıştırdıktan sonra varsayılan olarak adresin sonuna `/swagger` ekleyerek Swagger UI arayüzüne erişebilirsiniz.
 
-### `17-CoreAPI(Temel)` — ASP.NET Core Web API
+### 17 - ASP.NET Core Web API (Temel) & .NET CLI
 
->[!IMPORTANT]
-> Bu klasördeki çalışma VS Code ve .NET CLI üzerinden yürütülmüştür. Projeyi terminalden oluşturmak, derlemek ve çalıştırmak için `.NET CLI` komutları kullanılabilir.
+> \[!IMPORTANT\]
+> Bu klasördeki çalışmalar VS Code ve .NET CLI kullanılarak yürütülmüştür.
 
-### .NET CLI Komutları
+#### 💻 .NET CLI Komutları
 
-Komutları, ilgili proje veya solution dosyasının bulunduğu terminal dizininde çalıştırın.
+Komutları ilgili proje veya solution dosyasının bulunduğu dizinde çalıştırın:
 
-### SDK bilgileri
+* **SDK Bilgileri:**
 
-```bash
-dotnet --version
-dotnet --list-sdks
-```
+  ```
+  dotnet --version
+  dotnet --list-sdks
+  
+  ```
 
-- `dotnet --version`: Varsayılan olarak kullanılan SDK sürümünü gösterir.
-- `dotnet --list-sdks`: Bilgisayarda kurulu .NET SDK sürümlerini listeler.
+* **Web API Projesi Oluşturma:**
 
-### Web API projesi oluşturma
+  ```
+  dotnet new webapi -n ProjeAdi
+  
+  ```
 
-```bash
-dotnet new webapi -n ProjeAdi
-```
+* **Derleme ve Çalıştırma:**
 
-- `dotnet new webapi`: Web API şablonundan proje oluşturur.
-- `-n ProjeAdi`: Oluşturulacak projenin adını belirler.
+  ```
+  dotnet build
+  dotnet run
+  
+  ```
 
-Şablonun oluşturduğu başlangıç dosyaları ve OpenAPI ayarları, kurulu SDK sürümüne göre farklılık gösterebilir.
+* **Canlı Kod İzleme (Hot Reload):**
 
-### Derleme ve çalıştırma
+  ```
+  dotnet watch run
+  
+  ```
 
-```bash
-dotnet build
-dotnet run
-```
+### 18 - ASP.NET Core Web API + JWT & EF Core
 
-- `dotnet build`: Projeyi derler ve derleme hatalarını bildirir.
-- `dotnet run`: Uygulamayı derleyip çalıştırır.
+Bu klasör, modern ASP.NET Core Web API, JWT (JSON Web Token) tabanlı kimlik doğrulama ve Entity Framework Core kullanarak veritabanı işlemlerini kapsar.
 
-Kod değişikliklerini izleyerek uygulamayı yeniden başlatmak için:
+#### 📦 Gerekli Paketler
 
-```bash
-dotnet watch run
-```
+SQL Server destekli bir EF Core projesinde kullanılabilecek temel paketler:
 
-> [!NOTE]
-> `dotnet` komutları için uyumlu bir .NET SDK kurulu olmalıdır. Birden fazla proje içeren solution'larda komutları doğru `.csproj` veya `.sln` dosyasını hedefleyecek şekilde çalıştırın.
+* `Microsoft.EntityFrameworkCore.SqlServer`
 
----
+* `Microsoft.EntityFrameworkCore.Design`
 
-## `18-WebCoreAPI` — ASP.NET Core Web API + JWT
+* `Microsoft.EntityFrameworkCore.Tools`
 
-Bu klasör, ASP.NET Core Web API ve ilişkili veri erişimi çalışmalarını içerir. Entity Framework Core ile birlikte kullanıldığında API uç noktaları üzerinden veritabanı işlemleri gerçekleştirilebilir.
+#### 🔄 EF Core Migration İşlemleri
 
-### Entity Framework Core ve Migration
+Projenin bulunduğu dizinde terminal üzerinden migration komutları:
 
-Entity Framework Core, .NET nesneleri üzerinden veritabanıyla çalışmayı sağlayan bir ORM aracıdır. **Migration**, model değişikliklerini veritabanı şemasına taşımak için kullanılır.
+* **Migration Oluşturma:**
 
-### Gerekli araçlar ve paketler
+  ```
+  dotnet ef migrations add InitialCreate --project .\proje_adi\
+  
+  ```
 
-SQL Server kullanılan bir EF Core projesinde aşağıdaki paketler, proje yapısına ve sürümüne bağlı olarak gerekebilir:
+* **Veritabanını Güncelleme:**
 
-- `Microsoft.EntityFrameworkCore.SqlServer`: SQL Server sağlayıcısı.
-- `Microsoft.EntityFrameworkCore.Design`: Tasarım zamanı işlemleri ve bazı CLI komutları.
-- `Microsoft.EntityFrameworkCore.Tools`: Visual Studio Package Manager Console araçları.
+  ```
+  dotnet ef database update --project .\proje_adi\
+  
+  ```
 
-Paket ve araç sürümlerini projenin kullandığı EF Core sürümüyle uyumlu seçin. `dotnet-ef` aracı global veya yerel araç olarak kurulabilir; ekip projelerinde yerel araç manifesti sürüm tutarlılığı sağlayabilir.
+> \[!WARNING\]
+> `database update` komutu veritabanı şemasını doğrudan değiştirir. Canlı veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini kontrol edip yedek aldığınızdan emin olun.
 
-### Migration oluşturma
+## 💡 HTTP Metotları
 
-Proje dosyasının bulunduğu dizinde temel kullanım:
+| Metot | Kullanım Amacı | 
+| ----- | ----- | 
+| `GET` | Veri okumak / listelemek | 
+| `POST` | Yeni bir kaynak/veri oluşturmak | 
+| `PUT` | Bir kaynağı bütünüyle güncellemek | 
+| `PATCH` | Bir kaynağın sadece belirli alanlarını güncellemek | 
+| `DELETE` | Bir kaynağı silmek | 
 
-```bash
-dotnet ef migrations add InitialCreate --project .\project_name\
-```
+## 📝 Geliştirme Notları
 
-- `migrations add`: Yeni migration oluşturur.
-- `InitialCreate`: Migration için verdiğiniz addır; farklı bir isim de seçebilirsiniz.
-- `--project`: Migration ve `DbContext` yapılandırmasının bulunduğu projeyi belirtir.
+* **İsimlendirme Standartları:** Değişken, sınıf ve metot isimlerini yaptıkları işe uygun (PascalCase / camelCase) seçin.
 
-Yukarıdaki proje yollarını kendi solution yapınıza göre değiştirin. `DbContext` ve bağlantı yapılandırması doğru tanımlanmış olmalıdır.
+* **Pratik Yapma:** Kodları sadece okumak yerine değiştirerek ve breakpoint koyup adım adım izleyerek test edin.
 
-### Migration'ı veritabanına uygulama
+* **Sürüm Uyumluluğu:** Kullanılan .NET SDK sürümü ile NuGet paketlerinin (örneğin EF Core paketlerinin) sürümlerinin aynı/uyumlu olduğundan emin olun.
 
-```bash
-dotnet ef database update --project .\project_name\
-```
+* **Güvenlik & Hassas Veriler:** Veritabanı bağlantı cümleleri (Connection String), API anahtarları veya JWT secret key bilgilerini açık şekilde depoya pushlamayın.
 
-> [!WARNING]
-> `database update`, yapılandırılmış veritabanında şema değişiklikleri yapabilir. Özellikle gerçek veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini ve hedef ortamı kontrol edin; önemli verilerin yedeğini alın.
+## 📌 Amaç
 
----
-
-### HTTP metotları
-
-| Metot | Kullanım amacı |
-|---|---|
-| `GET` | Veri okumak |
-| `POST` | Yeni bir kaynak oluşturmak |
-| `PUT` | Bir kaynağı bütünüyle güncellemek |
-| `PATCH` | Bir kaynağın belirli alanlarını güncellemek |
-| `DELETE` | Bir kaynağı silmek |
-
-## Geliştirme Notları
-
-- **İsimlendirme:** Değişken, sınıf ve metot adlarını yaptıkları işi anlatacak şekilde seçin.
-- **Küçük adımlarla ilerleme:** Örnekleri çalıştırın; parametreleri, koşulları ve verileri değiştirerek sonuçları inceleyin.
-- **Hata ayıklama:** Hata mesajında belirtilen dosya, satır ve hata türünü kontrol edin. Gerekirse hatayı küçük bir örneğe indirerek araştırın.
-- **Sürüm uyumluluğu:** .NET, NuGet paketleri ve Entity Framework Core sürümlerinin birbiriyle uyumlu olmasına dikkat edin.
-- **Gizli bilgiler:** Veritabanı parolalarını, API anahtarlarını ve bağlantı dizelerindeki gizli bilgileri Git deposuna eklemeyin. Geliştirme ortamında güvenli yapılandırma yöntemlerini tercih edin.
-- **README güncelliği:** Yeni klasör veya proje eklendiğinde depo yapısı tablosunu ve ilgili açıklamaları güncelleyin.
-
----
-
-## Amaç
-
-Bu depo, C# temellerinden başlayarak nesne yönelimli programlama, uygulama geliştirme, SQL Server ile veri erişimi, katmanlı mimari ve ASP.NET Web API konularına uzanan kişisel bir öğrenme alanıdır. Amaç, her konuyu küçük ve anlaşılır örneklerle öğrenmek, ardından bu bilgileri gerçekçi uygulamalar üzerinde kullanabilmektir.
-
----
+Bu depo, C# temellerinden başlayarak nesne yönelimli programlama, uygulama geliştirme, SQL Server ile veri erişimi, katmanlı mimari ve ASP.NET Web API konularına uzanan kişisel bir öğrenme alanıdır. Amaç, her konuyu küçük ve anlaşılır örneklerle öğrenmek, ardından bu bilgileri gerçekçi uygulamalar üzerinde pekiştirmektir.
 
 **Veysel KUŞ**
