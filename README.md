@@ -228,7 +228,7 @@ Yukarıdaki proje yollarını kendi solution yapınıza göre değiştirin. `DbC
   dotnet ef database update --project .\project_name\
   ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > `database update` komutu veritabanı şemasını doğrudan değiştirir. Canlı veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini kontrol edip yedek aldığınızdan emin olun.
 
 ---
