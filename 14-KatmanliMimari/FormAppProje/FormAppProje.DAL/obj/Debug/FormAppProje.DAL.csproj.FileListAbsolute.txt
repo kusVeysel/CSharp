@@ -1,0 +1,12 @@
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\FormAppProje.DAL.dll.config
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\FormAppProje.DAL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\FormAppProje.DAL.pdb
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\EntityFramework.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\EntityFramework.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\obj\Debug\FormAppProje.DAL.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\obj\Debug\FormAppProje.DAL.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\obj\Debug\FormAppP.906F2D54.Up2Date
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\obj\Debug\FormAppProje.DAL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.DAL\obj\Debug\FormAppProje.DAL.pdb

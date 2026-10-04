@@ -1,0 +1,15 @@
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\FormAppProje.BLL.dll.config
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\FormAppProje.BLL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\FormAppProje.BLL.pdb
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\EntityFramework.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\FormAppProje.DAL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\FormAppProje.DAL.pdb
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\FormAppProje.DAL.dll.config
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\EntityFramework.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\obj\Debug\FormAppProje.BLL.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\obj\Debug\FormAppProje.BLL.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\obj\Debug\FormAppP.BAD5E94B.Up2Date
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\obj\Debug\FormAppProje.BLL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.BLL\obj\Debug\FormAppProje.BLL.pdb
