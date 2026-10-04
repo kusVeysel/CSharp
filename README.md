@@ -64,6 +64,8 @@ Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yaln
 
 ---
 
+## Teknik Bilgiler
+
 ## Katmanlı Mimari
 
 `14-KatmanliMimari` klasörü, uygulama sorumluluklarını ayrı katmanlara ayırma yaklaşımını ele alır. Böylece iş kuralları, veri erişimi ve kullanıcı arayüzü birbirinden ayrılır; kodun bakımı ve test edilmesi kolaylaşır.
@@ -94,29 +96,10 @@ Varsayılan sınıf dosyalarını, projede kullanılmayacaklarsa silebilirsiniz.
 
 ---
 
-## Web API ve Swagger
 
 ### `16-WebAPI` — ASP.NET Web API (.NET Framework)
-
 Bu klasör, ASP.NET Web Application (.NET Framework) tabanlı Web API çalışmalarını içerir. Proje oluştururken uygun Web API şablonu seçilir. Bu yapı, klasik .NET Framework tabanlı web servisleri geliştirmek için kullanılır.
 
-### `17-CoreAPI(Temel)` — ASP.NET Core Web API
-
-Bu klasördeki çalışma VS Code ve .NET CLI üzerinden yürütülmüştür. Projeyi terminalden oluşturmak, derlemek ve çalıştırmak için `.NET CLI` komutları kullanılabilir.
-
-### `18-WebCoreAPI` — ASP.NET Core Web API
-
-Bu klasör, ASP.NET Core Web API ve ilişkili veri erişimi çalışmalarını içerir. Entity Framework Core ile birlikte kullanıldığında API uç noktaları üzerinden veritabanı işlemleri gerçekleştirilebilir.
-
-### HTTP metotları
-
-| Metot | Kullanım amacı |
-|---|---|
-| `GET` | Veri okumak |
-| `POST` | Yeni bir kaynak oluşturmak |
-| `PUT` | Bir kaynağı bütünüyle güncellemek |
-| `PATCH` | Bir kaynağın belirli alanlarını güncellemek |
-| `DELETE` | Bir kaynağı silmek |
 
 ### Swagger / OpenAPI
 
@@ -131,6 +114,10 @@ Visual Studio'da paket eklemek için **Project → Manage NuGet Packages** böl�
 > Swagger sayfası açılmıyorsa önce projenin başarıyla çalıştığını, doğru adres ve portu kullandığınızı, ardından Swagger servislerinin ve middleware yapılandırmasının projede bulunduğunu kontrol edin.
 
 ---
+
+### `17-CoreAPI(Temel)` — ASP.NET Core Web API
+
+Bu klasördeki çalışma VS Code ve .NET CLI üzerinden yürütülmüştür. Projeyi terminalden oluşturmak, derlemek ve çalıştırmak için `.NET CLI` komutları kullanılabilir.
 
 ## .NET CLI Komutları
 
@@ -183,6 +170,10 @@ dotnet watch run
 > `dotnet` komutları için uyumlu bir .NET SDK kurulu olmalıdır. Birden fazla proje içeren solution'larda komutları doğru `.csproj` veya `.sln` dosyasını hedefleyecek şekilde çalıştırın.
 
 ---
+
+### `18-WebCoreAPI` — ASP.NET Core Web API
+
+Bu klasör, ASP.NET Core Web API ve ilişkili veri erişimi çalışmalarını içerir. Entity Framework Core ile birlikte kullanıldığında API uç noktaları üzerinden veritabanı işlemleri gerçekleştirilebilir.
 
 ## Entity Framework Core ve Migration
 
@@ -243,6 +234,16 @@ Update-Database
 Bunlar PowerShell tabanlı Package Manager Console komutlarıdır; `dotnet ef` ile aynı komut biçimine sahip değildir.
 
 ---
+
+### HTTP metotları
+
+| Metot | Kullanım amacı |
+|---|---|
+| `GET` | Veri okumak |
+| `POST` | Yeni bir kaynak oluşturmak |
+| `PUT` | Bir kaynağı bütünüyle güncellemek |
+| `PATCH` | Bir kaynağın belirli alanlarını güncellemek |
+| `DELETE` | Bir kaynağı silmek |
 
 ## Geliştirme Notları
 
