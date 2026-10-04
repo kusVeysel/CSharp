@@ -35,25 +35,25 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
 | Klasör | İçerik |
 |---|---|
-| `01-DegiskenTipleri` | Değişkenler, temel veri tipleri ve değer atama |
-| `02-IfElseYapisi` | `if`, `else if`, `else` ve koşullu işlem akışı |
-| `03-HesapMakinesi` | Temel matematiksel işlemleri uygulayan örnek |
-| `04-DizilerGenericListDonguler` | Diziler, `List<T>` ve döngüler |
-| `05-HazirMetotlar` | .NET'in hazır metotları ve sık kullanılan işlemler |
-| `06-ClassYapisi` | Sınıflar, nesneler, alanlar, özellikler ve metotlar |
-| `07-OOP` | Nesne yönelimli programlama yaklaşımı |
-| `08-StringMetotlar` | Metin işlemleri ve `string` metotları |
-| `09-PizzaSiparisFormu` | Sipariş formu üzerinden uygulama geliştirme |
-| `10-SuStokTakipFormu` | Stok takibi odaklı uygulama örneği |
-| `11-MSSQL` | Microsoft SQL Server ve veritabanı temelleri |
-| `12-AdoNet` | ADO.NET ile veritabanı bağlantısı ve veri işlemleri |
-| `13-EntityFramework` | Entity Framework ile nesne tabanlı veritabanı işlemleri |
-| `14-KatmanliMimari` | Katmanlı mimari ve projelerin sorumluluklara ayrılması |
-| `15-MVC` | MVC mimarisiyle web uygulaması geliştirme |
-| `16-WebAPI` | ASP.NET Web API — .NET Framework tabanlı çalışma |
-| `17-CoreAPI(Temel)` | VS Code ve .NET CLI ile temel ASP.NET Core Web API |
-| `18-WebCoreAPI` | ASP.NET Core Web API ve Entity Framework Core çalışmaları |
-| `ConsoleMetotlari` | Konsol uygulamalarında kullanılan metot ve örnekler |
+| `01-DegiskenTipleri`            | Değişkenler, temel veri tipleri, değer atama ve input output işlemleri                    |
+| `02-IfElseYapisi`               | Operatörler, if, else if, else ve ternary operatör                                        |
+| `03-HesapMakinesi`              | Switch - case, try - catch - finally, goto ve convert mantığı ile beraber hesap makinesi  |
+| `04-DizilerGenericListDonguler` | Diziler, `List<T>` ve döngüler                                                            |
+| `05-HazirMetotlar`              | .NET'in hazır metotları ve sık kullanılan işlemler                                        |
+| `06-ClassYapisi`                | Sınıflar, nesneler, alanlar, özellikler ve metotlar                                       |
+| `07-OOP`                        | Nesne yönelimli programlama yaklaşımı                                                     |
+| `08-StringMetotlar`             | Form üzerinden metin işlemleri ve `string` metotları                                      |
+| `09-PizzaSiparisFormu`          | Form üzerinden uygulama geliştirme                                                        |
+| `10-SuStokTakipFormu`           | Form üzerinden uygulama geliştirme                                                        |
+| `11-MSSQL`                      | Microsoft SQL Server ve veritabanı temelleri                                              |
+| `12-AdoNet`                     | ADO.NET ile veritabanı bağlantısı ve veri işlemleri                                       |
+| `13-EntityFramework`            | Entity Framework ile nesne tabanlı veritabanı işlemleri                                   |
+| `14-KatmanliMimari`             | Katmanlı mimari ve projelerin sorumluluklara ayrılması                                    |
+| `15-MVC`                        | MVC mimarisiyle web uygulaması geliştirme                                                 |
+| `16-WebAPI`                     | ASP.NET Web API — Swagger — .NET Framework tabanlı çalışma                                |
+| `17-CoreAPI(Temel)`             | VS Code ve .NET CLI ile temel Core API                                                    |
+| `18-WebCoreAPI`                 | ASP.NET Core Web API — JWT — Entity Framework Core çalışmaları                            |
+| `ConsoleMetotlari`              | Konsol uygulamalarında kullanılan detaylı metot ve örnekler                               |
 
 ---
 
@@ -63,7 +63,7 @@ Klasörler numaralandırılarak temel konulardan daha kapsamlı uygulamalara do�
 
 1. **C# Temelleri:** Değişkenler, veri tipleri ve koşul yapıları (`01` - `03`).
 
-2. **Kontrol ve Koleksiyon Yapıları:** Döngüler, diziler ve List<T> (`04`).
+2. **Kontrol ve Koleksiyon Yapıları:** Döngüler, diziler ve `List<T>` (`04`).
 
 3. **Metotlar ve OOP:** Hazır metotlar, sınıflar, nesneler ve OOP prensipleri (`05` - `08`).
 
@@ -71,11 +71,9 @@ Klasörler numaralandırılarak temel konulardan daha kapsamlı uygulamalara do�
 
 5. **Veritabanı Erişim Yöntemleri:** MSSQL, ADO.NET ve Entity Framework (`11` - `13`).
 
-6. **Uygulama Mimarileri:** Katmanlı mimari(`14`).
+6. **Uygulama Mimarileri:** Katmanlı mimari ve MVC(`14` - `15`).
 
-7. **Uygulama Mimarileri:** MVC (`15`).
-
-8. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `18`).
+7. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `18`).
 
 Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yalnızca kodu okumaya kıyasla konuları daha iyi pekiştirir.
 
@@ -94,10 +92,10 @@ Yaygın bir katman düzeni şöyledir:
 
 | Katman | Sorumluluk |
 |---|---|
-| **UI / Presentation** | Kullanıcı arayüzü ve kullanıcı etkileşimleri |
-| **BLL / Business Logic** | İş kuralları, doğrulamalar ve uygulama akışı |
-| **DAL / Data Access** | Veritabanına erişim ve veri okuma/yazma işlemleri |
-| **Entities / Models** | Uygulamada kullanılan veri modelleri |
+| **UI / Presentation**     | Kullanıcı arayüzü ve kullanıcı etkileşimleri       |
+| **BLL / Business Logic**  | İş kuralları, doğrulamalar ve uygulama akışı       |
+| **DAL / Data Access**     | Veritabanına erişim ve veri okuma/yazma işlemleri  |
+| **Entities / Models**     | Uygulamada kullanılan veri modelleri               |
 
 #### Visual Studio'da örnek kurulum
 
@@ -118,7 +116,6 @@ Varsayılan sınıf dosyalarını, projede kullanılmayacaklarsa silebilirsiniz.
 
 ### `16-WebAPI` — ASP.NET Web API (.NET Framework) + Swagger
 Bu klasör, ASP.NET Web Application (.NET Framework) tabanlı Web API çalışmalarını içerir. Proje oluştururken uygun Web API şablonu seçilir. Bu yapı, klasik .NET Framework tabanlı web servisleri geliştirmek için kullanılır.
-
 
 #### Swagger / OpenAPI
 
@@ -210,13 +207,13 @@ Projenin bulunduğu dizinde terminal üzerinden migration komutları:
   dotnet ef database update --project .\project_name\
   ```
 
-### Migration oluşturma
+### Migration İşlemleri
 
-Proje dosyasının bulunduğu dizinde temel kullanım:
+* **Migration Oluşturma**
 
-```bash
-dotnet ef migrations add InitialCreate --project .\project_name\
-```
+  ```
+  dotnet ef migrations add InitialCreate --project .\project_name\
+  ```
 
 - `migrations add`: Yeni migration oluşturur.
 - `InitialCreate`: Migration için verdiğiniz addır; farklı bir isim de seçebilirsiniz.
@@ -224,13 +221,14 @@ dotnet ef migrations add InitialCreate --project .\project_name\
 
 Yukarıdaki proje yollarını kendi solution yapınıza göre değiştirin. `DbContext` ve bağlantı yapılandırması doğru tanımlanmış olmalıdır.
 
-### Migration'ı veritabanına uygulama
 
-```bash
-dotnet ef database update --project .\project_name\
-```
+* **Migration'u veri tabanına ekleme**
 
-> [!DANGER]
+  ```bash
+  dotnet ef database update --project .\project_name\
+  ```
+
+> [!IMPORTANT]
 > `database update` komutu veritabanı şemasını doğrudan değiştirir. Canlı veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini kontrol edip yedek aldığınızdan emin olun.
 
 ---
