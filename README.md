@@ -63,7 +63,7 @@ Klasörler numaralandırılarak temel konulardan daha kapsamlı uygulamalara do�
 
 1. **C# Temelleri:** Değişkenler, veri tipleri ve koşul yapıları (`01` - `03`).
 
-2. **Kontrol ve Koleksiyon Yapıları:** Döngüler, diziler ve `List<T>` (`04`).
+2. **Kontrol ve Koleksiyon Yapıları:** Döngüler, diziler ve List<T> (`04`).
 
 3. **Metotlar ve OOP:** Hazır metotlar, sınıflar, nesneler ve OOP prensipleri (`05` - `08`).
 
@@ -71,9 +71,11 @@ Klasörler numaralandırılarak temel konulardan daha kapsamlı uygulamalara do�
 
 5. **Veritabanı Erişim Yöntemleri:** MSSQL, ADO.NET ve Entity Framework (`11` - `13`).
 
-6. **Uygulama Mimarileri:** Katmanlı mimari ve MVC (`14` - `15`).
+6. **Uygulama Mimarileri:** Katmanlı mimari(`14`).
 
-7. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `18`).
+7. **Uygulama Mimarileri:** MVC (`15`).
+
+8. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `18`).
 
 Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yalnızca kodu okumaya kıyasla konuları daha iyi pekiştirir.
 
@@ -154,10 +156,15 @@ Komutları, ilgili proje veya solution dosyasının bulunduğu terminal dizinind
   dotnet new webapi -n ProjeAdi
   ```
 
-* **Derleme ve Çalıştırma:**
+* **Derleme:**
 
   ```
   dotnet build
+  ```
+
+* **Çalıştırma:**
+
+  ```
   dotnet run
   ```
 
@@ -194,13 +201,13 @@ Projenin bulunduğu dizinde terminal üzerinden migration komutları:
 * **Migration Oluşturma:**
 
   ```
-  dotnet ef migrations add InitialCreate --project .\proje_adi\
+  dotnet ef migrations add InitialCreate --project .\project_name\
   ```
 
 * **Veritabanını Güncelleme:**
 
   ```
-  dotnet ef database update --project .\proje_adi\
+  dotnet ef database update --project .\project_name\
   ```
 
 ### Migration oluşturma
@@ -223,7 +230,7 @@ Yukarıdaki proje yollarını kendi solution yapınıza göre değiştirin. `DbC
 dotnet ef database update --project .\project_name\
 ```
 
-> [!WARNING]
+> [!DANGER]
 > `database update` komutu veritabanı şemasını doğrudan değiştirir. Canlı veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini kontrol edip yedek aldığınızdan emin olun.
 
 ---
