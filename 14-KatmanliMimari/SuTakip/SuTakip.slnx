@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SuTakip.BLL/SuTakip.BLL.csproj" />
+  <Project Path="SuTakip.DAL/SuTakip.DAL.csproj" />
+  <Project Path="SuTakip.UIForm/SuTakip.UIForm.csproj" />
+</Solution>

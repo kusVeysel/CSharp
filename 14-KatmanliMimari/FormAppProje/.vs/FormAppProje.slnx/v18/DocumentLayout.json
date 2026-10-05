@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.bll\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.ui\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.bll\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form1.cs",
+              "RelativeDocumentMoniker": "FormAppProje.UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form1.cs",
+              "RelativeToolTip": "FormAppProje.UI\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T15:25:41.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\Repository\\Base\\BaseRepository.cs",
               "RelativeDocumentMoniker": "FormAppProje.BLL\\Repository\\Base\\BaseRepository.cs",

@@ -1,0 +1,12 @@
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\SuTakip.DAL.dll.config
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\SuTakip.DAL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\SuTakip.DAL.pdb
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\EntityFramework.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\EntityFramework.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\obj\Debug\SuTakip.DAL.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\obj\Debug\SuTakip.DAL.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\obj\Debug\SuTakip..EC8FAF51.Up2Date
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\obj\Debug\SuTakip.DAL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.DAL\obj\Debug\SuTakip.DAL.pdb

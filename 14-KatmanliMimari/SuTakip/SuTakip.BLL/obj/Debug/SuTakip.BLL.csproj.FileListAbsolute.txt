@@ -1,0 +1,15 @@
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\SuTakip.BLL.dll.config
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\SuTakip.BLL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\SuTakip.BLL.pdb
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\EntityFramework.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\SuTakip.DAL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\SuTakip.DAL.pdb
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\SuTakip.DAL.dll.config
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\EntityFramework.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\obj\Debug\SuTakip.BLL.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\obj\Debug\SuTakip.BLL.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\obj\Debug\SuTakip..9C50C8CB.Up2Date
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\obj\Debug\SuTakip.BLL.dll
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\SuTakip\SuTakip.BLL\obj\Debug\SuTakip.BLL.pdb

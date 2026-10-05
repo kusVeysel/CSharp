@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="FormAppProje.BLL/FormAppProje.BLL.csproj" />
-  <Project Path="FormAppProje.DAL/FormAppProje.DAL.csproj" />
-  <Project Path="FormAppProje.UI/FormAppProje.UI.csproj" />
+  <Project Path="FormAppProje.BLL/FormAppProje.BLL.csproj" Id="aa5cb785-5875-4df7-9aad-34abe3818f3b" />
+  <Project Path="FormAppProje.DAL/FormAppProje.DAL.csproj" Id="5f7ed21b-1e6a-48a8-a5c6-927f23851045" />
+  <Project Path="FormAppProje.UI/FormAppProje.UI.csproj" Id="a916273b-9446-47a5-8647-14477f44bf3b" />
 </Solution>

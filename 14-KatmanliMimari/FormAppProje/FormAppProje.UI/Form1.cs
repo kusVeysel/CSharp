@@ -9,10 +9,11 @@ namespace FormAppProje.UI
 {
     public partial class Form1 : Form
     {
-        EntityService service = new EntityService();
+        EntityService service;
         public Form1()
         {
             InitializeComponent();
+            service = new EntityService();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +48,6 @@ namespace FormAppProje.UI
             MessageBox.Show("Kayıt Başarılı");
         }
 
-        
+
     }
 }
