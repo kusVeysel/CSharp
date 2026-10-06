@@ -40,6 +40,7 @@ namespace APIApplication.Controllers
         /// </summary>
         /// <param name = "ID">Ürün ID Bilgisi</param>
         /// <returns></returns>
+        // projeye sağ tık -> properties -> build -> XML document file
 
         [HttpGet] // Action'ın tipi
         [Route("UrunGetir/{id}")] // Action'ın adresi

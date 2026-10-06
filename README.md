@@ -122,7 +122,7 @@ Bu klasör, ASP.NET Web Application (.NET Framework) tabanlı Web API çalışma
 API uç noktalarını tarayıcı üzerinden test etmek için Swagger kullanılır.Swagger'a ulaşmak için projeyi çalıştırın(f5) ve adresin devamına `/swagger` yazın.
 
 **Swagger Ekleme**
-* **ASP.NET Core:** Dependencies sağ tık → *Manage NuGet Packages* → `Swashbuckle.AspNetCore` paketini yükleyin.
+* **ASP.NET Core:** Dependencies sağ tık → *Manage NuGet Packages* → `Swashbuckle.AspNetCore.Swagger` paketini yükleyin.
 
 * **.NET Framework:** Referanslara sağ tık → *Manage NuGet Packages* → `Swashbuckle` paketini yükleyin.
 

@@ -17,8 +17,8 @@ builder.Services.AddScoped<IProductService, ProductService>(); // IProductServic
 builder.Services.AddAuthorization(); // Authorization, kullanıcıların belirli kaynaklara erişimini kontrol etmek için kullanılır. Kullanıcıların kimlik doğrulaması yapıldıktan sonra hangi kaynaklara erişebileceğini belirler.
 builder.Services.AddSingleton<JWTService>(); // JWTService sınıfını singleton olarak kaydeder. Bu, uygulama boyunca tek bir örneğin kullanılmasını sağlar.
 
-
 builder.Services.AddControllers();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 

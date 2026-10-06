@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A06509-E5A5-BA4C-296C-97C378396042}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\19-dosyaislemleri\\webapplication\\webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A06509-E5A5-BA4C-296C-97C378396042}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A06509-E5A5-BA4C-296C-97C378396042}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\19-dosyaislemleri\\webapplication\\webapplication\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A06509-E5A5-BA4C-296C-97C378396042}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A06509-E5A5-BA4C-296C-97C378396042}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\19-dosyaislemleri\\webapplication\\webapplication\\webapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F5A06509-E5A5-BA4C-296C-97C378396042}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\webapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApplication",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\WebApplication\\WebApplication.csproj",
+              "RelativeDocumentMoniker": "WebApplication\\WebApplication.csproj",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\WebApplication\\WebApplication.csproj",
+              "RelativeToolTip": "WebApplication\\WebApplication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T22:20:26.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\WebApplication\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\WebApplication\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwEQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:34:41.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\19-DosyaIslemleri\\WebApplication\\WebApplication\\Program.cs*",
+              "RelativeToolTip": "WebApplication\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T22:05:36.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

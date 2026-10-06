@@ -1,0 +1,136 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "VEYSEL",
+    "description": "Net10 ile üretilen API Servis",
+    "contact": {
+      "name": "Veysel",
+      "url": "https://www.github.com/kusVeysel",
+      "email": "kusveysel01@gmail.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Files/SingleUpload": {
+      "post": {
+        "tags": [
+          "Başlık1"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Files/MultiUpload": {
+      "post": {
+        "tags": [
+          "Başlık2"
+        ],
+        "summary": "Çoklu Dosya Yükleme İşlemi",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    },
+                    "description": "Çoklu Dosya Bilgisi Taşır"
+                  }
+                }
+              },
+              "encoding": {
+                "files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Başlık1"
+    },
+    {
+      "name": "Başlık2"
+    }
+  ]
+}
