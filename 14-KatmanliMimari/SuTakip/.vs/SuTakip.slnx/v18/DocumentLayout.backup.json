@@ -1,12 +1,86 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\sutakip\\sutakip.uiform\\musteriislem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|solutionrelative:sutakip.uiform\\musteriislem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\sutakip\\sutakip.uiform\\musteriislem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|solutionrelative:sutakip.uiform\\musteriislem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\sutakip\\sutakip.uiform\\musteriupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|solutionrelative:sutakip.uiform\\musteriupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\sutakip\\sutakip.uiform\\musteriupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F7AB18E-6BBF-4BF7-B72C-0AF4527767D7}|SuTakip.UIForm\\SuTakip.UIForm.csproj|solutionrelative:sutakip.uiform\\musteriupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusteriIslem.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriIslem.cs",
+              "RelativeDocumentMoniker": "SuTakip.UIForm\\MusteriIslem.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriIslem.cs",
+              "RelativeToolTip": "SuTakip.UIForm\\MusteriIslem.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:13:45.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusteriIslem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriIslem.cs",
+              "RelativeDocumentMoniker": "SuTakip.UIForm\\MusteriIslem.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriIslem.cs [Design]",
+              "RelativeToolTip": "SuTakip.UIForm\\MusteriIslem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:10:52.544Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MusteriUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriUpdate.cs",
+              "RelativeDocumentMoniker": "SuTakip.UIForm\\MusteriUpdate.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriUpdate.cs",
+              "RelativeToolTip": "SuTakip.UIForm\\MusteriUpdate.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwDkAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:01:54.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MusteriUpdate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriUpdate.cs",
+              "RelativeDocumentMoniker": "SuTakip.UIForm\\MusteriUpdate.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\SuTakip\\SuTakip.UIForm\\MusteriUpdate.cs [Design]",
+              "RelativeToolTip": "SuTakip.UIForm\\MusteriUpdate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:01:34.28Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

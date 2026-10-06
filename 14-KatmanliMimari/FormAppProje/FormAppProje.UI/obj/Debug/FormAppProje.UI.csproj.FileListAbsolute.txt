@@ -19,3 +19,5 @@ C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.UI\bi
 C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.UI\bin\Debug\FormAppProje.DAL.pdb
 C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.UI\bin\Debug\FormAppProje.DAL.dll.config
 C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.UI\obj\Debug\FormAppProje.UI.Form1.resources
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.UI\obj\Debug\FormAppProje.UI.Form2.resources
+C:\Users\veysel\Desktop\CSharp\14-KatmanliMimari\FormAppProje\FormAppProje.UI\obj\Debug\FormAppProje.UI.Form3.resources

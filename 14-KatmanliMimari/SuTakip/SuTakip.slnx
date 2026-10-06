@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="SuTakip.BLL/SuTakip.BLL.csproj" />
-  <Project Path="SuTakip.DAL/SuTakip.DAL.csproj" />
-  <Project Path="SuTakip.UIForm/SuTakip.UIForm.csproj" />
+  <Project Path="SuTakip.BLL/SuTakip.BLL.csproj" Id="284e200f-6ea5-4d63-99f8-ccdb4746c280" />
+  <Project Path="SuTakip.DAL/SuTakip.DAL.csproj" Id="6ebd8657-4a34-4fc4-8a0e-bbbd19c4e266" />
+  <Project Path="SuTakip.UIForm/SuTakip.UIForm.csproj" Id="0f7ab18e-6bbf-4bf7-b72c-0af4527767d7" />
 </Solution>

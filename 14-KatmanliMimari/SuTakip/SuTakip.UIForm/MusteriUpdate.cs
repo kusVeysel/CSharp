@@ -41,25 +41,29 @@ namespace SuTakip.UIForm
                 IskontoOran = (int)nupIskonto.Value,
                 AktifMi = chkAktif.Checked
             };
+            string[] control = { updateMusteri.MusteriFirma, updateMusteri.YetkiliAdSoyad, updateMusteri.Telefon, updateMusteri.Email, updateMusteri.Adres };
 
-            if (updateMusteri.MusteriFirma.Trim() != "")
+            foreach (var item in control)
             {
-                bool result = service.MusteriService.MusteriGuncelle(updateMusteri);
-                if (result)
+                if (item.Trim() == "")
                 {
-                    MessageBox.Show("Müşteri güncelleme Başarılı", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Tüm Alanları Doldurunuz!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
-                else
-                {
-                    MessageBox.Show("Müşteri güncelleme Başarısız", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
+            }
+
+            bool result = service.MusteriService.MusteriGuncelle(updateMusteri);
+            if (result)
+            {
+                MessageBox.Show("Müşteri güncelleme Başarılı", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Müşteri Firma Adı Boş Geçilemez", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Müşteri güncelleme Başarısız", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
-
         }
+
+
     }
+
 }

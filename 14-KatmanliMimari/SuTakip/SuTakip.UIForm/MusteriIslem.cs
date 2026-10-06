@@ -41,5 +41,40 @@ namespace SuTakip.UIForm
             musteriUpdate.musteriGuncelleDTO = dto;
             musteriUpdate.ShowDialog();
         }
+
+        private void btnMusteriEkle_Click(object sender, EventArgs e)
+        {
+            Musteri musteri = new Musteri()
+            {
+                MusteriFirma = txtFirmaAdi.Text,
+                YetkiliAdSoyad = txtYetkiliAdSoyad.Text,
+                Telefon = txtTelefon.Text,
+                Email = txtEmail.Text,
+                Adres = txtAdres.Text,
+                Toptanmi = chkToptan.Checked,
+                IskontoOran = Convert.ToInt32(nupIskonto.Value),
+                AktifMi = chkAktif.Checked
+            };
+
+            string[] control = { musteri.MusteriFirma, musteri.YetkiliAdSoyad, musteri.Telefon, musteri.Email, musteri.Adres };
+
+            foreach (var item in control)
+            {
+                if (item.Trim() == "")
+                {
+                    MessageBox.Show("Tüm Alanları Doldurunuz!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+            }
+
+            service.MusteriService.Insert(musteri);
+
+            MessageBox.Show("Müşteri güncelleme Başarılı", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            List<Musteri> dbresult = service.MusteriService.GetAll();
+            dgvMusteriListe.DataSource = dbresult;
+
+        }
+
     }
 }

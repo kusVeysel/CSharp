@@ -17,9 +17,9 @@ namespace SuTakip.BLL.Repository.Base
             table = db.Set<T>();
         }
 
-        public int Save()
+        public void Save()
         {
-            return db.SaveChanges();
+            db.SaveChanges();
         }
 
         // virutal ram gibi geçici bir alan oluşturuyoruz. Bu sayede diğer repositorylerde bu metodu override edebiliriz.
