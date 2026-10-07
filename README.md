@@ -25,7 +25,7 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
   * [17 - ASP.NET Core Web API (Temel) + .NET CLI](#17-coreapitemel--aspnet-core-web-api)
 
-  * [18 - ASP.NET Core Web API + JWT + EF Core](#18-webcoreapi--aspnet-cre-web-api--jwt--ef-core)
+  * [18 - ASP.NET Core Web API + JWT + EF Core](#18-webcoreapi--aspnet-core-web-api--jwt--ef-core)
 
   * [19 - ASP.NET Core Web API + Swagger](#19-dosyaislemleri--aspnet-core-web-api--swagger)
 
