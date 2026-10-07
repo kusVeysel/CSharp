@@ -12,7 +12,7 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 * [📂 Depo Yapısı](#-depo-yapısı)
 * [🎯 Önerilen Öğrenme Sırası](#-önerilen-öğrenme-sırası)
 * [🛠️ Teknik Bilgiler](#️-teknik-bilgiler)
-  * [🖥️ Windows Forms İpuçları ve Sık Kullanılan Kontroller](#️-windows-forms-ipuçları-ve-sık-kullanılan-kontroller)
+  * [🖥️ Windows Forms İpuçları ve Sık Kullanılan Kontroller](#️-windows-forms-ipucları-ve-sık-kullanılan-kontroller)
   * [🗄️ SQL](#️-sql)
   * [🏗️ Katmanlı Mimari](#️-katmanlı-mimari)
   * [🔌 16-WebAPI — ASP.NET Web API (.NET Framework) + Swagger](#-16-webapi--aspnet-web-api-net-framework--swagger)
