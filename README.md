@@ -10,31 +10,18 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 ## 📑 İçindekiler
 
 * [📂 Depo Yapısı](#-depo-yapısı)
-
 * [🎯 Önerilen Öğrenme Sırası](#-önerilen-öğrenme-sırası)
-
 * [🛠️ Teknik Bilgiler](#️-teknik-bilgiler)
-
   * [🖥️ Windows Forms İpuçları ve Sık Kullanılan Kontroller](#️-windows-forms-ipuçları-ve-sık-kullanılan-kontroller)
-
-  * [🗄️ SQL](#️-sql) 
-  
-  * [🏗️ Katmanlı Mimari](#️-katmanli-mimari)
-
-  * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16-webapi--aspnet-web-api-net-framework--swagger)
-
-  * [17 - ASP.NET Core Web API (Temel) + .NET CLI](#17-coreapitemel--aspnet-core-web-api)
-
-  * [18 - ASP.NET Core Web API + JWT + EF Core](#18-webcoreapi--aspnet-core-web-api--jwt--ef-core)
-
-  * [19 - ASP.NET Core Web API + Swagger](#19-dosyaislemleri--aspnet-core-web-api--swagger)
-
+  * [🗄️ SQL](#️-sql)
+  * [🏗️ Katmanlı Mimari](#️-katmanlı-mimari)
+  * [🔌 16-WebAPI — ASP.NET Web API (.NET Framework) + Swagger](#-16-webapi--aspnet-web-api-net-framework--swagger)
+  * [⚡ 17-CoreAPI(Temel) — ASP.NET Core Web API](#-17-coreapitemel--aspnet-core-web-api)
+  * [🔐 18-WebCoreAPI — ASP.NET Core Web API + JWT + EF Core](#-18-webcoreapi--aspnet-core-web-api--jwt--ef-core)
+  * [19-DosyaIslemleri — ASP.NET Core Web API + Swagger](#19-dosyaislemleri--aspnet-core-web-api--swagger)
 * [💡 HTTP Metotları](#-http-metotları)
-
 * [📝 Geliştirme Notları](#-geliştirme-notları)
-
 * [📌 Amaç](#-amaç)
-
 ---
 
 ## 📂 Depo Yapısı
