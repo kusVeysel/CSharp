@@ -15,15 +15,13 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
 * [🛠️ Teknik Bilgiler](#️-teknik-bilgiler)
 
-  * [14 - Katmanlı Mimari](#14---katmanlı-mimari)
+  * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16-webapi--aspnet-web-api-net-framework--swagger)
 
-  * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16---aspnet-web-api-net-framework--swagger)
+  * [17 - ASP.NET Core Web API (Temel) + .NET CLI](#17-coreapitemel--aspnet-core-web-api)
 
-  * [17 - ASP.NET Core Web API (Temel) + .NET CLI](#17---aspnet-core-web-api-temel--net-cli)
+  * [18 - ASP.NET Core Web API + JWT + EF Core](#18-webcoreapi--aspnet-core-web-api--jwt--ef-core)
 
-  * [18 - ASP.NET Core Web API + JWT + EF Core](#18---aspnet-core-web-api--jwt--ef-core)
-
-  * [19 - ASP.NET Core Web API ile Dosya İşlemleri + Swagger](#19---aspnet-core-web-api-ile-dosya-işlemleri--swagger)
+  * [19 - ASP.NET Core Web API + Swagger](#19-dosyaislemleri--aspnet-core-web-api--swagger)
 
 * [💡 HTTP Metotları](#-http-metotları)
 
@@ -83,6 +81,13 @@ Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yaln
 ---
 
 ## 🛠️ Teknik Bilgiler
+
+### SQL
+`11-MSSQL` klasörü içindeki `VeyselDBscript.sql` dosyasını direk açıp çalıştırarak Database'i sql'e kurun.
+
+> [!CAUTİON]
+> Yapacağınız değişiklikler sonraki klasörlerdeki projelerde eksik veya hatalı çalışmaya sebep olabilir.
+> Veri kaybı veya başka bir olay dahilinde eski verilere ulaşmak için tabloların verilerinin yedeği `VeyselDBveriler.sql` dosyası içinde bulunmaktadır.
 
 ### Katmanlı Mimari
 
@@ -233,8 +238,8 @@ Yukarıdaki proje yollarını kendi solution yapınıza göre değiştirin. `DbC
 > `database update` komutu veritabanı şemasını doğrudan değiştirir. Canlı veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini kontrol edip yedek aldığınızdan emin olun.
 
 
-### `19-DosyaIslemleri` — ASP.NET Core Web API ile Dosya İşlemleri + Swagger
-19-DosyaIslemleri klasöründe, RESTful API üzerinden sunucuya dosya yükleme (Upload), limit belirleme, bağlantı kopukluğu durumları ele alınmıştır.
+### `19-DosyaIslemleri` — ASP.NET Core Web API + Swagger
+BU klasörün, RESTful API üzerinden sunucuya dosya yükleme (Upload), limit belirleme, bağlantı kopukluğu durumları ele alınmıştır.
 
 ## 📦 Gerekli NuGet Paketleri (Swagger Desteği İçin)
 Bu klasörde **ASP.NET Core Web API** üzerinde dosya yükleme uç noktalarını Swagger UI üzerinden doğrudan test edebilmek için aşağıdaki paketler eklenmiştir:
