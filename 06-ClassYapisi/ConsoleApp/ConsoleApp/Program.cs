@@ -6,7 +6,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            // Proje ismine sağ tıklayıp Add > Class diyerek yeni bir class ekleyebiliriz.
+            // Proje ismine sağ tıklayıp Add → Class diyerek yeni bir class ekleyebiliriz.
 
             Methodlar method = new Methodlar(); // Methodlar class'ından method adında bir nesne oluşturduk. RAM üzerine çıkarıldı. (instance)
 

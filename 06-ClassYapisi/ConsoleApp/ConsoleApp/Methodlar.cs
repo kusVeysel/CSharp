@@ -12,3 +12,11 @@
         }
     }
 }
+// Fonksiyon oluşturma genel söz dizimi:
+
+// özellik_durumu  geri_dönüş_tipi  method_adı(parametreler(opsiyonel))
+// {
+//
+// }
+
+// özellik_durumu: public, private, protected...
