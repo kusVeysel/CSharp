@@ -13,20 +13,20 @@ namespace WindowsFormsApp
         private void btnStokForm_Click(object sender, EventArgs e)
         {
             Stock stock = new Stock();
-            stock.ShowDialog(); // ShowDialog ana forma erişim yapılamaz, aktif formun kapanması gerekir.
+            stock.ShowDialog(); // ShowDialog(): Formu modal olarak açar. Açılan form kapanmadan, formu açan ana forma geri dönülemez. Yani kullanıcı önce stock formundaki işlemi tamamlamalı veya stock formunu kapatmalıdır.
         }
 
         private void btnSetupFrom_Click(object sender, EventArgs e)
         {
             Setup setup = new Setup();
             MessageBox.Show("Verileri listeledikten sonra güncelleyeceğiniz veriye(DataGridView üzerinde) çift tıklayınız.");
-            setup.ShowDialog(); // ShowDialog ana forma erişim yapılamaz, aktif formun kapanması gerekir.
+            setup.ShowDialog();
         }
 
         private void btnKisiBilgiEkleme_Click(object sender, EventArgs e)
         {
             KisiBilgiEkleme kbe = new KisiBilgiEkleme();
-            kbe.ShowDialog(); // ShowDialog ana forma erişim yapılamaz, aktif formun kapanması gerekir.
+            kbe.ShowDialog();
         }
     }
 }

@@ -9,13 +9,15 @@ namespace WindowsFormsApp
 {
     public partial class Setup : Form
     {
+        VeyselEntities db;
+        int IdInfo;
         public Setup()
         {
             InitializeComponent();
+            db = new VeyselEntities();
+            IdInfo = 0;
         }
-        VeyselEntities db = new VeyselEntities(); //DataBase çağrılır
 
-        int IdInfo = 0;
 
         private void btnAdminListele_Click(object sender, EventArgs e)
         {
@@ -102,7 +104,7 @@ namespace WindowsFormsApp
             dbAdmin.UserName = txtAdminUserName.Text;
             dbAdmin.Telefon = txtAdminTelefon.Text;
             db.SaveChanges();
-            btnAdminListele.PerformClick(); //Veriler kayıt edildikten sonra tekrardan admin listele butonuna basmadan listenin otomatik güncellenmesini sağlar.
+            btnAdminListele.PerformClick(); //Veriler kayıt edildikten sonra tekrardan admin listele butonuna basmadan listenin otomatik güncellenmesini sağlar(otomatik tıklar).
         }
 
         private void btnTedarikciGuncelle_Click(object sender, EventArgs e)

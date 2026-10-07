@@ -8,11 +8,12 @@ namespace WindowsFormsApp
 {
     public partial class Login : Form
     {
+        VeyselEntities db;
         public Login()
         {
             InitializeComponent();
+            db = new VeyselEntities();
         }
-        VeyselEntities db = new VeyselEntities();
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
@@ -23,7 +24,7 @@ namespace WindowsFormsApp
             {
                 if (sifre != "")
                 {
-                    Admin dbResult = db.Admin.Where(x => x.Email == email && x.Password == sifre).FirstOrDefault();
+                    Admin dbResult = db.Admin.Where(x => x.Email == email && x.Password == sifre).FirstOrDefault(); // db.Admin içerisindeki kayıtlar arasında, Email ve Password değerleri girilen email ve sifre ile eşleşen kayıtları filtreler. FirstOrDefault() ise eşleşen kayıtların ilkini getirir. Hiç eşleşen kayıt yoksa Admin nesnesinin varsayılan değeri olan null döner.
                     if (dbResult != null)
                     {
                         if (dbResult.AktifMi == true)

@@ -6,14 +6,15 @@ namespace WindowsFormsApp
 {
     public partial class KisiBilgiEkleme : Form
     {
+        VeyselEntities db;
         public KisiBilgiEkleme()
         {
             InitializeComponent();
+            db = new VeyselEntities();
         }
-        VeyselEntities db = new VeyselEntities();
         private void KisiBilgiEkleme_Load(object sender, EventArgs e)
         {
-            grpMusteri.BringToFront();
+            grpMusteri.BringToFront(); // Grubu öne getir.
             rdMusteriEkle.Checked = true;
         }
 
@@ -76,8 +77,8 @@ namespace WindowsFormsApp
                     AktifMi = cmbAdminAktifMi.Text.ToLower() == "aktif" ? true : false
                 };
 
-                db.Admin.Add(adm);
-                db.SaveChanges();  // Değişiklikleri DataBase'e kayıt eder
+                db.Admin.Add(adm); // adm nesnesini DataBase'e ekler.
+                db.SaveChanges(); // Değişiklikleri DataBase'e kayıt eder.
                 MessageBox.Show("Admin ekleme Başarılı");
             }
         }
