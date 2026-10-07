@@ -18,7 +18,7 @@ namespace WindowsFormsApp
 
             SqlCommand cmd = new SqlCommand(command, ConnectService.ConnectSql());
 
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd); // Verileri VeriTabanından çeker ve değişkene atar, SqlDataAdapter: Veri bir tabloya aktarılacaksa kullanılır.
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd); // SqlDataAdapter: Veritabanından aldığı verileri DataTable veya DataSet'e aktarmak ve bellekteki değişiklikleri tekrar veritabanına göndermek için  kullanılan, bağlantısız (disconnected) veri erişim sınıfıdır.
 
             DataTable dt = new DataTable(); // Ram üzerinde hayali bir tablo oluşturulur.
             adapter.Fill(dt); // Veriler değişkenden alınır ve Ram üzerinde oluşturulan DataTable'ye(Hayali Tablo) eklenir.

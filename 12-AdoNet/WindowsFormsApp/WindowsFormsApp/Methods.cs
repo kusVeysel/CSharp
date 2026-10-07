@@ -19,7 +19,7 @@ namespace WindowsFormsApp
 
             foreach (Control c in frm3.Controls) // Form3'ün kontrolleri(ComboBox,TextBox,Label...) üzerinde dönülür.
             {
-                if (c is DataGridView dgv) // Form3'ün kontrollerinde dönerken o anki kontrol DataGridView ise
+                if (c is DataGridView dgv) // Form3'ün kontrollerinde dönerken o anki kontrol DataGridView olup olmadığı kontrol eder.
                 {
                     dgv.DataSource = null;
                     dgv.DataSource = dt;

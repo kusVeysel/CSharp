@@ -13,7 +13,7 @@ namespace WindowsFormsApp
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            Methods.DgvRefreshData(this);
+            Methods.DgvRefreshData(this); // From3'ü, Methods adı altındaki DgvRefreshData methoduna gönderir.
         }
 
         private void btnGuncelle_Click(object sender, EventArgs e)
@@ -30,15 +30,15 @@ namespace WindowsFormsApp
             {
                 if (karakter.Trim() != "")
                 {
-                    query = $" update Products set UnitsInStock +={eklenecekStok} where ProductName like '{karakter}%'";
+                    query = $" update Products set UnitsInStock += {eklenecekStok} where ProductName like '{karakter}%'";
                 }
                 else
                 {
-                    query = $" update Products set UnitsInStock +={eklenecekStok}";
+                    query = $" update Products set UnitsInStock += {eklenecekStok}";
                 }
 
                 SqlCommand cmd = new SqlCommand(query, ConnectService.ConnectSql());
-                cmd.ExecuteNonQuery();  // ExecuteNonQuery: Veri getirmeyecek sadece işlem yapacak.          
+                cmd.ExecuteNonQuery();  // ExecuteNonQuery: Veritabanında INSERT, UPDATE ve DELETE gibi veri döndürmeyen SQL sorgularını çalıştırmak için kullanılır. Sorgunun sonucunda satır/sütun şeklinde veri döndürmez. Geriye, işlemden etkilenen satır sayısını int olarak döndürür.          
                 Methods.DgvRefreshData(this);
             }
         }
