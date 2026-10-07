@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\mvcsutakip\\webapplication\\webapplication\\controllers\\setupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\setupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\mvcsutakip\\webapplication\\webapplication\\models\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\mvcsutakip\\webapplication\\webapplication\\controllers\\satinalmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\satinalmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\mvcsutakip\\webapplication\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\mvcsutakip\\webapplication\\webapplication\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\views\\product\\productinsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\product\\productinsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\views\\customer\\customeradd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\customer\\customeradd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\views\\customer\\customerupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\customer\\customerupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\assets\\custom\\customerjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\assets\\custom\\customerjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\webapplication\\models\\customerinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\customerinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Setup.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Models\\Setup.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\Setup.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Models\\Setup.cs",
+              "RelativeToolTip": "WebApplication\\Models\\Setup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:36:30.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SetupController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\SetupController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\SetupController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\SetupController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\SetupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:35:47.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SatinAlmaController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\SatinAlmaController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\SatinAlmaController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\SatinAlmaController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\SatinAlmaController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwHYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:35:13.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:31:04.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T10:08:50.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:11:25.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductInsert.cshtml",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Product\\ProductInsert.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Product\\ProductInsert.cshtml",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Product\\ProductInsert.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Product\\ProductInsert.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T11:11:08.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Models\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Models\\CustomerDTO.cs",
+              "RelativeToolTip": "WebApplication\\Models\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T09:11:12.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerJS.js",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Assets\\Custom\\CustomerJS.js",
+              "RelativeDocumentMoniker": "WebApplication\\Assets\\Custom\\CustomerJS.js",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Assets\\Custom\\CustomerJS.js",
+              "RelativeToolTip": "WebApplication\\Assets\\Custom\\CustomerJS.js",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-11T09:09:55.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T09:09:47.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Customer\\CustomerUpdate.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Customer\\CustomerUpdate.cshtml",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Customer\\CustomerUpdate.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Customer\\CustomerUpdate.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T09:09:46.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerAdd.cshtml",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Customer\\CustomerAdd.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Customer\\CustomerAdd.cshtml",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Customer\\CustomerAdd.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Customer\\CustomerAdd.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T09:09:44.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerInsert.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Models\\CustomerInsert.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\CustomerInsert.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Models\\CustomerInsert.cs",
+              "RelativeToolTip": "WebApplication\\Models\\CustomerInsert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T09:11:13.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\MVCSuTakip\\WebApplication\\WebApplication\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T09:09:05.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
