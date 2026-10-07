@@ -163,6 +163,8 @@
             // 
             // dgvListele
             // 
+            this.dgvListele.AllowUserToAddRows = false;
+            this.dgvListele.AllowUserToDeleteRows = false;
             this.dgvListele.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListele.Location = new System.Drawing.Point(11, 328);
             this.dgvListele.Name = "dgvListele";

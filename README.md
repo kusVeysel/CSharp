@@ -15,6 +15,12 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
 * [🛠️ Teknik Bilgiler](#️-teknik-bilgiler)
 
+  * [🖥️ Windows Forms İpuçları ve Sık Kullanılan Kontroller](#️-windows-forms-ipuçları-ve-sık-kullanılan-kontroller)
+
+  * [🗄️ SQL](#️-sql)* 
+  
+  * [🏗️ Katmanlı Mimari](#️-katmanlı-mimari)
+
   * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16-webapi--aspnet-web-api-net-framework--swagger)
 
   * [17 - ASP.NET Core Web API (Temel) + .NET CLI](#17-coreapitemel--aspnet-core-web-api)
@@ -82,14 +88,59 @@ Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yaln
 
 ## 🛠️ Teknik Bilgiler
 
-### SQL
+### 🖥️ Windows Forms İpuçları ve Sık Kullanılan Kontroller
+
+Windows Forms uygulamalarında en sık kullanılan kontroller ve dikkat edilmesi gereken pratik özellikler:
+
+#### 1. `TextBox`
+* **Metin Değeri:** `textBox1.Text` üzerinden metin okunur ve atanır.
+* **Şifre Gizleme:** `PasswordChar = '*'` yapılarak girilen karakterler gizlenebilir.
+* **Sadece Okunur Yapma:** `ReadOnly = true` ile kullanıcının metni değiştirmesi engellenir.
+* **Çok Satırlı Metin:** `Multiline = true` yapılarak birden fazla satır girilmesine izin verilir.
+
+#### 2. `ComboBox`
+* **Eleman Ekleme/Temizleme:** `comboBox1.Items.Add("Eleman")` ile ekleme, `comboBox1.Items.Clear()` ile temizleme yapılır.
+* **Seçili Eleman/İndeks:** `comboBox1.SelectedItem` veya `comboBox1.SelectedIndex` kullanılır.
+* **Nesne Bağlama (Data Binding):** `DataSource`, `DisplayMember` ve `ValueMember` özellikleri kullanılarak liste/veri kaynakları kolayca bağlanabilir.
+* **Yazmayı Engelleme:** `DropDownStyle = ComboBoxStyle.DropDownList` ayarlanarak kullanıcının dışarıdan metin yazması engellenir, sadece listeden seçim yapması sağlanır.
+
+#### 3. `NumericUpDown`
+* **Sayısal Değer:** `numericUpDown1.Value` (özellik `decimal` tipindedir, `int` dönüşümü için cast gerekir).
+* **Sınır Belirleme:** `Minimum` ve `Maximum` özellikleri ile girilebilecek alt ve üst limitler belirlenir.
+
+#### 4. `DataGridView`
+* **Veri Bağlama:** `dataGridView1.DataSource = liste;` şeklinde veri kaynağı atanır.
+* **Düzenlemeyi Kapatma:** `ReadOnly = true` yapılarak hücrelerin düzenlenmesi engellenir.
+* **Satır Seçim Modu:** `SelectionMode = DataGridViewSelectionMode.FullRowSelect` ile tıklanan hücre yerine tüm satırın seçilmesi sağlanır.
+* **Kullanıcı Satır Eklemesini Engelleme:** `AllowUserToAddRows = false` ile en alt sıradaki boş satır gizlenir.
+* **Kullanıcı Satır Silinmesini Engelleme:** `AllowUserToDeleteRows = false` ile satır silinmesi engellenir.
+
+#### 5. `CheckBox` ve `RadioButton`
+* **Seçim Durumu:** `checkBox1.Checked` veya `radioButton1.Checked` (`bool` değer döner).
+* **RadioButton Gruplama:** Aynı Panel veya GroupBox içerisindeki `RadioButton` kontrolleri tek bir grup olarak çalışır (aynı anda sadece biri seçilebilir).
+
+#### 6. `DateTimePicker`
+* **Seçilen Tarih/Saat:** `dateTimePicker1.Value` (`DateTime` tipinde değer döndürür).
+* **Format Ayarı:** `Format = DateTimePickerFormat.Short` ile sadece tarih görünmesi sağlanır.
+
+#### 7. `ListBox`
+* **Eleman Ekleme:** `listBox1.Items.Add("Öğe")`
+* **Çoklu Seçim:** `SelectionMode = SelectionMode.MultiSimple` veya `MultiExtended` ayarlanarak birden fazla eleman seçilebilir.
+
+#### 💡 Pratik İpuçları & Form Olayları (Events)
+* **Form Yüklenme Anı:** `Form_Load` olayı, form açılırken veritabanından veri çekmek veya kontrolleri doldurmak için kullanılır.
+* **Kontrol Değişim Olayları:** `TextChanged` (TextBox), `SelectedIndexChanged` (ComboBox/ListBox) ve `CheckedChanged` (CheckBox/RadioButton) olayları değer değiştiğinde anlık işlem yapmak için kullanılır.
+* **Dialog Pencereleri:** Kullanıcıya onay sorusu sormak için `MessageBox.Show("Emin misiniz?", "Onay", MessageBoxButtons.YesNo)` kullanılır.
+
+
+### 🗄️ SQL
 `11-MSSQL` klasörü içindeki `VeyselDBscript.sql` dosyasını direk açıp çalıştırarak Database'i sql'e kurun.
 
-> [!CAUTİON]
+> [!CAUTION]
 > Yapacağınız değişiklikler sonraki klasörlerdeki projelerde eksik veya hatalı çalışmaya sebep olabilir.
 > Veri kaybı veya başka bir olay dahilinde eski verilere ulaşmak için tabloların verilerinin yedeği `VeyselDBveriler.sql` dosyası içinde bulunmaktadır.
 
-### Katmanlı Mimari
+### 🏗️ Katmanlı Mimari
 
 `14-KatmanliMimari` klasörü, uygulama sorumluluklarını ayrı katmanlara ayırma yaklaşımını ele alır. Böylece iş kuralları, veri erişimi ve kullanıcı arayüzü birbirinden ayrılır; kodun bakımı ve test edilmesi kolaylaşır.
 
@@ -122,7 +173,7 @@ Varsayılan sınıf dosyalarını, projede kullanılmayacaklarsa silebilirsiniz.
 
 ---
 
-### `16-WebAPI` — ASP.NET Web API (.NET Framework) + Swagger
+### 🔌 `16-WebAPI` — ASP.NET Web API (.NET Framework) + Swagger
 Bu klasör, ASP.NET Web Application (.NET Framework) tabanlı Web API çalışmalarını içerir. Proje oluştururken uygun Web API şablonu seçilir. Bu yapı, klasik .NET Framework tabanlı web servisleri geliştirmek için kullanılır.
 
 #### Swagger / OpenAPI
@@ -137,7 +188,7 @@ API uç noktalarını tarayıcı üzerinden test etmek için Swagger kullanılı
 
 ---
 
-### `17-CoreAPI(Temel)` — ASP.NET Core Web API
+### ⚡ `17-CoreAPI(Temel)` — ASP.NET Core Web API
 
 >[!IMPORTANT]
 > Bu klasördeki çalışma VS Code ve .NET CLI üzerinden yürütülmüştür. Projeyi terminalden oluşturmak, derlemek ve çalıştırmak için `.NET CLI` komutları kullanılabilir.
@@ -179,7 +230,7 @@ Komutları, ilgili proje veya solution dosyasının bulunduğu terminal dizinind
 
 ---
 
-## `18-WebCoreAPI` — ASP.NET Core Web API + JWT + EF Core
+## 🔐 `18-WebCoreAPI` — ASP.NET Core Web API + JWT + EF Core
 
 Bu klasör, modern ASP.NET Core Web API, JWT (JSON Web Token) tabanlı kimlik doğrulama ve Entity Framework Core kullanarak veritabanı işlemlerini kapsar.
 
