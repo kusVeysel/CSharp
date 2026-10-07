@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\windowsformsapp\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\09-pizzasiparisformu\\windowsformsapp\\windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\sipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\windowsformsapp\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\methodlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94179410-144D-4D88-B877-3F05E93DFEFB}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\windowsformsapp\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SipMenu.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SipMenu.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\SipMenu.cs",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SipMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\SipMenu.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\SipMenu.cs",
@@ -107,15 +107,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Methodlar.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Methodlar.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\Methodlar.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\09-PizzaSiparisFormu\\WindowsFormsApp\\WindowsFormsApp\\Methodlar.cs",
               "RelativeToolTip": "WindowsFormsApp\\Methodlar.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAA5wEEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T18:37:56.318Z"
+              "WhenOpened": "2026-10-02T18:37:56.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -35,7 +35,7 @@ namespace WindowsFormsApp
 
         private void BtnSplit_Click_1(object sender, EventArgs e)
         {
-            string mailto = "veysel@gmail.com;ilayda@gmail.com;milay@gmail.com";
+            string mailto = "Veysel@gmail.com;Üzeyir@gmail.com;Hüseyin@gmail.com";
             string[] mailList = mailto.Split(';'); // Belirtilen karakterden(separator'den) böler ve string bir dizi döner.
             /* foreach (var item in mailList) 
              {
@@ -53,7 +53,7 @@ namespace WindowsFormsApp
             string gelenVeri = txtData.Text;
             try
             {
-                gelenVeri = gelenVeri.Replace(gelenVeri, "ilayda"); // Yer değiştirir, 1.parametre değişecek veri, 2.parametre değişilen veri.
+                gelenVeri = gelenVeri.Replace(gelenVeri, "Üzeyir"); // Yer değiştirir, 1.parametre değişecek veri, 2.parametre değişilen veri.
                 txtData.Text = gelenVeri;
             }
             catch

@@ -6,12 +6,14 @@ namespace WindowsFormsApp
 {
     public partial class Form1 : Form
     {
+        List<Materyal> materyals;
+        bool eskiUrun;
         public Form1()
         {
             InitializeComponent();
+            materyals = Methodlar.MateryalDb();
+            eskiUrun = true;
         }
-        List<Materyal> materyals = Methodlar.MateryalDb();
-        bool eskiUrun = true;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -49,12 +51,20 @@ namespace WindowsFormsApp
 
             for (int i = 0; i < materyals.Count; i++)
             {
-                materyals[i].Stok += yeniGelen[i];
-                MessageBox.Show($"{materyals[i].UrunAdi} {yeniGelen[i]} Adet Yeni Ürün Geldi!");
+                if (yeniGelen[i] == 0)
+                {
+                    MessageBox.Show($"{materyals[i].UrunAdi} Yeni Ürün Gelmedi!");
+                }
+                else
+                {
+                    materyals[i].Stok += yeniGelen[i];
+                    MessageBox.Show($"{materyals[i].UrunAdi} {yeniGelen[i]} Adet Yeni Ürün Geldi!");
+                }
             }
 
             Methodlar.UrunBilgiGetir(lstUrunBilgiler, materyals, true);
             Methodlar.UrunBilgiGetir(lstDetayliBilgi, materyals, false);
         }
+
     }
 }
