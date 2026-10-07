@@ -17,18 +17,19 @@ namespace ConsoleApp
             sayilar2[1] = 2;
             sayilar2[2] = 3;
 
-            string[] isimler = { "veysel", "ilayda", "milay" };
+            string[] isimler = { "veysel", "üzeyir", "hüseyin" };
 
             string[] isimler2 = new string[3];
             isimler2[0] = "veysel2";
-            isimler2[1] = "ilayda2";
-            isimler2[2] = "milay2";
+            isimler2[1] = "üzeyir2";
+            isimler2[2] = "hüseyin2";
+
 
             // for (int i = 0; i < isimler2.Length; i++)
             // {
             //     Console.WriteLine(isimler2[i]);
             // }
-            foreach (var item in isimler2)
+            foreach (string item in isimler2)
             {
                 Console.WriteLine(item);
             }
@@ -43,16 +44,16 @@ namespace ConsoleApp
             // Ekleme işlemi için Add() metodu kullanılır. Ayrıca, Generic List içerisindeki elemanlara indeksleme ile erişilebilir ve foreach döngüsü ile de elemanlar üzerinde işlem yapılabilir.
 
             List<string> names = new List<string>();
-            names.Add("ilayda");
+            names.Add("üzeyir");
             names.Add("veysel");
-            names.Add("milay");
+            names.Add("hüseyin");
 
             foreach (string name in names)
             {
                 if (name == "veysel")
                 {
                     Console.WriteLine(name);
-                    break;
+                    break; // berak ile döngüden çıkılır
                 }
                 else
                 {

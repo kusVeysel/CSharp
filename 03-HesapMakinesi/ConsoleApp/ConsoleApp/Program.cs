@@ -109,7 +109,7 @@ namespace ConsoleApp
                 {
                     Console.Clear();  // Ekranı temizler
                     Sayi1 = Sayi2 = islem = sonuc = 0;
-                    goto basadon;
+                    goto basadon; // basadon olan yere gider
                 }
                 else if (tekrarislem == "H")
                 {
@@ -118,7 +118,7 @@ namespace ConsoleApp
                 else
                 {
                     Console.WriteLine("Seçtiğiniz işlem menüde bulunmuyor");
-                    goto yeniden;
+                    goto yeniden; // yeniden olan yere gider
                 }
             }
             catch (Exception ex)
@@ -130,9 +130,9 @@ namespace ConsoleApp
             {
                 Console.WriteLine("finally bloğu çalıştırıldı");
             }
-            // finally bloğu try catch blokları ile birlikte kullanılır.finally bloğu içinde hata oluşsa da oluşmasa da çalışır. finally bloğu içinde genellikle kaynakları serbest bırakmak için kullanılır. Örneğin dosya açma işlemi yapıldıysa dosya kapatma işlemi finally bloğu içinde yapılır. finally bloğu içinde hata oluşursa program sonlanır ve hata mesajı gösterilir.
-
             // try catch bloğu hataları yakalamak için kullanılır. try bloğu içinde hata oluşursa catch'e düşer ve hata mesajını gösterir. Hata verebilecek kodlar try bloğu içine yazılır. Hata oluşmazsa catch bloğu çalışmaz. Hata oluşursa catch bloğu çalışır ve hata mesajını gösterir.
+
+            // finally bloğu try catch blokları ile birlikte kullanılır.finally bloğu içinde hata oluşsa da oluşmasa da çalışır. finally bloğu içinde genellikle kaynakları serbest bırakmak için kullanılır. Örneğin dosya açma işlemi yapıldıysa dosya kapatma işlemi finally bloğu içinde yapılır. finally bloğu içinde hata oluşursa program sonlanır ve hata mesajı gösterilir.
         }
     }
 }
