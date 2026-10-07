@@ -19,7 +19,7 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
   * [🗄️ SQL](#️-sql)* 
   
-  * [🏗️ Katmanlı Mimari](#️-katmanlı-mimari)
+  * [🏗️ Katmanlı Mimari](#️-katmanli-mimari)
 
   * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16-webapi--aspnet-web-api-net-framework--swagger)
 
@@ -137,7 +137,7 @@ Windows Forms uygulamalarında en sık kullanılan kontroller ve dikkat edilmesi
 `11-MSSQL` klasörü içindeki `VeyselDBscript.sql` dosyasını direk açıp çalıştırarak Database'i sql'e kurun.
 
 > [!CAUTION]
-> Yapacağınız değişiklikler sonraki klasörlerdeki projelerde eksik veya hatalı çalışmaya sebep olabilir.
+> `VeyselDBscript.sql` içinde yapacağınız değişiklikler sonraki klasörlerdeki projelerde eksik veya hatalı çalışmaya sebep olabilir. <br>
 > Veri kaybı veya başka bir olay dahilinde eski verilere ulaşmak için tabloların verilerinin yedeği `VeyselDBveriler.sql` dosyası içinde bulunmaktadır.
 
 ### 🏗️ Katmanlı Mimari
