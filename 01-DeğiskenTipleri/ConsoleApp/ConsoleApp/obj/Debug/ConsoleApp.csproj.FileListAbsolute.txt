@@ -1,0 +1,7 @@
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\veysel\Desktop\CSharp\01-DeğiskenTipleri\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

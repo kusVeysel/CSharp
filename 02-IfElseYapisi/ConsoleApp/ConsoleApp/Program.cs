@@ -12,7 +12,7 @@ namespace ConsoleApp
             int sayi1;
 
             Console.Write("Bir sayı girin: ");
-            sayi1 = Convert.ToInt32(Console.ReadLine());
+            sayi1 = Convert.ToInt32(Console.ReadLine()); // Console.Readline() string değer döndürür, Convert.ToInt32() ile bunu int'e çevirdik.
 
             if (sayi1 < 0 || sayi1 > 0) // sayi1 0'dan küçük veya sayi1 0'dan büyük ise aşağıdaki mesajı yazdır , || : veya anlamına gelir.
             {
@@ -53,6 +53,9 @@ namespace ConsoleApp
 
             string mesaj = deger > 0 ? "Sayı 0'dan büyük" : "Sayı 0'dan büyük değil";
             Console.WriteLine(mesaj);
+
+            // Ternary operatör söz dizimi:
+            // tip değişken = koşul ? doğruysa : yanlışsa
         }
     }
 }
