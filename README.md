@@ -19,9 +19,11 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
   * [16 - ASP.NET Web API (.NET Framework) + Swagger](#16---aspnet-web-api-net-framework--swagger)
 
-  * [17 - ASP.NET Core Web API (Temel) & .NET CLI](#17---aspnet-core-web-api-temel--net-cli)
+  * [17 - ASP.NET Core Web API (Temel) + .NET CLI](#17---aspnet-core-web-api-temel--net-cli)
 
-  * [18 - ASP.NET Core Web API + JWT & EF Core](#18---aspnet-core-web-api--jwt--ef-core)
+  * [18 - ASP.NET Core Web API + JWT + EF Core](#18---aspnet-core-web-api--jwt--ef-core)
+
+  * [19 - ASP.NET Core Web API ile Dosya İşlemleri + Swagger](#19---aspnet-core-web-api-ile-dosya-işlemleri--swagger)
 
 * [💡 HTTP Metotları](#-http-metotları)
 
@@ -35,25 +37,26 @@ Bu depo, **C# programlama dilini ve .NET ekosistemini temelden başlayarak öğr
 
 | Klasör | İçerik |
 |---|---|
-| `01-DegiskenTipleri`            | Değişkenler, temel veri tipleri, değer atama ve input output işlemleri                    |
-| `02-IfElseYapisi`               | Operatörler, if, else if, else ve ternary operatör                                        |
-| `03-HesapMakinesi`              | Switch - case, try - catch - finally, goto ve convert mantığı ile beraber hesap makinesi  |
-| `04-DizilerGenericListDonguler` | Diziler, `List<T>` ve döngüler                                                            |
-| `05-HazirMetotlar`              | .NET'in hazır metotları ve sık kullanılan işlemler                                        |
-| `06-ClassYapisi`                | Sınıflar, nesneler, alanlar, özellikler ve metotlar                                       |
-| `07-OOP`                        | Nesne yönelimli programlama yaklaşımı                                                     |
-| `08-StringMetotlar`             | Form üzerinden metin işlemleri ve `string` metotları                                      |
-| `09-PizzaSiparisFormu`          | Form üzerinden uygulama geliştirme                                                        |
-| `10-SuStokTakipFormu`           | Form üzerinden uygulama geliştirme                                                        |
-| `11-MSSQL`                      | Microsoft SQL Server ve veritabanı temelleri                                              |
-| `12-AdoNet`                     | ADO.NET ile veritabanı bağlantısı ve veri işlemleri                                       |
-| `13-EntityFramework`            | Entity Framework ile nesne tabanlı veritabanı işlemleri                                   |
-| `14-KatmanliMimari`             | Katmanlı mimari ve projelerin sorumluluklara ayrılması                                    |
-| `15-MVC`                        | MVC mimarisiyle web uygulaması geliştirme                                                 |
-| `16-WebAPI`                     | ASP.NET Web API — Swagger — .NET Framework tabanlı çalışma                                |
-| `17-CoreAPI(Temel)`             | VS Code ve .NET CLI ile temel Core API                                                    |
-| `18-WebCoreAPI`                 | ASP.NET Core Web API — JWT — Entity Framework Core çalışmaları                            |
-| `ConsoleMetotlari`              | Konsol uygulamalarında kullanılan detaylı metot ve örnekler                               |
+| `ConsoleMetotlari`                | Konsol uygulamalarında kullanılan detaylı metot ve örnekler                                   |
+| `01-DegiskenTipleri`              | Değişkenler, temel veri tipleri, değer atama ve input output işlemleri                        |
+| `02-IfElseYapisi`                 | Operatörler, if, else if, else ve ternary operatör                                            |
+| `03-HesapMakinesi`                | Switch - case, try - catch - finally, goto ve convert mantığı ile beraber hesap makinesi      |
+| `04-DizilerGenericListDonguler`   | Diziler, `List<T>` ve döngüler                                                                |
+| `05-HazirMetotlar`                | .NET'in hazır metotları ve sık kullanılan işlemler                                            |
+| `06-ClassYapisi`                  | Sınıflar, nesneler, alanlar, özellikler ve metotlar                                           |
+| `07-OOP`                          | Nesne yönelimli programlama yaklaşımı                                                         |
+| `08-StringMetotlar`               | Form üzerinden metin işlemleri ve `string` metotları                                          |
+| `09-PizzaSiparisFormu`            | Form üzerinden uygulama geliştirme                                                            |
+| `10-SuStokTakipFormu`             | Form üzerinden uygulama geliştirme                                                            |
+| `11-MSSQL`                        | Microsoft SQL Server ve veritabanı temelleri                                                  |
+| `12-AdoNet`                       | ADO.NET ile veritabanı bağlantısı ve veri işlemleri                                           |
+| `13-EntityFramework`              | Entity Framework ile nesne tabanlı veritabanı işlemleri                                       |
+| `14-KatmanliMimari`               | Katmanlı mimari ve projelerin sorumluluklara ayrılması                                        |
+| `15-MVC`                          | MVC mimarisiyle web uygulaması geliştirme                                                     |
+| `16-WebAPI`                       | ASP.NET Web API — Swagger — .NET Framework tabanlı çalışma                                    |
+| `17-CoreAPI(Temel)`               | VS Code ve .NET CLI ile temel Core API                                                        |
+| `18-WebCoreAPI`                   | ASP.NET Core Web API — JWT — Entity Framework Core çalışmaları                                |
+| `19-DosyaIslemleri`               | Web API ile Dosya Yönetimi | `System.IO`, `IFormFile`, File Upload/Download, Swagger          |
 
 ---
 
@@ -73,7 +76,7 @@ Klasörler numaralandırılarak temel konulardan daha kapsamlı uygulamalara do�
 
 6. **Uygulama Mimarileri:** Katmanlı mimari ve MVC(`14` - `15`).
 
-7. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `18`).
+7. **Web API & Web Servisleri:** .NET Framework Web API ve ASP.NET Core Web API (`16` - `19`).
 
 Her örneği çalıştırıp kod üzerinde küçük değişiklikler yapmak, yalnızca kodu okumaya kıyasla konuları daha iyi pekiştirir.
 
@@ -122,8 +125,6 @@ Bu klasör, ASP.NET Web Application (.NET Framework) tabanlı Web API çalışma
 API uç noktalarını tarayıcı üzerinden test etmek için Swagger kullanılır.Swagger'a ulaşmak için projeyi çalıştırın(f5) ve adresin devamına `/swagger` yazın.
 
 **Swagger Ekleme**
-* **ASP.NET Core:** Dependencies sağ tık → *Manage NuGet Packages* → `Swashbuckle.AspNetCore.Swagger` paketini yükleyin.
-
 * **.NET Framework:** Referanslara sağ tık → *Manage NuGet Packages* → `Swashbuckle` paketini yükleyin.
 
 > [!TIP]
@@ -230,6 +231,23 @@ Yukarıdaki proje yollarını kendi solution yapınıza göre değiştirin. `DbC
 
 > [!CAUTION]
 > `database update` komutu veritabanı şemasını doğrudan değiştirir. Canlı veya paylaşılan veritabanlarında çalıştırmadan önce bağlantı dizesini kontrol edip yedek aldığınızdan emin olun.
+
+
+### `19-DosyaIslemleri` — ASP.NET Core Web API ile Dosya İşlemleri + Swagger
+19-DosyaIslemleri klasöründe, RESTful API üzerinden sunucuya dosya yükleme (Upload), limit belirleme, bağlantı kopukluğu durumları ele alınmıştır.
+
+## 📦 Gerekli NuGet Paketleri (Swagger Desteği İçin)
+Bu klasörde **ASP.NET Core Web API** üzerinde dosya yükleme uç noktalarını Swagger UI üzerinden doğrudan test edebilmek için aşağıdaki paketler eklenmiştir:
+
+* `Swashbuckle.AspNetCore.Swagger`
+
+* `Swashbuckle.AspNetCore.SwaggerGen`
+
+* `Swashbuckle.AspNetCore.SwaggerUI`
+
+Bu çalışmada API uç noktalarının görüntülenmesi ve test edilmesi için **Swagger / OpenAPI** kullanılmıştır. Swagger arayüzü üzerinden oluşturulan endpoint'ler incelenebilir ve API'ye gönderilecek istekler tarayıcı üzerinden test edilebilir.
+
+Dosya işlemlerinde C# ve .NET'in dosya sistemi API'lerinden yararlanılır. Özellikle `System.IO` içerisindeki sınıflar dosya ve klasör işlemlerinin gerçekleştirilmesinde kullanılır.
 
 ---
 
