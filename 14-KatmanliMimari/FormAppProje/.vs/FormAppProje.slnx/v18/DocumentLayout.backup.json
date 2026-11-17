@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.bll\\repository\\entity\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\repository\\entity\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.bll\\dto\\detaylistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\dto\\detaylistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.ui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.bll\\repository\\entity\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.bll\\repository\\entity\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\repository\\entity\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.bll\\dto\\siparisdetaysiparisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.bll\\repository\\entity\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\repository\\entity\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.bll\\dto\\detaylistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\dto\\detaylistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.bll\\dto\\siparisdetaysiparisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\dto\\siparisdetaysiparisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|c:\\users\\veysel\\desktop\\csharp\\14-katmanlimimari\\formappproje\\formappproje.bll\\repository\\entity\\urunrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5CB785-5875-4DF7-9AAD-34ABE3818F3B}|FormAppProje.BLL\\FormAppProje.BLL.csproj|solutionrelative:formappproje.bll\\repository\\entity\\urunrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\formappproje.ui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A916273B-9446-47A5-8647-14477F44BF3B}|FormAppProje.UI\\FormAppProje.UI.csproj|solutionrelative:formappproje.ui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrderDetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\Repository\\Entity\\OrderDetailRepository.cs",
               "RelativeDocumentMoniker": "FormAppProje.BLL\\Repository\\Entity\\OrderDetailRepository.cs",
@@ -55,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DetayListeDTO.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\DTO\\DetayListeDTO.cs",
               "RelativeDocumentMoniker": "FormAppProje.BLL\\DTO\\DetayListeDTO.cs",
@@ -68,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SiparisDetaySiparisDTO.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\DTO\\SiparisDetaySiparisDTO.cs",
               "RelativeDocumentMoniker": "FormAppProje.BLL\\DTO\\SiparisDetaySiparisDTO.cs",
@@ -81,20 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UrunRepository.cs",
-              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\Repository\\Entity\\UrunRepository.cs",
-              "RelativeDocumentMoniker": "FormAppProje.BLL\\Repository\\Entity\\UrunRepository.cs",
-              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\Repository\\Entity\\UrunRepository.cs",
-              "RelativeToolTip": "FormAppProje.BLL\\Repository\\Entity\\UrunRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:50:55.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.BLL\\Repository\\Entity\\OrderRepository.cs",
               "RelativeDocumentMoniker": "FormAppProje.BLL\\Repository\\Entity\\OrderRepository.cs",
@@ -113,22 +96,21 @@
               "RelativeDocumentMoniker": "FormAppProje.UI\\Form3.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form3.cs",
               "RelativeToolTip": "FormAppProje.UI\\Form3.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T14:10:38.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form3.cs",
               "RelativeDocumentMoniker": "FormAppProje.UI\\Form3.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\14-KatmanliMimari\\FormAppProje\\FormAppProje.UI\\Form3.cs [Design]",
               "RelativeToolTip": "FormAppProje.UI\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:06:10.658Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-10-06T14:06:10.658Z"
             }
           ]
         }

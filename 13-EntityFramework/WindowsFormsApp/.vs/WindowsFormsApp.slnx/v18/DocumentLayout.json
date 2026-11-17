@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\users\\veysel\\desktop\\csharp\\13-entityframework\\windowsformsapp\\windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\kisibilgiekleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{457D5E23-BE10-41F0-A298-D977BA8215CF}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -70,43 +66,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\Stock.cs",
-              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs",
-              "RelativeToolTip": "WindowsFormsApp\\Stock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T19:50:22.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Stock.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\Stock.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Stock.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp\\Stock.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T19:50:06.128Z"
+              "WhenOpened": "2026-10-02T19:50:06.128Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Setup.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\Setup.cs",
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs",
               "RelativeToolTip": "WindowsFormsApp\\Setup.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGoAAACvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAACvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T19:48:37.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Setup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\Setup.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\Setup.cs",
@@ -118,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "KisiBilgiEkleme.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\KisiBilgiEkleme.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\KisiBilgiEkleme.cs",
@@ -141,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AnaSayfa.cs",
               "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\AnaSayfa.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\AnaSayfa.cs",
@@ -149,7 +134,8 @@
               "RelativeToolTip": "WindowsFormsApp\\AnaSayfa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T19:44:03.446Z"
+              "WhenOpened": "2026-10-02T19:44:03.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,7 +146,8 @@
               "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\13-EntityFramework\\WindowsFormsApp\\WindowsFormsApp\\AnaSayfa.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp\\AnaSayfa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T19:43:05.197Z"
+              "WhenOpened": "2026-10-02T19:43:05.197Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
