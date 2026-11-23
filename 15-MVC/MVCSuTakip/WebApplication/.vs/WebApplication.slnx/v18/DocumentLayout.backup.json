@@ -1,12 +1,38 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\veysel\\Desktop\\CSharp\\15-MVC\\MVCSuTakip\\WebApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|c:\\users\\veysel\\desktop\\csharp\\15-mvc\\mvcsutakip\\webapplication\\webapplication\\views\\shared\\_layoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{837E5B48-6D77-4CDA-B42C-7ADCBEA09CC2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_layoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\veysel\\Desktop\\CSharp\\15-MVC\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Shared\\_LayoutPage.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_LayoutPage.cshtml",
+              "ToolTip": "C:\\Users\\veysel\\Desktop\\CSharp\\15-MVC\\MVCSuTakip\\WebApplication\\WebApplication\\Views\\Shared\\_LayoutPage.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Shared\\_LayoutPage.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK4AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-23T09:45:04.563Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
